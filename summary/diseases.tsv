@@ -1,0 +1,137 @@
+disease_id	disease_name	treats	palliates	total_edges
+DOID:10652	Alzheimer's disease	4	5	772
+DOID:9206	Barrett's esophagus	2	0	541
+DOID:13241	Behcet's disease	0	0	102
+DOID:11949	Creutzfeldt-Jakob disease	0	0	53
+DOID:8778	Crohn's disease	6	2	686
+DOID:11555	Fuchs' endothelial dystrophy	0	0	22
+DOID:11119	Gilles de la Tourette syndrome	0	9	63
+DOID:12361	Graves' disease	2	0	76
+DOID:2986	IgA glomerulonephritis	0	0	966
+DOID:13378	Kawasaki disease	1	0	49
+DOID:5408	Paget's disease of bone	6	0	76
+DOID:14330	Parkinson's disease	0	28	795
+DOID:7693	abdominal aortic aneurysm	0	0	582
+DOID:635	acquired immunodeficiency syndrome	14	0	605
+DOID:3953	adrenal gland cancer	0	0	99
+DOID:10871	age related macular degeneration	0	0	96
+DOID:0050741	alcohol dependence	4	2	444
+DOID:4481	allergic rhinitis	15	5	107
+DOID:986	alopecia areata	1	0	531
+DOID:332	amyotrophic lateral sclerosis	1	1	639
+DOID:2355	anemia	0	0	367
+DOID:7147	ankylosing spondylitis	8	7	265
+DOID:11239	appendix cancer	0	0	29
+DOID:2841	asthma	37	3	318
+DOID:1936	atherosclerosis	6	0	225
+DOID:3310	atopic dermatitis	16	2	127
+DOID:1094	attention deficit hyperactivity disorder	0	14	110
+DOID:12849	autistic disorder	0	8	331
+DOID:14227	azoospermia	1	0	545
+DOID:4606	bile duct cancer	0	0	71
+DOID:3312	bipolar disorder	0	20	187
+DOID:184	bone cancer	5	0	261
+DOID:1319	brain cancer	7	4	284
+DOID:1612	breast cancer	29	14	1159
+DOID:10608	celiac disease	0	0	96
+DOID:4362	cervical cancer	1	0	90
+DOID:784	chronic kidney failure	0	10	231
+DOID:3083	chronic obstructive pulmonary disease	9	6	635
+DOID:9296	cleft lip	0	0	117
+DOID:219	colon cancer	5	4	633
+DOID:12995	conduct disorder	0	3	33
+DOID:3393	coronary artery disease	28	10	635
+DOID:90	degenerative disc disease	0	0	28
+DOID:216	dental caries	0	0	44
+DOID:12930	dilated cardiomyopathy	3	2	118
+DOID:10021	duodenum cancer	0	0	49
+DOID:1595	endogenous depression	0	15	133
+DOID:1826	epilepsy syndrome	25	0	531
+DOID:5041	esophageal cancer	4	3	236
+DOID:1964	fallopian tube cancer	0	0	29
+DOID:1312	focal segmental glomerulosclerosis	1	0	61
+DOID:3121	gallbladder cancer	0	0	46
+DOID:2994	germ cell cancer	7	0	337
+DOID:11714	gestational diabetes	1	0	47
+DOID:1686	glaucoma	21	2	203
+DOID:13189	gout	9	1	55
+DOID:11934	head and neck cancer	4	1	249
+DOID:2531	hematologic cancer	51	2	1129
+DOID:2043	hepatitis B	4	0	101
+DOID:10763	hypertension	68	2	772
+DOID:1459	hypothyroidism	4	0	109
+DOID:0050156	idiopathic pulmonary fibrosis	0	1	533
+DOID:10153	ileum cancer	0	0	33
+DOID:10941	intracranial aneurysm	0	0	124
+DOID:13499	jejunal cancer	0	0	32
+DOID:263	kidney cancer	13	6	798
+DOID:2596	larynx cancer	0	0	42
+DOID:1024	leprosy	3	0	87
+DOID:3571	liver cancer	3	0	246
+DOID:1324	lung cancer	16	1	736
+DOID:0060073	lymphatic system cancer	9	0	18
+DOID:12365	malaria	11	0	600
+DOID:3070	malignant glioma	2	0	298
+DOID:1790	malignant mesothelioma	0	0	45
+DOID:5559	mediastinal cancer	0	0	69
+DOID:1909	melanoma	7	0	944
+DOID:10976	membranous glomerulonephritis	0	0	41
+DOID:3565	meningioma	0	0	151
+DOID:14221	metabolic syndrome X	1	0	135
+DOID:5099	middle ear cancer	0	0	1
+DOID:6364	migraine	7	24	199
+DOID:2377	multiple sclerosis	11	22	317
+DOID:4045	muscle cancer	6	0	137
+DOID:8986	narcolepsy	0	5	69
+DOID:10811	nasal cavity cancer	0	0	4
+DOID:585	nephrolithiasis	1	0	61
+DOID:0050742	nicotine dependence	1	1	540
+DOID:9970	obesity	11	0	558
+DOID:2174	ocular cancer	2	0	139
+DOID:8398	osteoarthritis	0	25	153
+DOID:11476	osteoporosis	15	1	164
+DOID:12185	otosclerosis	0	0	59
+DOID:2394	ovarian cancer	10	0	393
+DOID:1793	pancreatic cancer	10	1	716
+DOID:4989	pancreatitis	2	1	158
+DOID:594	panic disorder	0	18	70
+DOID:11615	penile cancer	0	0	29
+DOID:824	periodontitis	0	0	169
+DOID:1192	peripheral nervous system neoplasm	12	0	230
+DOID:1725	peritoneum cancer	0	0	55
+DOID:0060119	pharynx cancer	0	0	126
+DOID:11612	polycystic ovary syndrome	1	5	743
+DOID:12236	primary biliary cirrhosis	3	0	108
+DOID:10283	prostate cancer	21	9	692
+DOID:8893	psoriasis	21	4	676
+DOID:9008	psoriatic arthritis	8	0	573
+DOID:1993	rectum cancer	0	0	75
+DOID:9835	refractive error	0	0	156
+DOID:0050425	restless legs syndrome	0	10	65
+DOID:5875	retroperitoneal cancer	0	0	64
+DOID:7148	rheumatoid arthritis	15	16	906
+DOID:8850	salivary gland cancer	0	0	175
+DOID:1115	sarcoma	8	0	244
+DOID:5419	schizophrenia	0	30	844
+DOID:14268	sclerosing cholangitis	0	0	42
+DOID:4159	skin cancer	9	0	173
+DOID:5612	spinal cancer	0	0	70
+DOID:10534	stomach cancer	9	0	380
+DOID:9074	systemic lupus erythematosus	13	7	255
+DOID:418	systemic scleroderma	10	15	646
+DOID:2998	testicular cancer	11	0	84
+DOID:14004	thoracic aortic aneurysm	0	0	62
+DOID:3277	thymus cancer	1	0	67
+DOID:1781	thyroid cancer	4	0	105
+DOID:11920	tracheal cancer	0	0	29
+DOID:9744	type 1 diabetes mellitus	1	2	214
+DOID:9352	type 2 diabetes mellitus	22	0	358
+DOID:8577	ulcerative colitis	16	0	690
+DOID:11819	ureter cancer	0	0	23
+DOID:11054	urinary bladder cancer	11	0	187
+DOID:363	uterine cancer	7	0	159
+DOID:13223	uterine fibroid	0	0	470
+DOID:119	vaginal cancer	0	0	39
+DOID:175	vascular cancer	0	0	70
+DOID:12306	vitiligo	1	1	73
+DOID:1245	vulva cancer	0	0	41
