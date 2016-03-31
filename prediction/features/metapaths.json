@@ -1,0 +1,1323 @@
+[
+  {
+    "edge_abbreviations": [
+      "CbG",
+      "GaD"
+    ],
+    "standard_edges": [
+      "Compound - binds - Gene",
+      "Disease - associates - Gene"
+    ],
+    "join_complexities": [
+      1.706732543946901,
+      1.9982341667905623,
+      0.652561394181138
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CbG",
+      "DaG"
+    ],
+    "length": 2,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:BINDS_CbG]-(n1)-[:ASSOCIATES_DaG]-(n2:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n2.identifier = { target }\nWITH\n[\nsize((n0)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n1)),\nsize((n1)-[:ASSOCIATES_DaG]-()),\nsize(()-[:ASSOCIATES_DaG]-(n2))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CbGaD",
+    "edges": [
+      "Compound - binds - Gene",
+      "Gene - associates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CrC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - resembles - Compound",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      1.663341607551547,
+      1.1420512959313625,
+      0.6091704577857842
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CrC",
+      "CtD"
+    ],
+    "length": 2,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:RESEMBLES_CrC]-(n1)-[:TREATS_CtD]-(n2:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n2.identifier = { target }\nAND n0 <> n1\nWITH\n[\nsize((n0)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n1)),\nsize((n1)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n2))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CrCtD",
+    "edges": [
+      "Compound - resembles - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CtD",
+      "DrD"
+    ],
+    "standard_edges": [
+      "Compound - treats - Disease",
+      "Disease - resembles - Disease"
+    ],
+    "join_complexities": [
+      1.6403356425692028,
+      0.9249754793861352,
+      0.58616449280344
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CtD",
+      "DrD"
+    ],
+    "length": 2,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:TREATS_CtD]-(n1)-[:RESEMBLES_DrD]-(n2:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n2.identifier = { target }\nAND n1 <> n2\nWITH\n[\nsize((n0)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n1)),\nsize((n1)-[:RESEMBLES_DrD]-()),\nsize(()-[:RESEMBLES_DrD]-(n2))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CtDrD",
+    "edges": [
+      "Compound - treats - Disease",
+      "Disease - resembles - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CbG",
+      "GbC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - binds - Gene",
+      "Compound - binds - Gene",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      1.355996090024782,
+      1.686123463883251,
+      0.9836145359982075,
+      0.3018249402590193
+    ],
+    "optimal_join_index": 3,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CbG",
+      "CbG",
+      "CtD"
+    ],
+    "length": 3,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:BINDS_CbG]-(n1)-[:BINDS_CbG]-(n2)-[:TREATS_CtD]-(n3:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n3.identifier = { target }\nAND n0 <> n2\nWITH\n[\nsize((n0)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n1)),\nsize((n1)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n2)),\nsize((n2)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n3))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CbGbCtD",
+    "edges": [
+      "Compound - binds - Gene",
+      "Gene - binds - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CcSE",
+      "SEcC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - causes - Side Effect",
+      "Compound - causes - Side Effect",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      4.077556573816761,
+      2.7655923677358536,
+      3.3374320570533396,
+      3.0233854240509976
+    ],
+    "optimal_join_index": 1,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CcSE",
+      "CcSE",
+      "CtD"
+    ],
+    "length": 3,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:CAUSES_CcSE]-(n1)-[:CAUSES_CcSE]-(n2)-[:TREATS_CtD]-(n3:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n3.identifier = { target }\nAND n0 <> n2\nWITH\n[\nsize((n0)-[:CAUSES_CcSE]-()),\nsize(()-[:CAUSES_CcSE]-(n1)),\nsize((n1)-[:CAUSES_CcSE]-()),\nsize(()-[:CAUSES_CcSE]-(n2)),\nsize((n2)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n3))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CcSEcCtD",
+    "edges": [
+      "Compound - causes - Side Effect",
+      "Side Effect - causes - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CiPC",
+      "PCiC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Pharmacologic Class - includes - Compound",
+      "Pharmacologic Class - includes - Compound",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      1.043235083295766,
+      0.6381123257067609,
+      0.8759556301964065,
+      -0.010936066469996737
+    ],
+    "optimal_join_index": 3,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "PCiC",
+      "PCiC",
+      "CtD"
+    ],
+    "length": 3,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:INCLUDES_PCiC]-(n1)-[:INCLUDES_PCiC]-(n2)-[:TREATS_CtD]-(n3:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n3.identifier = { target }\nAND n0 <> n2\nWITH\n[\nsize((n0)-[:INCLUDES_PCiC]-()),\nsize(()-[:INCLUDES_PCiC]-(n1)),\nsize((n1)-[:INCLUDES_PCiC]-()),\nsize(()-[:INCLUDES_PCiC]-(n2)),\nsize((n2)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n3))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CiPCiCtD",
+    "edges": [
+      "Compound - includes - Pharmacologic Class",
+      "Pharmacologic Class - includes - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CpD",
+      "DpC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - palliates - Disease",
+      "Compound - palliates - Disease",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      0.5957433144472034,
+      0.21381717732404582,
+      0.7942297762197728,
+      -0.45842783531855946
+    ],
+    "optimal_join_index": 3,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CpD",
+      "CpD",
+      "CtD"
+    ],
+    "length": 3,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:PALLIATES_CpD]-(n1)-[:PALLIATES_CpD]-(n2)-[:TREATS_CtD]-(n3:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n3.identifier = { target }\nAND n1 <> n3 AND n0 <> n2\nWITH\n[\nsize((n0)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n1)),\nsize((n1)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n2)),\nsize((n2)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n3))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CpDpCtD",
+    "edges": [
+      "Compound - palliates - Disease",
+      "Disease - palliates - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CrC",
+      "CpD",
+      "DrD"
+    ],
+    "standard_edges": [
+      "Compound - resembles - Compound",
+      "Compound - palliates - Disease",
+      "Disease - resembles - Disease"
+    ],
+    "join_complexities": [
+      2.275568521045279,
+      1.4902982010706511,
+      1.0011857449426043,
+      1.2213973712795165
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CrC",
+      "CpD",
+      "DrD"
+    ],
+    "length": 3,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:RESEMBLES_CrC]-(n1)-[:PALLIATES_CpD]-(n2)-[:RESEMBLES_DrD]-(n3:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n3.identifier = { target }\nAND n2 <> n3 AND n0 <> n1\nWITH\n[\nsize((n0)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n1)),\nsize((n1)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n2)),\nsize((n2)-[:RESEMBLES_DrD]-()),\nsize(()-[:RESEMBLES_DrD]-(n3))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CrCpDrD",
+    "edges": [
+      "Compound - resembles - Compound",
+      "Compound - palliates - Disease",
+      "Disease - resembles - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CrC",
+      "CrC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - resembles - Compound",
+      "Compound - resembles - Compound",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      2.5854568306303123,
+      1.7357595102984817,
+      1.8772057114887513,
+      1.5312856808645496
+    ],
+    "optimal_join_index": 3,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CrC",
+      "CrC",
+      "CtD"
+    ],
+    "length": 3,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:RESEMBLES_CrC]-(n1)-[:RESEMBLES_CrC]-(n2)-[:TREATS_CtD]-(n3:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n3.identifier = { target }\nAND n0 <> n1 AND n0 <> n2 AND n1 <> n2\nWITH\n[\nsize((n0)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n1)),\nsize((n1)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n2)),\nsize((n2)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n3))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CrCrCtD",
+    "edges": [
+      "Compound - resembles - Compound",
+      "Compound - resembles - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CtD",
+      "DaG",
+      "GaD"
+    ],
+    "standard_edges": [
+      "Compound - treats - Disease",
+      "Disease - associates - Gene",
+      "Disease - associates - Gene"
+    ],
+    "join_complexities": [
+      2.4857506170488195,
+      1.7483123191282959,
+      2.1365978926573588,
+      1.4315794672830569
+    ],
+    "optimal_join_index": 3,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CtD",
+      "DaG",
+      "DaG"
+    ],
+    "length": 3,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:TREATS_CtD]-(n1)-[:ASSOCIATES_DaG]-(n2)-[:ASSOCIATES_DaG]-(n3:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n3.identifier = { target }\nAND n1 <> n3\nWITH\n[\nsize((n0)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n1)),\nsize((n1)-[:ASSOCIATES_DaG]-()),\nsize(()-[:ASSOCIATES_DaG]-(n2)),\nsize((n2)-[:ASSOCIATES_DaG]-()),\nsize(()-[:ASSOCIATES_DaG]-(n3))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CtDaGaD",
+    "edges": [
+      "Compound - treats - Disease",
+      "Disease - associates - Gene",
+      "Gene - associates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CtD",
+      "DlA",
+      "AlD"
+    ],
+    "standard_edges": [
+      "Compound - treats - Disease",
+      "Disease - localizes - Anatomy",
+      "Disease - localizes - Anatomy"
+    ],
+    "join_complexities": [
+      3.1133671811989334,
+      2.3730366785621504,
+      1.5919790189260317,
+      2.0591960314331708
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CtD",
+      "DlA",
+      "DlA"
+    ],
+    "length": 3,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:TREATS_CtD]-(n1)-[:LOCALIZES_DlA]-(n2)-[:LOCALIZES_DlA]-(n3:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n3.identifier = { target }\nAND n1 <> n3\nWITH\n[\nsize((n0)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n1)),\nsize((n1)-[:LOCALIZES_DlA]-()),\nsize(()-[:LOCALIZES_DlA]-(n2)),\nsize((n2)-[:LOCALIZES_DlA]-()),\nsize(()-[:LOCALIZES_DlA]-(n3))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CtDlAlD",
+    "edges": [
+      "Compound - treats - Disease",
+      "Disease - localizes - Anatomy",
+      "Anatomy - localizes - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CtD",
+      "DpC",
+      "CpD"
+    ],
+    "standard_edges": [
+      "Compound - treats - Disease",
+      "Compound - palliates - Disease",
+      "Compound - palliates - Disease"
+    ],
+    "join_complexities": [
+      0.5957433144472034,
+      0.07983810871248691,
+      0.6264999174690162,
+      -0.4584278353185594
+    ],
+    "optimal_join_index": 3,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CtD",
+      "CpD",
+      "CpD"
+    ],
+    "length": 3,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:TREATS_CtD]-(n1)-[:PALLIATES_CpD]-(n2)-[:PALLIATES_CpD]-(n3:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n3.identifier = { target }\nAND n1 <> n3 AND n0 <> n2\nWITH\n[\nsize((n0)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n1)),\nsize((n1)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n2)),\nsize((n2)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n3))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CtDpCpD",
+    "edges": [
+      "Compound - treats - Disease",
+      "Disease - palliates - Compound",
+      "Compound - palliates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CtD",
+      "DrD",
+      "DrD"
+    ],
+    "standard_edges": [
+      "Compound - treats - Disease",
+      "Disease - resembles - Disease",
+      "Disease - resembles - Disease"
+    ],
+    "join_complexities": [
+      2.5394449006656243,
+      1.8015677490042288,
+      1.0712651356953453,
+      1.4852737508998615
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CtD",
+      "DrD",
+      "DrD"
+    ],
+    "length": 3,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:TREATS_CtD]-(n1)-[:RESEMBLES_DrD]-(n2)-[:RESEMBLES_DrD]-(n3:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n3.identifier = { target }\nAND n1 <> n2 AND n1 <> n3 AND n2 <> n3\nWITH\n[\nsize((n0)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n1)),\nsize((n1)-[:RESEMBLES_DrD]-()),\nsize(()-[:RESEMBLES_DrD]-(n2)),\nsize((n2)-[:RESEMBLES_DrD]-()),\nsize(()-[:RESEMBLES_DrD]-(n3))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CtDrDrD",
+    "edges": [
+      "Compound - treats - Disease",
+      "Disease - resembles - Disease",
+      "Disease - resembles - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CtD",
+      "DtC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - treats - Disease",
+      "Compound - treats - Disease",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      1.1695080036525816,
+      0.5006995219267348,
+      0.9133822620717054,
+      0.11533685388681865
+    ],
+    "optimal_join_index": 3,
+    "midpoint_index": 1,
+    "standard_edge_abbreviations": [
+      "CtD",
+      "CtD",
+      "CtD"
+    ],
+    "length": 3,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:TREATS_CtD]-(n1)-[:TREATS_CtD]-(n2)-[:TREATS_CtD]-(n3:Disease)\nUSING JOIN ON n1\nWHERE n0.identifier = { source }\nAND n3.identifier = { target }\nAND n1 <> n3 AND n0 <> n2\nWITH\n[\nsize((n0)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n1)),\nsize((n1)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n2)),\nsize((n2)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n3))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CtDtCtD",
+    "edges": [
+      "Compound - treats - Disease",
+      "Disease - treats - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CbG",
+      "GaD",
+      "DdG",
+      "GdD"
+    ],
+    "standard_edges": [
+      "Compound - binds - Gene",
+      "Disease - associates - Gene",
+      "Disease - downregulates - Gene",
+      "Disease - downregulates - Gene"
+    ],
+    "join_complexities": [
+      3.0131834516333194,
+      3.2726247491787537,
+      1.3934780710157901,
+      2.485235380527173,
+      1.9590123018675567
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CbG",
+      "DaG",
+      "DdG",
+      "DdG"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:BINDS_CbG]-(n1)-[:ASSOCIATES_DaG]-(n2)-[:DOWNREGULATES_DdG]-(n3)-[:DOWNREGULATES_DdG]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n1 <> n3 AND n2 <> n4\nWITH\n[\nsize((n0)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n1)),\nsize((n1)-[:ASSOCIATES_DaG]-()),\nsize(()-[:ASSOCIATES_DaG]-(n2)),\nsize((n2)-[:DOWNREGULATES_DdG]-()),\nsize(()-[:DOWNREGULATES_DdG]-(n3)),\nsize((n3)-[:DOWNREGULATES_DdG]-()),\nsize(()-[:DOWNREGULATES_DdG]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CbGaDdGdD",
+    "edges": [
+      "Compound - binds - Gene",
+      "Gene - associates - Disease",
+      "Disease - downregulates - Gene",
+      "Gene - downregulates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CbG",
+      "GcG",
+      "GiG",
+      "GuD"
+    ],
+    "standard_edges": [
+      "Compound - binds - Gene",
+      "Gene - covaries - Gene",
+      "Gene - interacts - Gene",
+      "Disease - upregulates - Gene"
+    ],
+    "join_complexities": [
+      3.420289650547965,
+      3.6786782076624567,
+      2.9307804481774395,
+      2.836250348683882,
+      2.366118500782202
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CbG",
+      "GcG",
+      "GiG",
+      "DuG"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:BINDS_CbG]-(n1)-[:COVARIES_GcG]-(n2)-[:INTERACTS_GiG]-(n3)-[:UPREGULATES_DuG]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n1 <> n2 AND n1 <> n3 AND n2 <> n3\nWITH\n[\nsize((n0)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n1)),\nsize((n1)-[:COVARIES_GcG]-()),\nsize(()-[:COVARIES_GcG]-(n2)),\nsize((n2)-[:INTERACTS_GiG]-()),\nsize(()-[:INTERACTS_GiG]-(n3)),\nsize((n3)-[:UPREGULATES_DuG]-()),\nsize(()-[:UPREGULATES_DuG]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CbGcGiGuD",
+    "edges": [
+      "Compound - binds - Gene",
+      "Gene - covaries - Gene",
+      "Gene - interacts - Gene",
+      "Gene - upregulates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CbG",
+      "GdC",
+      "CbG",
+      "GdD"
+    ],
+    "standard_edges": [
+      "Compound - binds - Gene",
+      "Compound - downregulates - Gene",
+      "Compound - binds - Gene",
+      "Disease - downregulates - Gene"
+    ],
+    "join_complexities": [
+      2.3634183121689736,
+      2.628806535810843,
+      1.5826412232284743,
+      2.04783572613286,
+      1.3092471624032107
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CbG",
+      "CdG",
+      "CbG",
+      "DdG"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:BINDS_CbG]-(n1)-[:DOWNREGULATES_CdG]-(n2)-[:BINDS_CbG]-(n3)-[:DOWNREGULATES_DdG]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n1 <> n3 AND n0 <> n2\nWITH\n[\nsize((n0)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n1)),\nsize((n1)-[:DOWNREGULATES_CdG]-()),\nsize(()-[:DOWNREGULATES_CdG]-(n2)),\nsize((n2)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n3)),\nsize((n3)-[:DOWNREGULATES_DdG]-()),\nsize(()-[:DOWNREGULATES_DdG]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CbGdCbGdD",
+    "edges": [
+      "Compound - binds - Gene",
+      "Gene - downregulates - Compound",
+      "Compound - binds - Gene",
+      "Gene - downregulates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CbG",
+      "GdC",
+      "CdG",
+      "GaD"
+    ],
+    "standard_edges": [
+      "Compound - binds - Gene",
+      "Compound - downregulates - Gene",
+      "Compound - downregulates - Gene",
+      "Disease - associates - Gene"
+    ],
+    "join_complexities": [
+      2.8434076997286652,
+      3.1036749720523145,
+      2.0014774207939103,
+      2.2884033289842796,
+      1.7892365499629026
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CbG",
+      "CdG",
+      "CdG",
+      "DaG"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:BINDS_CbG]-(n1)-[:DOWNREGULATES_CdG]-(n2)-[:DOWNREGULATES_CdG]-(n3)-[:ASSOCIATES_DaG]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n1 <> n3 AND n0 <> n2\nWITH\n[\nsize((n0)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n1)),\nsize((n1)-[:DOWNREGULATES_CdG]-()),\nsize(()-[:DOWNREGULATES_CdG]-(n2)),\nsize((n2)-[:DOWNREGULATES_CdG]-()),\nsize(()-[:DOWNREGULATES_CdG]-(n3)),\nsize((n3)-[:ASSOCIATES_DaG]-()),\nsize(()-[:ASSOCIATES_DaG]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CbGdCdGaD",
+    "edges": [
+      "Compound - binds - Gene",
+      "Gene - downregulates - Compound",
+      "Compound - downregulates - Gene",
+      "Gene - associates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CbG",
+      "GpCC",
+      "CCpG",
+      "GdD"
+    ],
+    "standard_edges": [
+      "Compound - binds - Gene",
+      "Gene - participates - Cellular Component",
+      "Gene - participates - Cellular Component",
+      "Disease - downregulates - Gene"
+    ],
+    "join_complexities": [
+      3.7566426724426054,
+      4.014665295243661,
+      2.3456115252990406,
+      3.1585332868084066,
+      2.7024715226768423
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CbG",
+      "GpCC",
+      "GpCC",
+      "DdG"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:BINDS_CbG]-(n1)-[:PARTICIPATES_GpCC]-(n2)-[:PARTICIPATES_GpCC]-(n3)-[:DOWNREGULATES_DdG]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n1 <> n3\nWITH\n[\nsize((n0)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n1)),\nsize((n1)-[:PARTICIPATES_GpCC]-()),\nsize(()-[:PARTICIPATES_GpCC]-(n2)),\nsize((n2)-[:PARTICIPATES_GpCC]-()),\nsize(()-[:PARTICIPATES_GpCC]-(n3)),\nsize((n3)-[:DOWNREGULATES_DdG]-()),\nsize(()-[:DOWNREGULATES_DdG]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CbGpCCpGdD",
+    "edges": [
+      "Compound - binds - Gene",
+      "Gene - participates - Cellular Component",
+      "Cellular Component - participates - Gene",
+      "Gene - downregulates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CbG",
+      "GuD",
+      "DpC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - binds - Gene",
+      "Disease - upregulates - Gene",
+      "Compound - palliates - Disease",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      1.6352049095797374,
+      1.9324885474611617,
+      0.6166593390633069,
+      1.1253139554050742,
+      0.5810337598139745
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CbG",
+      "DuG",
+      "CpD",
+      "CtD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:BINDS_CbG]-(n1)-[:UPREGULATES_DuG]-(n2)-[:PALLIATES_CpD]-(n3)-[:TREATS_CtD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n0 <> n3 AND n2 <> n4\nWITH\n[\nsize((n0)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n1)),\nsize((n1)-[:UPREGULATES_DuG]-()),\nsize(()-[:UPREGULATES_DuG]-(n2)),\nsize((n2)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n3)),\nsize((n3)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CbGuDpCtD",
+    "edges": [
+      "Compound - binds - Gene",
+      "Gene - upregulates - Disease",
+      "Disease - palliates - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CcSE",
+      "SEcC",
+      "CdG",
+      "GdD"
+    ],
+    "standard_edges": [
+      "Compound - causes - Side Effect",
+      "Compound - causes - Side Effect",
+      "Compound - downregulates - Gene",
+      "Disease - downregulates - Gene"
+    ],
+    "join_complexities": [
+      5.084978795960952,
+      3.7082754396634456,
+      3.347410471220697,
+      4.470580590321732,
+      4.030807646195189
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CcSE",
+      "CcSE",
+      "CdG",
+      "DdG"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:CAUSES_CcSE]-(n1)-[:CAUSES_CcSE]-(n2)-[:DOWNREGULATES_CdG]-(n3)-[:DOWNREGULATES_DdG]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n0 <> n2\nWITH\n[\nsize((n0)-[:CAUSES_CcSE]-()),\nsize(()-[:CAUSES_CcSE]-(n1)),\nsize((n1)-[:CAUSES_CcSE]-()),\nsize(()-[:CAUSES_CcSE]-(n2)),\nsize((n2)-[:DOWNREGULATES_CdG]-()),\nsize(()-[:DOWNREGULATES_CdG]-(n3)),\nsize((n3)-[:DOWNREGULATES_DdG]-()),\nsize(()-[:DOWNREGULATES_DdG]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CcSEcCdGdD",
+    "edges": [
+      "Compound - causes - Side Effect",
+      "Side Effect - causes - Compound",
+      "Compound - downregulates - Gene",
+      "Gene - downregulates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CdG",
+      "GaD",
+      "DtC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - downregulates - Gene",
+      "Disease - associates - Gene",
+      "Compound - treats - Disease",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      2.395966888241583,
+      2.4159941165848076,
+      1.0364392027052176,
+      1.704747068436479,
+      1.3417957384758201
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CdG",
+      "DaG",
+      "CtD",
+      "CtD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:DOWNREGULATES_CdG]-(n1)-[:ASSOCIATES_DaG]-(n2)-[:TREATS_CtD]-(n3)-[:TREATS_CtD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n0 <> n3 AND n2 <> n4\nWITH\n[\nsize((n0)-[:DOWNREGULATES_CdG]-()),\nsize(()-[:DOWNREGULATES_CdG]-(n1)),\nsize((n1)-[:ASSOCIATES_DaG]-()),\nsize(()-[:ASSOCIATES_DaG]-(n2)),\nsize((n2)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n3)),\nsize((n3)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CdGaDtCtD",
+    "edges": [
+      "Compound - downregulates - Gene",
+      "Gene - associates - Disease",
+      "Disease - treats - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CiPC",
+      "PCiC",
+      "CtD",
+      "DrD"
+    ],
+    "standard_edges": [
+      "Pharmacologic Class - includes - Compound",
+      "Pharmacologic Class - includes - Compound",
+      "Compound - treats - Disease",
+      "Disease - resembles - Disease"
+    ],
+    "join_complexities": [
+      1.9423443413921875,
+      1.4746330293727552,
+      1.659819678786759,
+      0.9494944432813581,
+      0.8881731916264246
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "PCiC",
+      "PCiC",
+      "CtD",
+      "DrD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:INCLUDES_PCiC]-(n1)-[:INCLUDES_PCiC]-(n2)-[:TREATS_CtD]-(n3)-[:RESEMBLES_DrD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n3 <> n4 AND n0 <> n2\nWITH\n[\nsize((n0)-[:INCLUDES_PCiC]-()),\nsize(()-[:INCLUDES_PCiC]-(n1)),\nsize((n1)-[:INCLUDES_PCiC]-()),\nsize(()-[:INCLUDES_PCiC]-(n2)),\nsize((n2)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n3)),\nsize((n3)-[:RESEMBLES_DrD]-()),\nsize(()-[:RESEMBLES_DrD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CiPCiCtDrD",
+    "edges": [
+      "Compound - includes - Pharmacologic Class",
+      "Pharmacologic Class - includes - Compound",
+      "Compound - treats - Disease",
+      "Disease - resembles - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CpD",
+      "DaG",
+      "GuC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - palliates - Disease",
+      "Disease - associates - Gene",
+      "Compound - upregulates - Gene",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      2.0579011490051196,
+      1.6062675763205776,
+      1.953051434522437,
+      1.4190391510208336,
+      1.0037299992393565
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CpD",
+      "DaG",
+      "CuG",
+      "CtD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:PALLIATES_CpD]-(n1)-[:ASSOCIATES_DaG]-(n2)-[:UPREGULATES_CuG]-(n3)-[:TREATS_CtD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n1 <> n4 AND n0 <> n3\nWITH\n[\nsize((n0)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n1)),\nsize((n1)-[:ASSOCIATES_DaG]-()),\nsize(()-[:ASSOCIATES_DaG]-(n2)),\nsize((n2)-[:UPREGULATES_CuG]-()),\nsize(()-[:UPREGULATES_CuG]-(n3)),\nsize((n3)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CpDaGuCtD",
+    "edges": [
+      "Compound - palliates - Disease",
+      "Disease - associates - Gene",
+      "Gene - upregulates - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CpD",
+      "DpC",
+      "CuG",
+      "GaD"
+    ],
+    "standard_edges": [
+      "Compound - palliates - Disease",
+      "Compound - palliates - Disease",
+      "Compound - upregulates - Gene",
+      "Disease - associates - Gene"
+    ],
+    "join_complexities": [
+      1.7710188044024302,
+      1.3219067175346921,
+      1.9202509438607753,
+      2.003390276193436,
+      0.7168476546366674
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CpD",
+      "CpD",
+      "CuG",
+      "DaG"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:PALLIATES_CpD]-(n1)-[:PALLIATES_CpD]-(n2)-[:UPREGULATES_CuG]-(n3)-[:ASSOCIATES_DaG]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n1 <> n4 AND n0 <> n2\nWITH\n[\nsize((n0)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n1)),\nsize((n1)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n2)),\nsize((n2)-[:UPREGULATES_CuG]-()),\nsize(()-[:UPREGULATES_CuG]-(n3)),\nsize((n3)-[:ASSOCIATES_DaG]-()),\nsize(()-[:ASSOCIATES_DaG]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CpDpCuGaD",
+    "edges": [
+      "Compound - palliates - Disease",
+      "Disease - palliates - Compound",
+      "Compound - upregulates - Gene",
+      "Gene - associates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CpD",
+      "DrD",
+      "DpC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - palliates - Disease",
+      "Disease - resembles - Disease",
+      "Compound - palliates - Disease",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      1.4948525725436248,
+      1.05033788099004,
+      0.5285061114519375,
+      1.0485005347162946,
+      0.440681422777862
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CpD",
+      "DrD",
+      "CpD",
+      "CtD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:PALLIATES_CpD]-(n1)-[:RESEMBLES_DrD]-(n2)-[:PALLIATES_CpD]-(n3)-[:TREATS_CtD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n1 <> n2 AND n1 <> n4 AND n2 <> n4 AND n0 <> n3\nWITH\n[\nsize((n0)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n1)),\nsize((n1)-[:RESEMBLES_DrD]-()),\nsize(()-[:RESEMBLES_DrD]-(n2)),\nsize((n2)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n3)),\nsize((n3)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CpDrDpCtD",
+    "edges": [
+      "Compound - palliates - Disease",
+      "Disease - resembles - Disease",
+      "Disease - palliates - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CrC",
+      "CbG",
+      "GcG",
+      "GdD"
+    ],
+    "standard_edges": [
+      "Compound - resembles - Compound",
+      "Compound - binds - Gene",
+      "Gene - covaries - Gene",
+      "Disease - downregulates - Gene"
+    ],
+    "join_complexities": [
+      3.1799966251264298,
+      2.2774781018034207,
+      2.5911777482938767,
+      2.6260718660465723,
+      2.125825475360667
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CrC",
+      "CbG",
+      "GcG",
+      "DdG"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:RESEMBLES_CrC]-(n1)-[:BINDS_CbG]-(n2)-[:COVARIES_GcG]-(n3)-[:DOWNREGULATES_DdG]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n2 <> n3 AND n0 <> n1\nWITH\n[\nsize((n0)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n1)),\nsize((n1)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n2)),\nsize((n2)-[:COVARIES_GcG]-()),\nsize(()-[:COVARIES_GcG]-(n3)),\nsize((n3)-[:DOWNREGULATES_DdG]-()),\nsize(()-[:DOWNREGULATES_DdG]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CrCbGcGdD",
+    "edges": [
+      "Compound - resembles - Compound",
+      "Compound - binds - Gene",
+      "Gene - covaries - Gene",
+      "Gene - downregulates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CrC",
+      "CcSE",
+      "SEcC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - resembles - Compound",
+      "Compound - causes - Side Effect",
+      "Compound - causes - Side Effect",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      4.999671796895526,
+      4.07786009652621,
+      3.0939993764475,
+      4.258577389739072,
+      3.945500647129763
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CrC",
+      "CcSE",
+      "CcSE",
+      "CtD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:RESEMBLES_CrC]-(n1)-[:CAUSES_CcSE]-(n2)-[:CAUSES_CcSE]-(n3)-[:TREATS_CtD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n0 <> n1 AND n0 <> n3 AND n1 <> n3\nWITH\n[\nsize((n0)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n1)),\nsize((n1)-[:CAUSES_CcSE]-()),\nsize(()-[:CAUSES_CcSE]-(n2)),\nsize((n2)-[:CAUSES_CcSE]-()),\nsize(()-[:CAUSES_CcSE]-(n3)),\nsize((n3)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CrCcSEcCtD",
+    "edges": [
+      "Compound - resembles - Compound",
+      "Compound - causes - Side Effect",
+      "Side Effect - causes - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CrC",
+      "CdG",
+      "GcG",
+      "GaD"
+    ],
+    "standard_edges": [
+      "Compound - resembles - Compound",
+      "Compound - downregulates - Gene",
+      "Gene - covaries - Gene",
+      "Disease - associates - Gene"
+    ],
+    "join_complexities": [
+      3.6599860126861214,
+      2.7444584432060126,
+      2.8171876159675846,
+      2.881733229062414,
+      2.605814862920359
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CrC",
+      "CdG",
+      "GcG",
+      "DaG"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:RESEMBLES_CrC]-(n1)-[:DOWNREGULATES_CdG]-(n2)-[:COVARIES_GcG]-(n3)-[:ASSOCIATES_DaG]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n2 <> n3 AND n0 <> n1\nWITH\n[\nsize((n0)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n1)),\nsize((n1)-[:DOWNREGULATES_CdG]-()),\nsize(()-[:DOWNREGULATES_CdG]-(n2)),\nsize((n2)-[:COVARIES_GcG]-()),\nsize(()-[:COVARIES_GcG]-(n3)),\nsize((n3)-[:ASSOCIATES_DaG]-()),\nsize(()-[:ASSOCIATES_DaG]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CrCdGcGaD",
+    "edges": [
+      "Compound - resembles - Compound",
+      "Compound - downregulates - Gene",
+      "Gene - covaries - Gene",
+      "Gene - associates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CrC",
+      "CiPC",
+      "PCiC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - resembles - Compound",
+      "Pharmacologic Class - includes - Compound",
+      "Pharmacologic Class - includes - Compound",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      1.9653503063745315,
+      1.2879139068973675,
+      0.9665193344184069,
+      1.3476257743632207,
+      0.9111791566087688
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CrC",
+      "PCiC",
+      "PCiC",
+      "CtD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:RESEMBLES_CrC]-(n1)-[:INCLUDES_PCiC]-(n2)-[:INCLUDES_PCiC]-(n3)-[:TREATS_CtD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n0 <> n1 AND n0 <> n3 AND n1 <> n3\nWITH\n[\nsize((n0)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n1)),\nsize((n1)-[:INCLUDES_PCiC]-()),\nsize(()-[:INCLUDES_PCiC]-(n2)),\nsize((n2)-[:INCLUDES_PCiC]-()),\nsize(()-[:INCLUDES_PCiC]-(n3)),\nsize((n3)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CrCiPCiCtD",
+    "edges": [
+      "Compound - resembles - Compound",
+      "Compound - includes - Pharmacologic Class",
+      "Pharmacologic Class - includes - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CrC",
+      "CrC",
+      "CrC",
+      "CpD"
+    ],
+    "standard_edges": [
+      "Compound - resembles - Compound",
+      "Compound - resembles - Compound",
+      "Compound - resembles - Compound",
+      "Compound - palliates - Disease"
+    ],
+    "join_complexities": [
+      3.220689709106389,
+      2.3164539561446453,
+      1.9715256402195502,
+      2.7684578261322685,
+      2.166518559340626
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CrC",
+      "CrC",
+      "CrC",
+      "CpD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:RESEMBLES_CrC]-(n1)-[:RESEMBLES_CrC]-(n2)-[:RESEMBLES_CrC]-(n3)-[:PALLIATES_CpD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n0 <> n1 AND n0 <> n2 AND n0 <> n3 AND n1 <> n2 AND n1 <> n3 AND n2 <> n3\nWITH\n[\nsize((n0)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n1)),\nsize((n1)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n2)),\nsize((n2)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n3)),\nsize((n3)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CrCrCrCpD",
+    "edges": [
+      "Compound - resembles - Compound",
+      "Compound - resembles - Compound",
+      "Compound - resembles - Compound",
+      "Compound - palliates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CrC",
+      "CtD",
+      "DtC",
+      "CtD"
+    ],
+    "standard_edges": [
+      "Compound - resembles - Compound",
+      "Compound - treats - Disease",
+      "Compound - treats - Disease",
+      "Compound - treats - Disease"
+    ],
+    "join_complexities": [
+      2.091623226731347,
+      1.3642241575142844,
+      0.8291065306383809,
+      1.4458940447504,
+      1.0374520769655842
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CrC",
+      "CtD",
+      "CtD",
+      "CtD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:RESEMBLES_CrC]-(n1)-[:TREATS_CtD]-(n2)-[:TREATS_CtD]-(n3)-[:TREATS_CtD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n2 <> n4 AND n0 <> n1 AND n0 <> n3 AND n1 <> n3\nWITH\n[\nsize((n0)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n1)),\nsize((n1)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n2)),\nsize((n2)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n3)),\nsize((n3)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CrCtDtCtD",
+    "edges": [
+      "Compound - resembles - Compound",
+      "Compound - treats - Disease",
+      "Disease - treats - Compound",
+      "Compound - treats - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CrC",
+      "CuG",
+      "GaD",
+      "DrD"
+    ],
+    "standard_edges": [
+      "Compound - resembles - Compound",
+      "Compound - upregulates - Gene",
+      "Disease - associates - Gene",
+      "Disease - resembles - Disease"
+    ],
+    "join_complexities": [
+      3.737726355603195,
+      2.821125911289421,
+      2.919806827696629,
+      1.8376072790380529,
+      2.6835552058374326
+    ],
+    "optimal_join_index": 3,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CrC",
+      "CuG",
+      "DaG",
+      "DrD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:RESEMBLES_CrC]-(n1)-[:UPREGULATES_CuG]-(n2)-[:ASSOCIATES_DaG]-(n3)-[:RESEMBLES_DrD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n0 <> n1 AND n3 <> n4\nWITH\n[\nsize((n0)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n1)),\nsize((n1)-[:UPREGULATES_CuG]-()),\nsize(()-[:UPREGULATES_CuG]-(n2)),\nsize((n2)-[:ASSOCIATES_DaG]-()),\nsize(()-[:ASSOCIATES_DaG]-(n3)),\nsize((n3)-[:RESEMBLES_DrD]-()),\nsize(()-[:RESEMBLES_DrD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CrCuGaDrD",
+    "edges": [
+      "Compound - resembles - Compound",
+      "Compound - upregulates - Gene",
+      "Gene - associates - Disease",
+      "Disease - resembles - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CrC",
+      "CuG",
+      "GbC",
+      "CpD"
+    ],
+    "standard_edges": [
+      "Compound - resembles - Compound",
+      "Compound - upregulates - Gene",
+      "Compound - binds - Gene",
+      "Compound - palliates - Disease"
+    ],
+    "join_complexities": [
+      2.200998298981966,
+      1.4371781959224539,
+      2.087190796209206,
+      1.7682627797423323,
+      1.1468271492162032
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CrC",
+      "CuG",
+      "CbG",
+      "CpD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:RESEMBLES_CrC]-(n1)-[:UPREGULATES_CuG]-(n2)-[:BINDS_CbG]-(n3)-[:PALLIATES_CpD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n0 <> n1 AND n0 <> n3 AND n1 <> n3\nWITH\n[\nsize((n0)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n1)),\nsize((n1)-[:UPREGULATES_CuG]-()),\nsize(()-[:UPREGULATES_CuG]-(n2)),\nsize((n2)-[:BINDS_CbG]-()),\nsize(()-[:BINDS_CbG]-(n3)),\nsize((n3)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CrCuGbCpD",
+    "edges": [
+      "Compound - resembles - Compound",
+      "Compound - upregulates - Gene",
+      "Gene - binds - Compound",
+      "Compound - palliates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CtD",
+      "DlA",
+      "AdG",
+      "GaD"
+    ],
+    "standard_edges": [
+      "Compound - treats - Disease",
+      "Disease - localizes - Anatomy",
+      "Anatomy - downregulates - Gene",
+      "Disease - associates - Gene"
+    ],
+    "join_complexities": [
+      4.346526531047347,
+      3.605352568526537,
+      2.665160518775046,
+      3.5244035285981923,
+      3.2923553812815847
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CtD",
+      "DlA",
+      "AdG",
+      "DaG"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:TREATS_CtD]-(n1)-[:LOCALIZES_DlA]-(n2)-[:DOWNREGULATES_AdG]-(n3)-[:ASSOCIATES_DaG]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n1 <> n4\nWITH\n[\nsize((n0)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n1)),\nsize((n1)-[:LOCALIZES_DlA]-()),\nsize(()-[:LOCALIZES_DlA]-(n2)),\nsize((n2)-[:DOWNREGULATES_AdG]-()),\nsize(()-[:DOWNREGULATES_AdG]-(n3)),\nsize((n3)-[:ASSOCIATES_DaG]-()),\nsize(()-[:ASSOCIATES_DaG]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CtDlAdGaD",
+    "edges": [
+      "Compound - treats - Disease",
+      "Disease - localizes - Anatomy",
+      "Anatomy - downregulates - Gene",
+      "Gene - associates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CtD",
+      "DlA",
+      "AuG",
+      "GuD"
+    ],
+    "standard_edges": [
+      "Compound - treats - Disease",
+      "Disease - localizes - Anatomy",
+      "Anatomy - upregulates - Gene",
+      "Disease - upregulates - Gene"
+    ],
+    "join_complexities": [
+      4.114530734452511,
+      3.373393781472408,
+      2.4415620663641437,
+      3.501005961966916,
+      3.060359584686748
+    ],
+    "optimal_join_index": 2,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CtD",
+      "DlA",
+      "AuG",
+      "DuG"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:TREATS_CtD]-(n1)-[:LOCALIZES_DlA]-(n2)-[:UPREGULATES_AuG]-(n3)-[:UPREGULATES_DuG]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n1 <> n4\nWITH\n[\nsize((n0)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n1)),\nsize((n1)-[:LOCALIZES_DlA]-()),\nsize(()-[:LOCALIZES_DlA]-(n2)),\nsize((n2)-[:UPREGULATES_AuG]-()),\nsize(()-[:UPREGULATES_AuG]-(n3)),\nsize((n3)-[:UPREGULATES_DuG]-()),\nsize(()-[:UPREGULATES_DuG]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CtDlAuGuD",
+    "edges": [
+      "Compound - treats - Disease",
+      "Disease - localizes - Anatomy",
+      "Anatomy - upregulates - Gene",
+      "Gene - upregulates - Disease"
+    ]
+  },
+  {
+    "edge_abbreviations": [
+      "CtD",
+      "DtC",
+      "CrC",
+      "CpD"
+    ],
+    "standard_edges": [
+      "Compound - treats - Disease",
+      "Compound - treats - Disease",
+      "Compound - resembles - Compound",
+      "Compound - palliates - Disease"
+    ],
+    "join_complexities": [
+      1.804740882128658,
+      1.081393967772898,
+      1.4228270655756388,
+      1.402336928851436,
+      0.7505697323628951
+    ],
+    "optimal_join_index": 4,
+    "midpoint_index": 2,
+    "standard_edge_abbreviations": [
+      "CtD",
+      "CtD",
+      "CrC",
+      "CpD"
+    ],
+    "length": 4,
+    "dwpc_query": "MATCH path = (n0:Compound)-[:TREATS_CtD]-(n1)-[:TREATS_CtD]-(n2)-[:RESEMBLES_CrC]-(n3)-[:PALLIATES_CpD]-(n4:Disease)\nUSING JOIN ON n2\nWHERE n0.identifier = { source }\nAND n4.identifier = { target }\nAND n1 <> n4 AND n0 <> n2 AND n0 <> n3 AND n2 <> n3\nWITH\n[\nsize((n0)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n1)),\nsize((n1)-[:TREATS_CtD]-()),\nsize(()-[:TREATS_CtD]-(n2)),\nsize((n2)-[:RESEMBLES_CrC]-()),\nsize(()-[:RESEMBLES_CrC]-(n3)),\nsize((n3)-[:PALLIATES_CpD]-()),\nsize(()-[:PALLIATES_CpD]-(n4))\n] AS degrees, path\nRETURN\ncount(path) AS PC,\nsum(reduce(pdp = 1.0, d in degrees| pdp * d ^ -{ w })) AS DWPC",
+    "abbreviation": "CtDtCrCpD",
+    "edges": [
+      "Compound - treats - Disease",
+      "Disease - treats - Compound",
+      "Compound - resembles - Compound",
+      "Compound - palliates - Disease"
+    ]
+  }
+]
