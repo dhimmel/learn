@@ -1,37 +1,44 @@
 [
   {
-    "name": "hetio-ind",
+    "binary": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0/bin/neo4j",
+    "path": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0",
     "port": 7500,
-    "path": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.2_hetio-ind",
-    "binary": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.2_hetio-ind/bin/neo4j",
-    "directory": "neo4j-community-2.3.2_hetio-ind"
+    "name": "rephetio-v2.0",
+    "directory": "neo4j-community-2.3.3_rephetio-v2.0"
   },
   {
-    "name": "hetio-ind_perm-1",
+    "binary": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0_perm-1/bin/neo4j",
+    "path": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0_perm-1",
     "port": 7501,
-    "path": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.2_hetio-ind_perm-1",
-    "binary": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.2_hetio-ind_perm-1/bin/neo4j",
-    "directory": "neo4j-community-2.3.2_hetio-ind_perm-1"
+    "name": "rephetio-v2.0_perm-1",
+    "directory": "neo4j-community-2.3.3_rephetio-v2.0_perm-1"
   },
   {
-    "name": "hetio-ind_perm-3",
+    "binary": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0_perm-2/bin/neo4j",
+    "path": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0_perm-2",
+    "port": 7502,
+    "name": "rephetio-v2.0_perm-2",
+    "directory": "neo4j-community-2.3.3_rephetio-v2.0_perm-2"
+  },
+  {
+    "binary": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0_perm-3/bin/neo4j",
+    "path": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0_perm-3",
     "port": 7503,
-    "path": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.2_hetio-ind_perm-3",
-    "binary": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.2_hetio-ind_perm-3/bin/neo4j",
-    "directory": "neo4j-community-2.3.2_hetio-ind_perm-3"
+    "name": "rephetio-v2.0_perm-3",
+    "directory": "neo4j-community-2.3.3_rephetio-v2.0_perm-3"
   },
   {
-    "name": "hetio-ind_perm-4",
+    "binary": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0_perm-4/bin/neo4j",
+    "path": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0_perm-4",
     "port": 7504,
-    "path": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.2_hetio-ind_perm-4",
-    "binary": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.2_hetio-ind_perm-4/bin/neo4j",
-    "directory": "neo4j-community-2.3.2_hetio-ind_perm-4"
+    "name": "rephetio-v2.0_perm-4",
+    "directory": "neo4j-community-2.3.3_rephetio-v2.0_perm-4"
   },
   {
-    "name": "hetio-ind_perm-5",
+    "binary": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0_perm-5/bin/neo4j",
+    "path": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.3_rephetio-v2.0_perm-5",
     "port": 7505,
-    "path": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.2_hetio-ind_perm-5",
-    "binary": "/home/dhimmels/Documents/serg/rephetio/construct/integrate/neo4j/neo4j-community-2.3.2_hetio-ind_perm-5/bin/neo4j",
-    "directory": "neo4j-community-2.3.2_hetio-ind_perm-5"
+    "name": "rephetio-v2.0_perm-5",
+    "directory": "neo4j-community-2.3.3_rephetio-v2.0_perm-5"
   }
 ]
