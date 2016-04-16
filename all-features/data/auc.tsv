@@ -1,10 +1,10 @@
 hetnet	feature	nonzero	auroc	auprc	feature_type	permuted
-rephetio-v2.0	prior_prob	1	0.84796	0.59518	prior	0
-rephetio-v2.0_perm-1	prior_prob	1	0.83079	0.6025	prior	1
-rephetio-v2.0_perm-2	prior_prob	1	0.83829	0.62959	prior	1
-rephetio-v2.0_perm-3	prior_prob	1	0.83507	0.61934	prior	1
-rephetio-v2.0_perm-4	prior_prob	1	0.82736	0.59625	prior	1
-rephetio-v2.0_perm-5	prior_prob	1	0.83666	0.61983	prior	1
+rephetio-v2.0	prior_prob	1	0.84806	0.59797	prior	0
+rephetio-v2.0_perm-1	prior_prob	1	0.8307	0.60352	prior	1
+rephetio-v2.0_perm-2	prior_prob	1	0.83825	0.63076	prior	1
+rephetio-v2.0_perm-3	prior_prob	1	0.83552	0.61947	prior	1
+rephetio-v2.0_perm-4	prior_prob	1	0.82715	0.5955	prior	1
+rephetio-v2.0_perm-5	prior_prob	1	0.83688	0.62074	prior	1
 rephetio-v2.0	CbG	0.98808	0.54778	0.23196	degree	0
 rephetio-v2.0_perm-1	CbG	0.98755	0.54895	0.23239	degree	1
 rephetio-v2.0_perm-2	CbG	0.98517	0.5559	0.23575	degree	1
