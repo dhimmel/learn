@@ -33,13 +33,13 @@ DB00915	Amantadine	DOID:2377	multiple sclerosis	PALLIATES_CpD
 DB00594	Amiloride	DOID:10763	hypertension	TREATS_CtD
 DB01223	Aminophylline	DOID:2841	asthma	TREATS_CtD
 DB01223	Aminophylline	DOID:3083	chronic obstructive pulmonary disease	TREATS_CtD
-DB00321	Amitriptyline	DOID:1595	endogenous depression	PALLIATES_CpD
 DB00321	Amitriptyline	DOID:6364	migraine	TREATS_CtD
+DB00321	Amitriptyline	DOID:1595	endogenous depression	PALLIATES_CpD
 DB00321	Amitriptyline	DOID:2377	multiple sclerosis	PALLIATES_CpD
 DB00321	Amitriptyline	DOID:7148	rheumatoid arthritis	PALLIATES_CpD
 DB00321	Amitriptyline	DOID:9074	systemic lupus erythematosus	PALLIATES_CpD
-DB00381	Amlodipine	DOID:3393	coronary artery disease	PALLIATES_CpD
 DB00381	Amlodipine	DOID:10763	hypertension	TREATS_CtD
+DB00381	Amlodipine	DOID:3393	coronary artery disease	PALLIATES_CpD
 DB01351	Amobarbital	DOID:1826	epilepsy syndrome	TREATS_CtD
 DB00182	Amphetamine	DOID:1094	attention deficit hyperactivity disorder	PALLIATES_CpD
 DB00182	Amphetamine	DOID:8986	narcolepsy	PALLIATES_CpD
@@ -90,18 +90,18 @@ DB00443	Betamethasone	DOID:4481	allergic rhinitis	TREATS_CtD
 DB00443	Betamethasone	DOID:7147	ankylosing spondylitis	TREATS_CtD
 DB00443	Betamethasone	DOID:2841	asthma	TREATS_CtD
 DB00443	Betamethasone	DOID:3310	atopic dermatitis	TREATS_CtD
-DB00443	Betamethasone	DOID:1319	brain cancer	PALLIATES_CpD
-DB00443	Betamethasone	DOID:1612	breast cancer	PALLIATES_CpD
-DB00443	Betamethasone	DOID:219	colon cancer	PALLIATES_CpD
 DB00443	Betamethasone	DOID:2531	hematologic cancer	TREATS_CtD
-DB00443	Betamethasone	DOID:263	kidney cancer	PALLIATES_CpD
 DB00443	Betamethasone	DOID:2377	multiple sclerosis	TREATS_CtD
-DB00443	Betamethasone	DOID:10283	prostate cancer	PALLIATES_CpD
 DB00443	Betamethasone	DOID:8893	psoriasis	TREATS_CtD
 DB00443	Betamethasone	DOID:9008	psoriatic arthritis	TREATS_CtD
 DB00443	Betamethasone	DOID:7148	rheumatoid arthritis	TREATS_CtD
 DB00443	Betamethasone	DOID:9074	systemic lupus erythematosus	TREATS_CtD
 DB00443	Betamethasone	DOID:8577	ulcerative colitis	TREATS_CtD
+DB00443	Betamethasone	DOID:1319	brain cancer	PALLIATES_CpD
+DB00443	Betamethasone	DOID:1612	breast cancer	PALLIATES_CpD
+DB00443	Betamethasone	DOID:219	colon cancer	PALLIATES_CpD
+DB00443	Betamethasone	DOID:263	kidney cancer	PALLIATES_CpD
+DB00443	Betamethasone	DOID:10283	prostate cancer	PALLIATES_CpD
 DB00195	Betaxolol	DOID:1686	glaucoma	TREATS_CtD
 DB00195	Betaxolol	DOID:10763	hypertension	TREATS_CtD
 DB00307	Bexarotene	DOID:2531	hematologic cancer	TREATS_CtD
@@ -117,14 +117,14 @@ DB00290	Bleomycin	DOID:2998	testicular cancer	TREATS_CtD
 DB00188	Bortezomib	DOID:2531	hematologic cancer	TREATS_CtD
 DB00484	Brimonidine	DOID:1686	glaucoma	TREATS_CtD
 DB01194	Brinzolamide	DOID:1686	glaucoma	TREATS_CtD
-DB01200	Bromocriptine	DOID:14330	Parkinson's disease	PALLIATES_CpD
 DB01200	Bromocriptine	DOID:9352	type 2 diabetes mellitus	TREATS_CtD
+DB01200	Bromocriptine	DOID:14330	Parkinson's disease	PALLIATES_CpD
 DB01222	Budesonide	DOID:2841	asthma	TREATS_CtD
 DB01222	Budesonide	DOID:8577	ulcerative colitis	TREATS_CtD
-DB00887	Bumetanide	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00887	Bumetanide	DOID:10763	hypertension	TREATS_CtD
-DB01156	Bupropion	DOID:1094	attention deficit hyperactivity disorder	PALLIATES_CpD
+DB00887	Bumetanide	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB01156	Bupropion	DOID:9970	obesity	TREATS_CtD
+DB01156	Bupropion	DOID:1094	attention deficit hyperactivity disorder	PALLIATES_CpD
 DB01156	Bupropion	DOID:594	panic disorder	PALLIATES_CpD
 DB00490	Buspirone	DOID:594	panic disorder	PALLIATES_CpD
 DB01008	Busulfan	DOID:2531	hematologic cancer	TREATS_CtD
@@ -133,11 +133,11 @@ DB06772	Cabazitaxel	DOID:10283	prostate cancer	TREATS_CtD
 DB00248	Cabergoline	DOID:14330	Parkinson's disease	PALLIATES_CpD
 DB00201	Caffeine	DOID:6364	migraine	PALLIATES_CpD
 DB02300	Calcipotriol	DOID:8893	psoriasis	TREATS_CtD
-DB00136	Calcitriol	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00136	Calcitriol	DOID:11476	osteoporosis	TREATS_CtD
 DB00136	Calcitriol	DOID:8893	psoriasis	TREATS_CtD
-DB00258	Calcium Acetate	DOID:784	chronic kidney failure	PALLIATES_CpD
+DB00136	Calcitriol	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00258	Calcium Acetate	DOID:11476	osteoporosis	TREATS_CtD
+DB00258	Calcium Acetate	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00796	Candesartan	DOID:10763	hypertension	TREATS_CtD
 DB01101	Capecitabine	DOID:1612	breast cancer	TREATS_CtD
 DB01101	Capecitabine	DOID:219	colon cancer	TREATS_CtD
@@ -149,8 +149,8 @@ DB01197	Captopril	DOID:3393	coronary artery disease	TREATS_CtD
 DB01197	Captopril	DOID:10763	hypertension	TREATS_CtD
 DB01197	Captopril	DOID:418	systemic scleroderma	TREATS_CtD
 DB00411	Carbachol	DOID:1686	glaucoma	TREATS_CtD
-DB00564	Carbamazepine	DOID:3312	bipolar disorder	PALLIATES_CpD
 DB00564	Carbamazepine	DOID:1826	epilepsy syndrome	TREATS_CtD
+DB00564	Carbamazepine	DOID:3312	bipolar disorder	PALLIATES_CpD
 DB00564	Carbamazepine	DOID:2377	multiple sclerosis	PALLIATES_CpD
 DB00564	Carbamazepine	DOID:0050425	restless legs syndrome	PALLIATES_CpD
 DB00564	Carbamazepine	DOID:5419	schizophrenia	PALLIATES_CpD
@@ -194,10 +194,10 @@ DB00477	Chlorpromazine	DOID:12995	conduct disorder	PALLIATES_CpD
 DB00477	Chlorpromazine	DOID:5419	schizophrenia	PALLIATES_CpD
 DB00672	Chlorpropamide	DOID:9352	type 2 diabetes mellitus	TREATS_CtD
 DB00310	Chlorthalidone	DOID:10763	hypertension	TREATS_CtD
-DB00169	Cholecalciferol	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00169	Cholecalciferol	DOID:11476	osteoporosis	TREATS_CtD
 DB00169	Cholecalciferol	DOID:8893	psoriasis	TREATS_CtD
 DB00169	Cholecalciferol	DOID:8577	ulcerative colitis	TREATS_CtD
+DB00169	Cholecalciferol	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00122	Choline	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB01410	Ciclesonide	DOID:2841	asthma	TREATS_CtD
 DB01166	Cilostazol	DOID:418	systemic scleroderma	PALLIATES_CpD
@@ -224,19 +224,19 @@ DB01013	Clobetasol propionate	DOID:8893	psoriasis	TREATS_CtD
 DB00631	Clofarabine	DOID:2531	hematologic cancer	TREATS_CtD
 DB00882	Clomifene	DOID:14227	azoospermia	TREATS_CtD
 DB01242	Clomipramine	DOID:594	panic disorder	PALLIATES_CpD
+DB01068	Clonazepam	DOID:1826	epilepsy syndrome	TREATS_CtD
 DB01068	Clonazepam	DOID:14330	Parkinson's disease	PALLIATES_CpD
 DB01068	Clonazepam	DOID:12849	autistic disorder	PALLIATES_CpD
 DB01068	Clonazepam	DOID:3312	bipolar disorder	PALLIATES_CpD
-DB01068	Clonazepam	DOID:1826	epilepsy syndrome	TREATS_CtD
 DB01068	Clonazepam	DOID:2377	multiple sclerosis	PALLIATES_CpD
 DB01068	Clonazepam	DOID:594	panic disorder	PALLIATES_CpD
 DB01068	Clonazepam	DOID:0050425	restless legs syndrome	PALLIATES_CpD
 DB01068	Clonazepam	DOID:5419	schizophrenia	PALLIATES_CpD
+DB00575	Clonidine	DOID:1686	glaucoma	TREATS_CtD
+DB00575	Clonidine	DOID:10763	hypertension	TREATS_CtD
 DB00575	Clonidine	DOID:11119	Gilles de la Tourette syndrome	PALLIATES_CpD
 DB00575	Clonidine	DOID:1094	attention deficit hyperactivity disorder	PALLIATES_CpD
 DB00575	Clonidine	DOID:12849	autistic disorder	PALLIATES_CpD
-DB00575	Clonidine	DOID:1686	glaucoma	TREATS_CtD
-DB00575	Clonidine	DOID:10763	hypertension	TREATS_CtD
 DB00575	Clonidine	DOID:0050425	restless legs syndrome	PALLIATES_CpD
 DB00758	Clopidogrel	DOID:3393	coronary artery disease	TREATS_CtD
 DB00363	Clozapine	DOID:3312	bipolar disorder	PALLIATES_CpD
@@ -245,9 +245,9 @@ DB00318	Codeine	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB01394	Colchicine	DOID:13189	gout	TREATS_CtD
 DB01394	Colchicine	DOID:12236	primary biliary cirrhosis	TREATS_CtD
 DB01394	Colchicine	DOID:418	systemic scleroderma	PALLIATES_CpD
-DB00286	Conjugated Estrogens	DOID:1612	breast cancer	PALLIATES_CpD
 DB00286	Conjugated Estrogens	DOID:11476	osteoporosis	TREATS_CtD
 DB00286	Conjugated Estrogens	DOID:10283	prostate cancer	TREATS_CtD
+DB00286	Conjugated Estrogens	DOID:1612	breast cancer	PALLIATES_CpD
 DB08865	Crizotinib	DOID:1324	lung cancer	TREATS_CtD
 DB01003	Cromoglicic acid	DOID:2841	asthma	TREATS_CtD
 DB00924	Cyclobenzaprine	DOID:6364	migraine	PALLIATES_CpD
@@ -296,18 +296,18 @@ DB01234	Dexamethasone	DOID:4481	allergic rhinitis	TREATS_CtD
 DB01234	Dexamethasone	DOID:7147	ankylosing spondylitis	TREATS_CtD
 DB01234	Dexamethasone	DOID:2841	asthma	TREATS_CtD
 DB01234	Dexamethasone	DOID:3310	atopic dermatitis	TREATS_CtD
-DB01234	Dexamethasone	DOID:1319	brain cancer	PALLIATES_CpD
-DB01234	Dexamethasone	DOID:1612	breast cancer	PALLIATES_CpD
-DB01234	Dexamethasone	DOID:219	colon cancer	PALLIATES_CpD
 DB01234	Dexamethasone	DOID:2531	hematologic cancer	TREATS_CtD
-DB01234	Dexamethasone	DOID:263	kidney cancer	PALLIATES_CpD
 DB01234	Dexamethasone	DOID:2377	multiple sclerosis	TREATS_CtD
-DB01234	Dexamethasone	DOID:10283	prostate cancer	PALLIATES_CpD
 DB01234	Dexamethasone	DOID:8893	psoriasis	TREATS_CtD
 DB01234	Dexamethasone	DOID:9008	psoriatic arthritis	TREATS_CtD
 DB01234	Dexamethasone	DOID:7148	rheumatoid arthritis	TREATS_CtD
 DB01234	Dexamethasone	DOID:9074	systemic lupus erythematosus	TREATS_CtD
 DB01234	Dexamethasone	DOID:8577	ulcerative colitis	TREATS_CtD
+DB01234	Dexamethasone	DOID:1319	brain cancer	PALLIATES_CpD
+DB01234	Dexamethasone	DOID:1612	breast cancer	PALLIATES_CpD
+DB01234	Dexamethasone	DOID:219	colon cancer	PALLIATES_CpD
+DB01234	Dexamethasone	DOID:263	kidney cancer	PALLIATES_CpD
+DB01234	Dexamethasone	DOID:10283	prostate cancer	PALLIATES_CpD
 DB01576	Dextroamphetamine	DOID:1094	attention deficit hyperactivity disorder	PALLIATES_CpD
 DB01576	Dextroamphetamine	DOID:8986	narcolepsy	PALLIATES_CpD
 DB00514	Dextromethorphan	DOID:332	amyotrophic lateral sclerosis	PALLIATES_CpD
@@ -330,14 +330,14 @@ DB00861	Diflunisal	DOID:7148	rheumatoid arthritis	PALLIATES_CpD
 DB00390	Digoxin	DOID:3393	coronary artery disease	PALLIATES_CpD
 DB00390	Digoxin	DOID:12930	dilated cardiomyopathy	PALLIATES_CpD
 DB00320	Dihydroergotamine	DOID:6364	migraine	PALLIATES_CpD
-DB00343	Diltiazem	DOID:3393	coronary artery disease	PALLIATES_CpD
 DB00343	Diltiazem	DOID:10763	hypertension	TREATS_CtD
+DB00343	Diltiazem	DOID:3393	coronary artery disease	PALLIATES_CpD
 DB00985	Dimenhydrinate	DOID:4481	allergic rhinitis	TREATS_CtD
 DB00985	Dimenhydrinate	DOID:3310	atopic dermatitis	TREATS_CtD
 DB00985	Dimenhydrinate	DOID:5419	schizophrenia	PALLIATES_CpD
-DB01075	Diphenhydramine	DOID:14330	Parkinson's disease	PALLIATES_CpD
 DB01075	Diphenhydramine	DOID:4481	allergic rhinitis	TREATS_CtD
 DB01075	Diphenhydramine	DOID:3310	atopic dermatitis	TREATS_CtD
+DB01075	Diphenhydramine	DOID:14330	Parkinson's disease	PALLIATES_CpD
 DB01075	Diphenhydramine	DOID:5419	schizophrenia	PALLIATES_CpD
 DB00449	Dipivefrin	DOID:1686	glaucoma	TREATS_CtD
 DB00975	Dipyridamole	DOID:3393	coronary artery disease	PALLIATES_CpD
@@ -372,8 +372,8 @@ DB00997	Doxorubicin	DOID:2998	testicular cancer	TREATS_CtD
 DB00997	Doxorubicin	DOID:1781	thyroid cancer	TREATS_CtD
 DB00997	Doxorubicin	DOID:11054	urinary bladder cancer	TREATS_CtD
 DB00997	Doxorubicin	DOID:363	uterine cancer	TREATS_CtD
-DB00254	Doxycycline	DOID:3083	chronic obstructive pulmonary disease	PALLIATES_CpD
 DB00254	Doxycycline	DOID:12365	malaria	TREATS_CtD
+DB00254	Doxycycline	DOID:3083	chronic obstructive pulmonary disease	PALLIATES_CpD
 DB01395	Drospirenone	DOID:11612	polycystic ovary syndrome	PALLIATES_CpD
 DB00476	Duloxetine	DOID:3312	bipolar disorder	PALLIATES_CpD
 DB00476	Duloxetine	DOID:1595	endogenous depression	PALLIATES_CpD
@@ -423,23 +423,23 @@ DB00736	Esomeprazole	DOID:5041	esophageal cancer	PALLIATES_CpD
 DB00736	Esomeprazole	DOID:263	kidney cancer	PALLIATES_CpD
 DB00736	Esomeprazole	DOID:10283	prostate cancer	PALLIATES_CpD
 DB00736	Esomeprazole	DOID:418	systemic scleroderma	PALLIATES_CpD
-DB00783	Estradiol	DOID:1612	breast cancer	PALLIATES_CpD
 DB00783	Estradiol	DOID:11476	osteoporosis	TREATS_CtD
 DB00783	Estradiol	DOID:10283	prostate cancer	TREATS_CtD
-DB08866	Estradiol valerate/Dienogest	DOID:1612	breast cancer	PALLIATES_CpD
+DB00783	Estradiol	DOID:1612	breast cancer	PALLIATES_CpD
 DB08866	Estradiol valerate/Dienogest	DOID:10283	prostate cancer	TREATS_CtD
+DB08866	Estradiol valerate/Dienogest	DOID:1612	breast cancer	PALLIATES_CpD
 DB01196	Estramustine	DOID:10283	prostate cancer	TREATS_CtD
-DB00655	Estrone	DOID:1612	breast cancer	PALLIATES_CpD
 DB00655	Estrone	DOID:10283	prostate cancer	TREATS_CtD
+DB00655	Estrone	DOID:1612	breast cancer	PALLIATES_CpD
 DB04574	Estropipate	DOID:11476	osteoporosis	TREATS_CtD
 DB00402	Eszopiclone	DOID:2377	multiple sclerosis	PALLIATES_CpD
 DB00402	Eszopiclone	DOID:5419	schizophrenia	PALLIATES_CpD
-DB00903	Ethacrynic acid	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00903	Ethacrynic acid	DOID:10763	hypertension	TREATS_CtD
-DB00977	Ethinyl Estradiol	DOID:1612	breast cancer	PALLIATES_CpD
+DB00903	Ethacrynic acid	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00977	Ethinyl Estradiol	DOID:11476	osteoporosis	TREATS_CtD
-DB00977	Ethinyl Estradiol	DOID:11612	polycystic ovary syndrome	PALLIATES_CpD
 DB00977	Ethinyl Estradiol	DOID:10283	prostate cancer	TREATS_CtD
+DB00977	Ethinyl Estradiol	DOID:1612	breast cancer	PALLIATES_CpD
+DB00977	Ethinyl Estradiol	DOID:11612	polycystic ovary syndrome	PALLIATES_CpD
 DB01077	Etidronic acid	DOID:5408	Paget's disease of bone	TREATS_CtD
 DB01077	Etidronic acid	DOID:11476	osteoporosis	TREATS_CtD
 DB00749	Etodolac	DOID:8398	osteoarthritis	PALLIATES_CpD
@@ -499,14 +499,14 @@ DB00492	Fosinopril	DOID:10763	hypertension	TREATS_CtD
 DB01320	Fosphenytoin	DOID:1826	epilepsy syndrome	TREATS_CtD
 DB00998	Frovatriptan	DOID:6364	migraine	PALLIATES_CpD
 DB00947	Fulvestrant	DOID:1612	breast cancer	TREATS_CtD
-DB00695	Furosemide	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00695	Furosemide	DOID:3393	coronary artery disease	TREATS_CtD
 DB00695	Furosemide	DOID:12930	dilated cardiomyopathy	TREATS_CtD
 DB00695	Furosemide	DOID:10763	hypertension	TREATS_CtD
-DB00996	Gabapentin	DOID:14330	Parkinson's disease	PALLIATES_CpD
-DB00996	Gabapentin	DOID:3312	bipolar disorder	PALLIATES_CpD
+DB00695	Furosemide	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00996	Gabapentin	DOID:1826	epilepsy syndrome	TREATS_CtD
 DB00996	Gabapentin	DOID:6364	migraine	TREATS_CtD
+DB00996	Gabapentin	DOID:14330	Parkinson's disease	PALLIATES_CpD
+DB00996	Gabapentin	DOID:3312	bipolar disorder	PALLIATES_CpD
 DB00996	Gabapentin	DOID:2377	multiple sclerosis	PALLIATES_CpD
 DB00996	Gabapentin	DOID:0050425	restless legs syndrome	PALLIATES_CpD
 DB00996	Gabapentin	DOID:7148	rheumatoid arthritis	PALLIATES_CpD
@@ -532,8 +532,8 @@ DB00014	Goserelin	DOID:10283	prostate cancer	TREATS_CtD
 DB00629	Guanabenz	DOID:10763	hypertension	TREATS_CtD
 DB00226	Guanadrel	DOID:10763	hypertension	TREATS_CtD
 DB01170	Guanethidine	DOID:10763	hypertension	TREATS_CtD
-DB01018	Guanfacine	DOID:1094	attention deficit hyperactivity disorder	PALLIATES_CpD
 DB01018	Guanfacine	DOID:10763	hypertension	TREATS_CtD
+DB01018	Guanfacine	DOID:1094	attention deficit hyperactivity disorder	PALLIATES_CpD
 DB00502	Haloperidol	DOID:10652	Alzheimer's disease	PALLIATES_CpD
 DB00502	Haloperidol	DOID:11119	Gilles de la Tourette syndrome	PALLIATES_CpD
 DB00502	Haloperidol	DOID:12995	conduct disorder	PALLIATES_CpD
@@ -545,20 +545,20 @@ DB00741	Hydrocortisone	DOID:4481	allergic rhinitis	TREATS_CtD
 DB00741	Hydrocortisone	DOID:2841	asthma	TREATS_CtD
 DB00741	Hydrocortisone	DOID:3310	atopic dermatitis	TREATS_CtD
 DB00741	Hydrocortisone	DOID:13189	gout	TREATS_CtD
-DB00741	Hydrocortisone	DOID:263	kidney cancer	PALLIATES_CpD
-DB00741	Hydrocortisone	DOID:10283	prostate cancer	PALLIATES_CpD
 DB00741	Hydrocortisone	DOID:8893	psoriasis	TREATS_CtD
 DB00741	Hydrocortisone	DOID:7148	rheumatoid arthritis	TREATS_CtD
 DB00741	Hydrocortisone	DOID:9074	systemic lupus erythematosus	TREATS_CtD
 DB00741	Hydrocortisone	DOID:8577	ulcerative colitis	TREATS_CtD
+DB00741	Hydrocortisone	DOID:263	kidney cancer	PALLIATES_CpD
+DB00741	Hydrocortisone	DOID:10283	prostate cancer	PALLIATES_CpD
 DB00774	Hydroflumethiazide	DOID:10763	hypertension	TREATS_CtD
 DB01005	Hydroxyurea	DOID:1319	brain cancer	TREATS_CtD
 DB01005	Hydroxyurea	DOID:11934	head and neck cancer	TREATS_CtD
 DB01005	Hydroxyurea	DOID:2531	hematologic cancer	TREATS_CtD
 DB01005	Hydroxyurea	DOID:8893	psoriasis	TREATS_CtD
+DB00424	Hyoscyamine	DOID:4989	pancreatitis	TREATS_CtD
 DB00424	Hyoscyamine	DOID:8778	Crohn's disease	PALLIATES_CpD
 DB00424	Hyoscyamine	DOID:14330	Parkinson's disease	PALLIATES_CpD
-DB00424	Hyoscyamine	DOID:4989	pancreatitis	TREATS_CtD
 DB00710	Ibandronate	DOID:11476	osteoporosis	TREATS_CtD
 DB01050	Ibuprofen	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB01177	Idarubicin	DOID:1612	breast cancer	TREATS_CtD
@@ -574,8 +574,8 @@ DB00724	Imiquimod	DOID:4159	skin cancer	TREATS_CtD
 DB05039	Indacaterol	DOID:2841	asthma	TREATS_CtD
 DB00808	Indapamide	DOID:10763	hypertension	TREATS_CtD
 DB00224	Indinavir	DOID:635	acquired immunodeficiency syndrome	TREATS_CtD
-DB00328	Indomethacin	DOID:7147	ankylosing spondylitis	PALLIATES_CpD
 DB00328	Indomethacin	DOID:13189	gout	TREATS_CtD
+DB00328	Indomethacin	DOID:7147	ankylosing spondylitis	PALLIATES_CpD
 DB00328	Indomethacin	DOID:6364	migraine	PALLIATES_CpD
 DB00328	Indomethacin	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB00328	Indomethacin	DOID:7148	rheumatoid arthritis	PALLIATES_CpD
@@ -604,8 +604,8 @@ DB00598	Labetalol	DOID:10763	hypertension	TREATS_CtD
 DB06218	Lacosamide	DOID:1826	epilepsy syndrome	TREATS_CtD
 DB00709	Lamivudine	DOID:635	acquired immunodeficiency syndrome	TREATS_CtD
 DB00709	Lamivudine	DOID:2043	hepatitis B	TREATS_CtD
-DB00555	Lamotrigine	DOID:3312	bipolar disorder	PALLIATES_CpD
 DB00555	Lamotrigine	DOID:1826	epilepsy syndrome	TREATS_CtD
+DB00555	Lamotrigine	DOID:3312	bipolar disorder	PALLIATES_CpD
 DB00555	Lamotrigine	DOID:5419	schizophrenia	PALLIATES_CpD
 DB01259	Lapatinib	DOID:1612	breast cancer	TREATS_CtD
 DB00654	Latanoprost	DOID:1686	glaucoma	TREATS_CtD
@@ -648,12 +648,12 @@ DB00408	Loxapine	DOID:5419	schizophrenia	PALLIATES_CpD
 DB01397	Magnesium salicylate	DOID:8893	psoriasis	PALLIATES_CpD
 DB00742	Mannitol	DOID:1686	glaucoma	PALLIATES_CpD
 DB00934	Maprotiline	DOID:594	panic disorder	PALLIATES_CpD
-DB00657	Mecamylamine	DOID:11119	Gilles de la Tourette syndrome	PALLIATES_CpD
 DB00657	Mecamylamine	DOID:10763	hypertension	TREATS_CtD
+DB00657	Mecamylamine	DOID:11119	Gilles de la Tourette syndrome	PALLIATES_CpD
 DB00888	Mechlorethamine	DOID:2531	hematologic cancer	TREATS_CtD
 DB00888	Mechlorethamine	DOID:0060073	lymphatic system cancer	TREATS_CtD
-DB00603	Medroxyprogesterone Acetate	DOID:1612	breast cancer	PALLIATES_CpD
 DB00603	Medroxyprogesterone Acetate	DOID:363	uterine cancer	TREATS_CtD
+DB00603	Medroxyprogesterone Acetate	DOID:1612	breast cancer	PALLIATES_CpD
 DB00351	Megestrol acetate	DOID:1612	breast cancer	PALLIATES_CpD
 DB00814	Meloxicam	DOID:7147	ankylosing spondylitis	PALLIATES_CpD
 DB00814	Meloxicam	DOID:8398	osteoarthritis	PALLIATES_CpD
@@ -675,9 +675,9 @@ DB00933	Mesoridazine	DOID:5419	schizophrenia	PALLIATES_CpD
 DB00331	Metformin	DOID:14221	metabolic syndrome X	TREATS_CtD
 DB00331	Metformin	DOID:11612	polycystic ovary syndrome	TREATS_CtD
 DB00331	Metformin	DOID:9352	type 2 diabetes mellitus	TREATS_CtD
+DB01577	Methamphetamine	DOID:9970	obesity	TREATS_CtD
 DB01577	Methamphetamine	DOID:1094	attention deficit hyperactivity disorder	PALLIATES_CpD
 DB01577	Methamphetamine	DOID:8986	narcolepsy	PALLIATES_CpD
-DB01577	Methamphetamine	DOID:9970	obesity	TREATS_CtD
 DB00703	Methazolamide	DOID:1686	glaucoma	TREATS_CtD
 DB00763	Methimazole	DOID:12361	Graves' disease	TREATS_CtD
 DB00563	Methotrexate	DOID:7147	ankylosing spondylitis	TREATS_CtD
@@ -709,15 +709,15 @@ DB00959	Methylprednisolone	DOID:4481	allergic rhinitis	TREATS_CtD
 DB00959	Methylprednisolone	DOID:7147	ankylosing spondylitis	TREATS_CtD
 DB00959	Methylprednisolone	DOID:2841	asthma	TREATS_CtD
 DB00959	Methylprednisolone	DOID:3310	atopic dermatitis	TREATS_CtD
-DB00959	Methylprednisolone	DOID:1319	brain cancer	PALLIATES_CpD
 DB00959	Methylprednisolone	DOID:13189	gout	TREATS_CtD
-DB00959	Methylprednisolone	DOID:2531	hematologic cancer	PALLIATES_CpD
 DB00959	Methylprednisolone	DOID:2377	multiple sclerosis	TREATS_CtD
-DB00959	Methylprednisolone	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB00959	Methylprednisolone	DOID:9008	psoriatic arthritis	TREATS_CtD
 DB00959	Methylprednisolone	DOID:7148	rheumatoid arthritis	TREATS_CtD
 DB00959	Methylprednisolone	DOID:9074	systemic lupus erythematosus	TREATS_CtD
 DB00959	Methylprednisolone	DOID:8577	ulcerative colitis	TREATS_CtD
+DB00959	Methylprednisolone	DOID:1319	brain cancer	PALLIATES_CpD
+DB00959	Methylprednisolone	DOID:2531	hematologic cancer	PALLIATES_CpD
+DB00959	Methylprednisolone	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB06710	Methyltestosterone	DOID:1612	breast cancer	PALLIATES_CpD
 DB01214	Metipranolol	DOID:1686	glaucoma	TREATS_CtD
 DB01233	Metoclopramide	DOID:6364	migraine	PALLIATES_CpD
@@ -759,8 +759,8 @@ DB00461	Nabumetone	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB00461	Nabumetone	DOID:7148	rheumatoid arthritis	PALLIATES_CpD
 DB01203	Nadolol	DOID:10763	hypertension	TREATS_CtD
 DB00704	Naltrexone	DOID:0050741	alcohol dependence	TREATS_CtD
-DB00788	Naproxen	DOID:7147	ankylosing spondylitis	PALLIATES_CpD
 DB00788	Naproxen	DOID:13189	gout	TREATS_CtD
+DB00788	Naproxen	DOID:7147	ankylosing spondylitis	PALLIATES_CpD
 DB00788	Naproxen	DOID:6364	migraine	PALLIATES_CpD
 DB00788	Naproxen	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB00788	Naproxen	DOID:7148	rheumatoid arthritis	PALLIATES_CpD
@@ -776,10 +776,10 @@ DB00238	Nevirapine	DOID:635	acquired immunodeficiency syndrome	TREATS_CtD
 DB00627	Niacin	DOID:1936	atherosclerosis	TREATS_CtD
 DB00627	Niacin	DOID:3393	coronary artery disease	TREATS_CtD
 DB00622	Nicardipine	DOID:10763	hypertension	TREATS_CtD
-DB00184	Nicotine	DOID:0050742	nicotine dependence	PALLIATES_CpD
 DB00184	Nicotine	DOID:8577	ulcerative colitis	TREATS_CtD
-DB01115	Nifedipine	DOID:3393	coronary artery disease	PALLIATES_CpD
+DB00184	Nicotine	DOID:0050742	nicotine dependence	PALLIATES_CpD
 DB01115	Nifedipine	DOID:10763	hypertension	TREATS_CtD
+DB01115	Nifedipine	DOID:3393	coronary artery disease	PALLIATES_CpD
 DB01115	Nifedipine	DOID:418	systemic scleroderma	PALLIATES_CpD
 DB04868	Nilotinib	DOID:2531	hematologic cancer	TREATS_CtD
 DB00665	Nilutamide	DOID:10283	prostate cancer	TREATS_CtD
@@ -790,9 +790,9 @@ DB00540	Nortriptyline	DOID:1094	attention deficit hyperactivity disorder	PALLIAT
 DB00540	Nortriptyline	DOID:1595	endogenous depression	PALLIATES_CpD
 DB00540	Nortriptyline	DOID:2377	multiple sclerosis	PALLIATES_CpD
 DB00540	Nortriptyline	DOID:594	panic disorder	PALLIATES_CpD
+DB00104	Octreotide	DOID:3277	thymus cancer	TREATS_CtD
 DB00104	Octreotide	DOID:1793	pancreatic cancer	PALLIATES_CpD
 DB00104	Octreotide	DOID:4989	pancreatitis	PALLIATES_CpD
-DB00104	Octreotide	DOID:3277	thymus cancer	TREATS_CtD
 DB00104	Octreotide	DOID:9744	type 1 diabetes mellitus	PALLIATES_CpD
 DB01165	Ofloxacin	DOID:3083	chronic obstructive pulmonary disease	PALLIATES_CpD
 DB00334	Olanzapine	DOID:11119	Gilles de la Tourette syndrome	PALLIATES_CpD
@@ -816,8 +816,8 @@ DB01173	Orphenadrine	DOID:6364	migraine	PALLIATES_CpD
 DB00621	Oxandrolone	DOID:11476	osteoporosis	PALLIATES_CpD
 DB00991	Oxaprozin	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB00991	Oxaprozin	DOID:7148	rheumatoid arthritis	PALLIATES_CpD
-DB00776	Oxcarbazepine	DOID:3312	bipolar disorder	PALLIATES_CpD
 DB00776	Oxcarbazepine	DOID:1826	epilepsy syndrome	TREATS_CtD
+DB00776	Oxcarbazepine	DOID:3312	bipolar disorder	PALLIATES_CpD
 DB00776	Oxcarbazepine	DOID:2377	multiple sclerosis	PALLIATES_CpD
 DB00935	Oxymetazoline	DOID:4481	allergic rhinitis	PALLIATES_CpD
 DB01229	Paclitaxel	DOID:1612	breast cancer	TREATS_CtD
@@ -875,13 +875,13 @@ DB00860	Prednisolone	DOID:3310	atopic dermatitis	TREATS_CtD
 DB00860	Prednisolone	DOID:3083	chronic obstructive pulmonary disease	TREATS_CtD
 DB00860	Prednisolone	DOID:13189	gout	TREATS_CtD
 DB00860	Prednisolone	DOID:2531	hematologic cancer	TREATS_CtD
-DB00860	Prednisolone	DOID:0050156	idiopathic pulmonary fibrosis	PALLIATES_CpD
 DB00860	Prednisolone	DOID:2377	multiple sclerosis	TREATS_CtD
 DB00860	Prednisolone	DOID:8893	psoriasis	TREATS_CtD
 DB00860	Prednisolone	DOID:9008	psoriatic arthritis	TREATS_CtD
 DB00860	Prednisolone	DOID:7148	rheumatoid arthritis	TREATS_CtD
 DB00860	Prednisolone	DOID:9074	systemic lupus erythematosus	TREATS_CtD
 DB00860	Prednisolone	DOID:8577	ulcerative colitis	TREATS_CtD
+DB00860	Prednisolone	DOID:0050156	idiopathic pulmonary fibrosis	PALLIATES_CpD
 DB00635	Prednisone	DOID:8778	Crohn's disease	TREATS_CtD
 DB00635	Prednisone	DOID:7147	ankylosing spondylitis	TREATS_CtD
 DB00635	Prednisone	DOID:2841	asthma	TREATS_CtD
@@ -889,9 +889,7 @@ DB00635	Prednisone	DOID:3310	atopic dermatitis	TREATS_CtD
 DB00635	Prednisone	DOID:3083	chronic obstructive pulmonary disease	TREATS_CtD
 DB00635	Prednisone	DOID:13189	gout	TREATS_CtD
 DB00635	Prednisone	DOID:2531	hematologic cancer	TREATS_CtD
-DB00635	Prednisone	DOID:6364	migraine	PALLIATES_CpD
 DB00635	Prednisone	DOID:2377	multiple sclerosis	TREATS_CtD
-DB00635	Prednisone	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB00635	Prednisone	DOID:10283	prostate cancer	TREATS_CtD
 DB00635	Prednisone	DOID:8893	psoriasis	TREATS_CtD
 DB00635	Prednisone	DOID:9008	psoriatic arthritis	TREATS_CtD
@@ -899,6 +897,8 @@ DB00635	Prednisone	DOID:7148	rheumatoid arthritis	TREATS_CtD
 DB00635	Prednisone	DOID:9074	systemic lupus erythematosus	TREATS_CtD
 DB00635	Prednisone	DOID:418	systemic scleroderma	TREATS_CtD
 DB00635	Prednisone	DOID:8577	ulcerative colitis	TREATS_CtD
+DB00635	Prednisone	DOID:6364	migraine	PALLIATES_CpD
+DB00635	Prednisone	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB00230	Pregabalin	DOID:1826	epilepsy syndrome	TREATS_CtD
 DB00230	Pregabalin	DOID:2377	multiple sclerosis	PALLIATES_CpD
 DB00230	Pregabalin	DOID:0050425	restless legs syndrome	PALLIATES_CpD
@@ -961,9 +961,9 @@ DB01098	Rosuvastatin	DOID:3393	coronary artery disease	TREATS_CtD
 DB05271	Rotigotine	DOID:14330	Parkinson's disease	PALLIATES_CpD
 DB06201	Rufinamide	DOID:1826	epilepsy syndrome	TREATS_CtD
 DB08877	Ruxolitinib	DOID:2531	hematologic cancer	TREATS_CtD
-DB01001	Salbutamol	DOID:4481	allergic rhinitis	PALLIATES_CpD
 DB01001	Salbutamol	DOID:2841	asthma	TREATS_CtD
 DB01001	Salbutamol	DOID:3083	chronic obstructive pulmonary disease	TREATS_CtD
+DB01001	Salbutamol	DOID:4481	allergic rhinitis	PALLIATES_CpD
 DB01398	Salicylate-sodium	DOID:8893	psoriasis	PALLIATES_CpD
 DB00936	Salicylic acid	DOID:8893	psoriasis	PALLIATES_CpD
 DB00938	Salmeterol	DOID:2841	asthma	TREATS_CtD
@@ -1050,16 +1050,16 @@ DB00500	Tolmetin	DOID:7147	ankylosing spondylitis	PALLIATES_CpD
 DB00500	Tolmetin	DOID:8398	osteoarthritis	PALLIATES_CpD
 DB00500	Tolmetin	DOID:7148	rheumatoid arthritis	PALLIATES_CpD
 DB01036	Tolterodine	DOID:2377	multiple sclerosis	PALLIATES_CpD
-DB00273	Topiramate	DOID:3312	bipolar disorder	PALLIATES_CpD
 DB00273	Topiramate	DOID:1826	epilepsy syndrome	TREATS_CtD
 DB00273	Topiramate	DOID:6364	migraine	TREATS_CtD
 DB00273	Topiramate	DOID:9970	obesity	TREATS_CtD
+DB00273	Topiramate	DOID:3312	bipolar disorder	PALLIATES_CpD
 DB01030	Topotecan	DOID:4362	cervical cancer	TREATS_CtD
 DB01030	Topotecan	DOID:1324	lung cancer	TREATS_CtD
 DB01030	Topotecan	DOID:2394	ovarian cancer	TREATS_CtD
 DB01030	Topotecan	DOID:1192	peripheral nervous system neoplasm	TREATS_CtD
-DB00214	Torasemide	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00214	Torasemide	DOID:10763	hypertension	TREATS_CtD
+DB00214	Torasemide	DOID:784	chronic kidney failure	PALLIATES_CpD
 DB00539	Toremifene	DOID:1612	breast cancer	TREATS_CtD
 DB00193	Tramadol	DOID:0050425	restless legs syndrome	PALLIATES_CpD
 DB00519	Trandolapril	DOID:3393	coronary artery disease	TREATS_CtD
@@ -1074,7 +1074,6 @@ DB00620	Triamcinolone	DOID:986	alopecia areata	TREATS_CtD
 DB00620	Triamcinolone	DOID:7147	ankylosing spondylitis	TREATS_CtD
 DB00620	Triamcinolone	DOID:2841	asthma	TREATS_CtD
 DB00620	Triamcinolone	DOID:3310	atopic dermatitis	TREATS_CtD
-DB00620	Triamcinolone	DOID:1319	brain cancer	PALLIATES_CpD
 DB00620	Triamcinolone	DOID:2531	hematologic cancer	TREATS_CtD
 DB00620	Triamcinolone	DOID:2377	multiple sclerosis	TREATS_CtD
 DB00620	Triamcinolone	DOID:8893	psoriasis	TREATS_CtD
@@ -1082,6 +1081,7 @@ DB00620	Triamcinolone	DOID:9008	psoriatic arthritis	TREATS_CtD
 DB00620	Triamcinolone	DOID:7148	rheumatoid arthritis	TREATS_CtD
 DB00620	Triamcinolone	DOID:9074	systemic lupus erythematosus	TREATS_CtD
 DB00620	Triamcinolone	DOID:8577	ulcerative colitis	TREATS_CtD
+DB00620	Triamcinolone	DOID:1319	brain cancer	PALLIATES_CpD
 DB00384	Triamterene	DOID:10763	hypertension	TREATS_CtD
 DB00831	Trifluoperazine	DOID:5419	schizophrenia	PALLIATES_CpD
 DB00376	Trihexyphenidyl	DOID:14330	Parkinson's disease	PALLIATES_CpD
@@ -1090,10 +1090,10 @@ DB00427	Triprolidine	DOID:3310	atopic dermatitis	PALLIATES_CpD
 DB01401	Trisalicylate-choline	DOID:8893	psoriasis	PALLIATES_CpD
 DB01401	Trisalicylate-choline	DOID:7148	rheumatoid arthritis	PALLIATES_CpD
 DB01586	Ursodeoxycholic acid	DOID:12236	primary biliary cirrhosis	TREATS_CtD
-DB00313	Valproic Acid	DOID:3312	bipolar disorder	PALLIATES_CpD
-DB00313	Valproic Acid	DOID:1595	endogenous depression	PALLIATES_CpD
 DB00313	Valproic Acid	DOID:1826	epilepsy syndrome	TREATS_CtD
 DB00313	Valproic Acid	DOID:6364	migraine	TREATS_CtD
+DB00313	Valproic Acid	DOID:3312	bipolar disorder	PALLIATES_CpD
+DB00313	Valproic Acid	DOID:1595	endogenous depression	PALLIATES_CpD
 DB00313	Valproic Acid	DOID:5419	schizophrenia	PALLIATES_CpD
 DB00385	Valrubicin	DOID:11054	urinary bladder cancer	TREATS_CtD
 DB00177	Valsartan	DOID:3393	coronary artery disease	TREATS_CtD
