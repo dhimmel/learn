@@ -1,76 +1,108 @@
-feature	all_features	perm_affected	feature_type	nonzero	auroc	auroc_permuted	delta_auroc	pval_auroc	fdr_pval_auroc
-CbGaD	1	1	dwpc	0.314	0.716	0.578	0.138	2.94e-06	0.000255
-CbGbCtD	1	1	dwpc	0.73	0.867	0.667	0.199	3e-07	7.28e-05
-CbGeAlDrD	1	1	dwpc	0.948	0.577	0.514	0.0631	0.000356	0.00392
-CbGiGeAlD	1	0.72	dwpc	0.971	0.593	0.552	0.0411	0.000384	0.00405
-CbG<rGaD	1	1	dwpc	0.455	0.613	0.577	0.0367	0.00039	0.00408
-CcSEcCtD	1	1	dwpc	0.95	0.813	0.7	0.113	7.33e-07	0.000127
-CdGaDpCtD	1	1	dwpc	0.172	0.566	0.608	-0.0414	0.00125	0.00831
-CdGbCrCpD	1	1	dwpc	0.027	0.503	0.544	-0.0408	0.000186	0.00263
-CdGdCrCtD	1	0.9	dwpc	0.506	0.678	0.636	0.0421	0.000155	0.00245
-CdGdDpCtD	1	1	dwpc	0.129	0.543	0.595	-0.0519	0.000459	0.00464
-CiPCiCtD	1	1	dwpc	0.134	0.755	0.524	0.231	1.75e-08	2.12e-05
-CpDaGdCtD	1	1	dwpc	0.109	0.533	0.539	-0.00623	0.00166	0.00993
-CpDpCtD	1	1	dwpc	0.0379	0.566	0.525	0.0407	0.000215	0.00288
-CpDpCuGdD	1	1	dwpc	0.0413	0.509	0.522	-0.0131	0.00031	0.00361
-CpDrDpCpD	1	1	dwpc	0.0228	0.52	0.511	0.009	0.00141	0.0089
-CpDrDrD	1	1	dwpc	0.0366	0.529	0.516	0.0123	0.000985	0.00705
-CrC	1	1	degree	0.817	0.515	0.513	0.00257	0.0746	0.137
-CrCbGaDrD	1	0.9	dwpc	0.623	0.574	0.505	0.0684	0.00169	0.00996
-CrCbGcGdD	1	1	dwpc	0.174	0.493	0.527	-0.0345	6.33e-05	0.00155
-CrCcSEcCtD	1	1	dwpc	0.776	0.672	0.595	0.0772	3.1e-05	0.00102
-CrCiPCiCtD	1	1	dwpc	0.138	0.725	0.564	0.161	3.71e-06	0.000264
-CrCrCtD	1	1	dwpc	0.16	0.753	0.593	0.16	5.69e-06	0.000329
-CrCtD	1	1	dwpc	0.124	0.75	0.524	0.225	2.36e-07	7.15e-05
-CtD	1	1	degree	1	0.712	0.707	0.00413	0.137	0.222
-CtDlAlDrD	1	1	dwpc	0.866	0.524	0.427	0.0976	0.00022	0.00288
-CtDpCpD	1	1	dwpc	0.0739	0.574	0.532	0.042	0.000247	0.00303
-CtDpSpDrD	1	1	dwpc	0.86	0.527	0.428	0.0991	0.000191	0.00266
-CtDrD	1	1	dwpc	0.143	0.693	0.525	0.168	1.72e-06	0.000181
-CtDrDrD	1	1	dwpc	0.284	0.69	0.507	0.182	3.68e-06	0.000264
-CtDrDuGaD	1	1	dwpc	0.539	0.578	0.532	0.0459	0.000823	0.00662
-CtDtCtD	1	1	dwpc	0.293	0.747	0.558	0.189	1.56e-06	0.000181
-CuGiGuCpD	1	1	dwpc	0.14	0.565	0.549	0.0159	0.000929	0.00695
-CuGuDpCtD	1	0.58	dwpc	0.144	0.552	0.593	-0.0411	0.000435	0.00447
-DaG	1	1	degree	1	0.676	0.677	-0.000585	0.691	0.765
-DpS	1	0.72	degree	0.986	0.556	0.549	0.00784	0.0312	0.0712
-prior_logit	1	1							
-CbGdCdGaD	0.94	1	dwpc	0.449	0.614	0.554	0.06	1.49e-05	0.000624
-CbGuAlDrD	0.94	0.72	dwpc	0.873	0.573	0.515	0.0584	0.000697	0.00591
-CiPCiCdGdD	0.94	0.98	dwpc	0.135	0.561	0.518	0.0429	9.23e-05	0.00184
-CpDaGuCtD	0.94	1	dwpc	0.108	0.524	0.539	-0.0153	0.000201	0.00278
-CbG	0.84	1	degree	0.988	0.548	0.549	-0.00126	0.54	0.646
-CbGcGdCtD	0.84	1	dwpc	0.272	0.547	0.605	-0.0578	0.000523	0.00514
-CpDpCtDrD	0.84	1	dwpc	0.0477	0.541	0.516	0.0244	0.00135	0.00872
-CtDrDpSpD	0.84	1	dwpc	0.862	0.55	0.458	0.0915	1.58e-05	0.000637
-CtDrDrDrD	0.7	0.72	dwpc	0.505	0.622	0.45	0.172	4.72e-06	0.000301
-CbGuCdGaD	0.24	1	dwpc	0.576	0.628	0.567	0.0614	7e-05	0.00166
-CbGcGcGdD	0.04	0.72	dwpc	0.336	0.551	0.566	-0.0144	0.000752	0.00625
-CbG<rGcGdD	0.04	0.98	dwpc	0.274	0.568	0.54	0.0273	0.00072	0.00607
-CbG<rGiGaD	0.04	0.9	dwpc	0.811	0.634	0.574	0.0603	2.05e-05	0.000777
-CiPCiCuGuD	0.04	0.9	dwpc	0.138	0.556	0.526	0.0305	0.00126	0.00831
-CiPCiCpDrD	0.02	1	dwpc	0.0403	0.52	0.502	0.0176	0.000408	0.00423
-CtDrDlAlD	0.02	1	dwpc	0.857	0.551	0.464	0.0874	7.97e-05	0.00173
-CbGiGbCtD	0	1	dwpc	0.533	0.699	0.604	0.0947	6.1e-05	0.00154
-CbGpCCpGuD	0	0.98	dwpc	0.437	0.575	0.588	-0.0131	0.000359	0.00393
-CbG<rGuD	0	0.96	dwpc	0.21	0.555	0.534	0.0212	0.000927	0.00695
-CiPC	0	1	degree	0.69	0.527	0.534	-0.00671	0.0915	0.163
-CiPCiCbGuD	0	0.9	dwpc	0.0972	0.544	0.515	0.0289	0.000285	0.00336
-CrCbGiGaD	0	0.9	dwpc	0.673	0.619	0.569	0.0496	2.48e-05	0.000912
-CrCdGiGaD	0	1	dwpc	0.633	0.6	0.554	0.0456	0.0016	0.00965
-CrCrCrCpD	0	1	dwpc	0.0795	0.522	0.572	-0.0493	7.74e-05	0.00171
-CrCtDlAlD	0	1	dwpc	0.58	0.582	0.52	0.0614	0.000162	0.00246
-CtDaGiGaD	0	1	dwpc	0.925	0.532	0.49	0.0422	0.000322	0.00372
-CtDaGiGuD	0	1	dwpc	0.416	0.486	0.5	-0.0143	0.000952	0.007
-CtDaGr>GuD	0	1	dwpc	0.415	0.492	0.501	-0.00945	0.00169	0.00996
-CtDdGbCpD	0	0.6	dwpc	0.11	0.564	0.542	0.0218	0.000119	0.00222
-CtDdGbCtD	0	1	dwpc	0.282	0.604	0.578	0.0266	0.000669	0.00585
-CtDlAeGuD	0	1	dwpc	0.443	0.481	0.503	-0.022	8.33e-05	0.00177
-CtDlAuGuD	0	1	dwpc	0.404	0.484	0.508	-0.0238	0.00155	0.00948
-CtDtCbGaD	0	1	dwpc	0.719	0.538	0.496	0.0423	0.000259	0.00311
-CtDtCuGaD	0	0.98	dwpc	0.677	0.554	0.497	0.057	0.00014	0.0023
-CtDuGcGuD	0	0.72	dwpc	0.251	0.514	0.525	-0.0106	0.000541	0.00514
-CuGaDpCtD	0	1	dwpc	0.19	0.568	0.609	-0.0415	0.000547	0.00514
-CuGuD	0	1	dwpc	0.0834	0.549	0.532	0.0171	0.000695	0.00591
-DdG	0	1	degree	0.484	0.562	0.563	-0.000517	0.731	0.796
-DuG	0	0.9	degree	0.5	0.579	0.581	-0.00281	0.0956	0.168
+feature	all_features	perm_affected
+degree_CrC	1	1
+degree_CtD	1	1
+degree_DaG	1	1
+degree_DlA	1	1
+degree_DpS	1	1
+dwpc_CbGaD	1	1
+dwpc_CbGaDdGdD	1	1
+dwpc_CbGbCtD	1	1
+dwpc_CbGcGdCtD	1	1
+dwpc_CbGdCrCtD	1	1
+dwpc_CbGeAlD	1	1
+dwpc_CbGiGbCtD	1	1
+dwpc_CbGiGuD	1	1
+dwpc_CbGpPWpGaD	1	1
+dwpc_CbG<rGbCpD	1	1
+dwpc_CbGr>GdCtD	1	1
+dwpc_CbGuAlDrD	1	1
+dwpc_CbGuCtDrD	1	1
+dwpc_CbGuD	1	1
+dwpc_CbGuDtCpD	1	1
+dwpc_CcSEcCtD	1	1
+dwpc_CdGbCrCpD	1	1
+dwpc_CdGdDpCtD	1	1
+dwpc_CiPCiCtD	1	1
+dwpc_CiPCiCtDrD	1	1
+dwpc_CiPCiCuGuD	1	1
+dwpc_CpDaGuCtD	1	1
+dwpc_CpDpCtD	1	1
+dwpc_CpDrDpCpD	1	1
+dwpc_CpDrDrD	1	1
+dwpc_CrCbGcGdD	1	1
+dwpc_CrCcSEcCtD	1	1
+dwpc_CrCrCdGaD	1	1
+dwpc_CrCrCtD	1	1
+dwpc_CrCrCuGdD	1	1
+dwpc_CrCtD	1	1
+dwpc_CrCtDdGdD	1	0.98
+dwpc_CrCuGaDrD	1	1
+dwpc_CtDaGaD	1	1
+dwpc_CtDaGaDrD	1	1
+dwpc_CtDaGbCtD	1	1
+dwpc_CtDdGdD	1	0.98
+dwpc_CtDpSpDrD	1	1
+dwpc_CtDrD	1	1
+dwpc_CtDrDlAlD	1	1
+dwpc_CtDrDpSpD	1	1
+dwpc_CtDrDrD	1	1
+dwpc_CtDrDrDrD	1	1
+dwpc_CtDrDuGaD	1	1
+dwpc_CtDtCbGaD	1	1
+dwpc_CtDtCbGuD	1	1
+dwpc_CtDtCdGaD	1	1
+dwpc_CtDtCtD	1	1
+dwpc_CtDuGbCtD	1	1
+dwpc_CuGaDpCtD	1	1
+dwpc_CuGcG<rGdD	1	1
+dwpc_CuGuDpCtD	1	1
+prior_logit	1	1
+dwpc_CtDpCrCpD	0.98	1
+dwpc_CrCbGaD	0.92	1
+dwpc_CtDpCtDrD	0.86	1
+dwpc_CbGuCpD	0.76	1
+dwpc_CrCdGbCtD	0.76	1
+dwpc_CrCtDtCtD	0.76	1
+degree_CuG	0.58	0.98
+dwpc_CcSEcCtDrD	0.58	1
+dwpc_CrCuGbCtD	0.58	0.9
+dwpc_CiPCiCbGuD	0.46	0.98
+dwpc_CuGdD	0.46	1
+dwpc_CtDpCpDrD	0.32	0.74
+dwpc_CuGuCbGaD	0.32	1
+degree_CbG	0.1	1
+dwpc_CiPCiCpDrD	0.1	1
+dwpc_CbGbCdGaD	0.02	0.9
+dwpc_CrCrCrCpD	0.02	1
+dwpc_CtDaGiGaD	0.02	1
+degree_CiPC	0	1
+degree_DuG	0	1
+dwpc_CbGaDrDrD	0	1
+dwpc_CbGdCdGaD	0	1
+dwpc_CbGiGuAlD	0	1
+dwpc_CbG<rGr>GaD	0	1
+dwpc_CbG<rGuAlD	0	1
+dwpc_CbGr>GuCpD	0	0.98
+dwpc_CbGuCbGaD	0	0.74
+dwpc_CbGuDuGaD	0	0.98
+dwpc_CdGbCtD	0	0.98
+dwpc_CdGcGdD	0	1
+dwpc_CdGiGr>GaD	0	0.9
+dwpc_CiPCiCuGaD	0	0.9
+dwpc_CpDaGbCpD	0	0.98
+dwpc_CpDaGuD	0	0.98
+dwpc_CrCbGcGuD	0	0.98
+dwpc_CrCbGuCtD	0	1
+dwpc_CrCdGeAlD	0	1
+dwpc_CrCrCtDrD	0	0.98
+dwpc_CtDaGdCtD	0	1
+dwpc_CtDdGbCtD	0	0.74
+dwpc_CtDlAdGaD	0	1
+dwpc_CtDlAlDrD	0	1
+dwpc_CtDrDaGaD	0	0.9
+dwpc_CtDtCdGdD	0	0.9
+dwpc_CtDtCdGuD	0	0.9
+dwpc_CtDtCuGdD	0	1
+dwpc_CtDuGaD	0	1
+dwpc_CuGbCtD	0	1
+dwpc_CuGr>GcGdD	0	1
