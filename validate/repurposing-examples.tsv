@@ -1,0 +1,9 @@
+old_indication	drugbank_id	old_indication	old_doid_id	new_indication	new_doid_id	sources
+Bupropion	DB01156	Depression	DOID:1595	Nicotine dependence	DOID:0050742	Table 1 of [@10.1038/nrd1468] & Table 2 of [@10.1016/j.tips.2013.03.004]
+Sibutramine	DB01105	Depression	DOID:1596	Obesity	DOID:9970	Table 1 of [@10.1038/nrd1468] & Table 2 of [@10.1016/j.tips.2013.03.004]
+Zidovudine	DB00495	Cancer		HIV/AIDS	DOID:635	Table 2 of [@10.1016/j.tips.2013.03.004]
+Minoxidil	DB00350	Hypertension	DOID:10763	Alopecia	DOID:986	Table 2 of [@10.1016/j.tips.2013.03.004]
+Methotrexate	DB00563	Breast cancer	DOID:1612	Rheumatoid arthritis	DOID:7148 	Table 2 of [@10.1016/j.tips.2013.03.004]
+Atomoxetine	DB00289	Parkinson's disease	DOID:14330	ADHD	DOID:1094	Table 2 of [@10.1016/j.tips.2013.03.004]
+Topiramate	DB00273	Epilepsy	DOID:1826	Migraine	DOID:6364	Table 2 of [@10.1016/j.tips.2013.03.004]
+Ropinirole	DB00268	Parkinson's disease	DOID:14330	Restless legs	DOID:0050425	Table 2 of [@10.1016/j.tips.2013.03.004]
