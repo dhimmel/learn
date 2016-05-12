@@ -1,368 +1,184 @@
 nodes	prediction_contribution	PDP_contribution	metapath	compound_id	disease_id
-Danazol—Prednisone—multiple sclerosis	0.12473707269738961	0.9999933965765682	CrCtD	DB01406	DOID:2377
-Danazol—CCL2—multiple sclerosis	0.061419482170793155	0.6215984666048694	CbGaD	DB01406	DOID:2377
-Danazol—PGR—multiple sclerosis	0.03740673353477211	0.37857642858748025	CbGaD	DB01406	DOID:2377
-Danazol—PNP—Cladribine—multiple sclerosis	0.030650994659158964	0.882228310142441	CdGbCtD	DB01406	DOID:2377
-Danazol—CCL2—Alzheimer's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.02330249698755366	0.7223047890386771	CbGaDrDrD	DB01406	DOID:2377
-Danazol—CCL2—Methylprednisolone—IL1B—multiple sclerosis	0.02108706811446588	0.2389544012151168	CbGdCdGaD	DB01406	DOID:2377
-Danazol—PGR—Betamethasone—multiple sclerosis	0.02072383091643739	0.31610294436257524	CbGbCtD	DB01406	DOID:2377
-Danazol—CCL2—Amcinonide—PTPRK—multiple sclerosis	0.014620921342038472	0.1656813306399574	CbGdCdGaD	DB01406	DOID:2377
-Danazol—Norelgestromin—PGR—multiple sclerosis	0.012689033384174136	0.2251872863192954	CrCbGaD	DB01406	DOID:2377
-Danazol—Desogestrel—PGR—multiple sclerosis	0.012214381090593229	0.21676381869172792	CrCbGaD	DB01406	DOID:2377
-Danazol—PGR—Dexamethasone—multiple sclerosis	0.012054837419355341	0.18387380293900998	CbGbCtD	DB01406	DOID:2377
-Danazol—CYP19A1—Betamethasone—multiple sclerosis	0.011657924420227873	0.17781964392826174	CbGbCtD	DB01406	DOID:2377
-Danazol—Etonogestrel—PGR—multiple sclerosis	0.009885572626101546	0.17543537052716202	CrCbGaD	DB01406	DOID:2377
-Danazol—ESR1—Alzheimer's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.008959567302455064	0.27771866567493675	CbGaDrDrD	DB01406	DOID:2377
-Danazol—RAB9A—PRMT1—CRKL—multiple sclerosis	0.008513350329885904	0.21026734285122411	CuGcG<rGdD	DB01406	DOID:2377
-Danazol—RAB9A—SNRPF—CRKL—multiple sclerosis	0.008209509903495917	0.20276292724136374	CuGcG<rGdD	DB01406	DOID:2377
-Danazol—CCL2—Fluorometholone—IL1B—multiple sclerosis	0.007567879358726765	0.085757681950685	CbGdCdGaD	DB01406	DOID:2377
-Danazol—Levonorgestrel—PGR—multiple sclerosis	0.006994173244226434	0.12412284255463654	CrCbGaD	DB01406	DOID:2377
-Danazol—Cortisone acetate—Methylprednisolone—multiple sclerosis	0.006948635987952647	0.04348482107860461	CrCrCtD	DB01406	DOID:2377
-Danazol—CYP19A1—Dexamethasone—multiple sclerosis	0.006781293675847961	0.10343584186563866	CbGbCtD	DB01406	DOID:2377
-Danazol—Testolactone—Methylprednisolone—multiple sclerosis	0.00674197640567511	0.042191537767304596	CrCrCtD	DB01406	DOID:2377
-Danazol—RAB9A—HIST1H2BG—CRKL—multiple sclerosis	0.006645122628650328	0.16412484203097183	CuGcG<rGdD	DB01406	DOID:2377
-Danazol—Testolactone—Betamethasone—multiple sclerosis	0.006635652371724394	0.041526158029364886	CrCrCtD	DB01406	DOID:2377
-Danazol—Testolactone—Dexamethasone—multiple sclerosis	0.006635652371724394	0.041526158029364886	CrCrCtD	DB01406	DOID:2377
-Danazol—Testolactone—Triamcinolone—multiple sclerosis	0.006483415466664116	0.040573453845466886	CrCrCtD	DB01406	DOID:2377
-Danazol—Cortisone acetate—Prednisone—multiple sclerosis	0.006341603279041576	0.039685987928958485	CrCrCtD	DB01406	DOID:2377
-Danazol—Cortisone acetate—Prednisolone—multiple sclerosis	0.006189983214429166	0.03873714395540336	CrCrCtD	DB01406	DOID:2377
-Danazol—Testolactone—Prednisone—multiple sclerosis	0.006152997473975836	0.03850568582335252	CrCrCtD	DB01406	DOID:2377
-Danazol—ESR1—Vorinostat—CYP24A1—multiple sclerosis	0.0061248216529686894	0.06940524318933208	CbGdCdGaD	DB01406	DOID:2377
-Danazol—Fluoxymesterone—Betamethasone—multiple sclerosis	0.006099266836490158	0.03816943750619287	CrCrCtD	DB01406	DOID:2377
-Danazol—Fluoxymesterone—Dexamethasone—multiple sclerosis	0.006099266836490158	0.03816943750619287	CrCrCtD	DB01406	DOID:2377
-Danazol—Prednisone—Methylprednisolone—multiple sclerosis	0.006036551145232991	0.03777696039012761	CrCrCtD	DB01406	DOID:2377
-Danazol—Testolactone—Prednisolone—multiple sclerosis	0.006005886746055118	0.0375850614456377	CrCrCtD	DB01406	DOID:2377
-Danazol—Fluoxymesterone—Triamcinolone—multiple sclerosis	0.00595933583132167	0.0372937440990766	CrCrCtD	DB01406	DOID:2377
-Danazol—Prednisone—Dexamethasone—multiple sclerosis	0.005941351988444082	0.03718120054503325	CrCrCtD	DB01406	DOID:2377
-Danazol—Prednisone—Betamethasone—multiple sclerosis	0.005941351988444082	0.03718120054503325	CrCrCtD	DB01406	DOID:2377
-Danazol—CCL2—Irbesartan—MYC—multiple sclerosis	0.005821463483014766	0.06596764961484529	CbGdCdGaD	DB01406	DOID:2377
-Danazol—Prednisone—Triamcinolone—multiple sclerosis	0.005805043907802509	0.03632817953363714	CrCrCtD	DB01406	DOID:2377
-Danazol—Norethindrone—PGR—multiple sclerosis	0.005667663202255915	0.10058179040489651	CrCbGaD	DB01406	DOID:2377
-Danazol—Fluoxymesterone—Prednisolone—multiple sclerosis	0.005520407610564809	0.034546915055354295	CrCrCtD	DB01406	DOID:2377
-Danazol—Progesterone—Prednisolone—multiple sclerosis	0.005377479886242389	0.033652468068908564	CrCrCtD	DB01406	DOID:2377
-Danazol—Prednisone—Prednisolone—multiple sclerosis	0.005377479886242389	0.033652468068908564	CrCrCtD	DB01406	DOID:2377
-Danazol—Methyltestosterone—Prednisone—multiple sclerosis	0.005371032316669758	0.03361211893999408	CrCrCtD	DB01406	DOID:2377
-Danazol—Methyltestosterone—Prednisolone—multiple sclerosis	0.005242617429920189	0.03280849382798421	CrCrCtD	DB01406	DOID:2377
-Isoniazid—CYP2E1—Fingolimod—multiple sclerosis	0.08331758798026502	0.19078190725236308	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP2A6—Prednisolone—multiple sclerosis	0.05219239793757681	0.1195109635790675	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP2D6—Fingolimod—multiple sclerosis	0.03970168907574162	0.09090954439060804	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP2E1—Mitoxantrone—multiple sclerosis	0.03916689236821227	0.08968495858192019	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP2A6—Dexamethasone—multiple sclerosis	0.030769614554705955	0.07045674139723458	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP3A4—Fingolimod—multiple sclerosis	0.025245461767941905	0.057807450531277976	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP2C19—Prednisone—multiple sclerosis	0.020388097065173943	0.04668498137825975	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP2E1—Dexamethasone—multiple sclerosis	0.020306493533383395	0.04649812434349757	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP3A4—Methylprednisolone—multiple sclerosis	0.016268024468598857	0.037250775143449225	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP2E1—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.015895654991536213	0.4065252366419183	CbGaDrDrD	DB00951	DOID:2377
-Isoniazid—CYP2C8—Dexamethasone—multiple sclerosis	0.01517148708149805	0.034739906800331004	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP2C19—Dexamethasone—multiple sclerosis	0.012727721405939332	0.02914413419381503	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP3A4—Triamcinolone—multiple sclerosis	0.012328857095725902	0.02823080850013987	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP3A4—Mitoxantrone—multiple sclerosis	0.011867677735522142	0.02717479283696515	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP2D6—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.011670602880495389	0.29847116084700115	CbGaDrDrD	DB00951	DOID:2377
-Isoniazid—CYP2D6—Alzheimer's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.011542523635236567	0.2951955836206783	CbGaDrDrD	DB00951	DOID:2377
-Isoniazid—CYP2C9—Dexamethasone—multiple sclerosis	0.01058181818992983	0.024230411674312367	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP3A4—Betamethasone—multiple sclerosis	0.010577675750845093	0.024220926252945512	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP3A4—Prednisolone—multiple sclerosis	0.010436785598646707	0.023898313793786822	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP3A4—Prednisone—multiple sclerosis	0.009856156691424886	0.022568780702263907	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP2D6—Dexamethasone—multiple sclerosis	0.009676253382081897	0.02215683530982651	CbGbCtD	DB00951	DOID:2377
-Isoniazid—Neurotoxicity—Cladribine—multiple sclerosis	0.007264011409036092	0.030697823570421858	CcSEcCtD	DB00951	DOID:2377
-Isoniazid—Metabolic acidosis—Cladribine—multiple sclerosis	0.007125316674149618	0.0301116974946292	CcSEcCtD	DB00951	DOID:2377
-Isoniazid—Reaction gastrointestinal—Azathioprine—multiple sclerosis	0.00686062702043745	0.02899311496040237	CcSEcCtD	DB00951	DOID:2377
-Isoniazid—CYP1A2—chronic obstructive pulmonary disease—LIN7C—multiple sclerosis	0.006803196603526624	0.4126759111336715	CbGaDdGdD	DB00951	DOID:2377
-Isoniazid—CYP3A4—Dexamethasone—multiple sclerosis	0.006152924233229338	0.014089061491708379	CbGbCtD	DB00951	DOID:2377
-Isoniazid—CYP2A6—Tranylcypromine—ZMIZ1—multiple sclerosis	0.006057393496472127	0.039980911918838354	CbGbCdGaD	DB00951	DOID:2377
-Isoniazid—Liver injury—Fingolimod—multiple sclerosis	0.005904522349206566	0.024952601962888156	CcSEcCtD	DB00951	DOID:2377
-Isoniazid—CYP2E1—Parkinson's disease—PRKAR1A—multiple sclerosis	0.005582999847811463	0.33865985114415464	CbGaDdGdD	DB00951	DOID:2377
-Dalfampridine—KCNA3—multiple sclerosis	0.2077972572015733	1.0001154252947435	CbGaD	DB06637	DOID:2377
-Dalfampridine—Multiple sclerosis relapse—Fingolimod—multiple sclerosis	0.04273751379645699	0.48023126107593916	CcSEcCtD	DB06637	DOID:2377
-Dalfampridine—KCNC4—medulla oblongata—amyotrophic lateral sclerosis—multiple sclerosis	0.008985286756010385	0.036444834058258796	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNG3—brain—amyotrophic lateral sclerosis—multiple sclerosis	0.008290184778005963	0.03362546090636767	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNH4—brain—amyotrophic lateral sclerosis—multiple sclerosis	0.008290184778005963	0.03362546090636767	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNG2—brain—amyotrophic lateral sclerosis—multiple sclerosis	0.008290184778005963	0.03362546090636767	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNC1—medulla oblongata—amyotrophic lateral sclerosis—multiple sclerosis	0.00732474385133302	0.02970957760502383	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNH8—medulla oblongata—amyotrophic lateral sclerosis—multiple sclerosis	0.00732474385133302	0.02970957760502383	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNH7—cerebellum—amyotrophic lateral sclerosis—multiple sclerosis	0.007192858445216599	0.029174642897747644	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCND1—cerebellum—amyotrophic lateral sclerosis—multiple sclerosis	0.006818749478522968	0.027657235653984848	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNH1—cerebellum—amyotrophic lateral sclerosis—multiple sclerosis	0.006818749478522968	0.027657235653984848	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNA5—medulla oblongata—amyotrophic lateral sclerosis—multiple sclerosis	0.006809573995465706	0.027620019372912617	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNA2—medulla oblongata—amyotrophic lateral sclerosis—multiple sclerosis	0.006402376762347101	0.02596840423886441	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNA4—brain—amyotrophic lateral sclerosis—multiple sclerosis	0.0062827852037279815	0.02548333407616461	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNC2—brain—amyotrophic lateral sclerosis—multiple sclerosis	0.0062827852037279815	0.02548333407616461	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNB2—brain—amyotrophic lateral sclerosis—multiple sclerosis	0.0062827852037279815	0.02548333407616461	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNC1—cerebellum—amyotrophic lateral sclerosis—multiple sclerosis	0.006236497168710751	0.02529558717382369	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNG1—medulla oblongata—amyotrophic lateral sclerosis—multiple sclerosis	0.006069381671009273	0.024617757211611333	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNA5—spinal cord—amyotrophic lateral sclerosis—multiple sclerosis	0.005893393376324018	0.023903938680253974	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNC3—cerebellum—amyotrophic lateral sclerosis—multiple sclerosis	0.005797866765691684	0.023516477315115625	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNG1—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNA2—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNC3—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNV1—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNC1—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNG3—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNH5—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCND1—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNB2—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNH1—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNH3—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNA4—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNA6—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNA7—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNA10—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNS2—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNF1—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNH8—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNH4—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNG4—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNV2—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNC4—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNA5—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNS1—Voltage gated Potassium channels—KCNA3—multiple sclerosis	0.005555859283657507	0.01542258770782276	CbGpPWpGaD	DB06637	DOID:2377
-Dalfampridine—KCNA2—spinal cord—amyotrophic lateral sclerosis—multiple sclerosis	0.0055409816868238265	0.022474536826669965	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNA2—cerebellum—amyotrophic lateral sclerosis—multiple sclerosis	0.00545116735298951	0.022110244781070508	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNF1—brain—amyotrophic lateral sclerosis—multiple sclerosis	0.005342145454002581	0.02166804575891497	CbGuAlDrD	DB06637	DOID:2377
-Dalfampridine—KCNC4—brain—amyotrophic lateral sclerosis—multiple sclerosis	0.005342145454002581	0.02166804575891497	CbGuAlDrD	DB06637	DOID:2377
-Prednicarbate—NR3C1—ADORA2A—Sildenafil—multiple sclerosis	0.06186629291531245	0.9999597888802786	CbG<rGbCpD	DB01130	DOID:2377
-Prednicarbate—Corticosteroid Hormone Receptor Agonists—Methylprednisolone—multiple sclerosis	0.03752903320035669	0.1783975349392017	CiPCiCtD	DB01130	DOID:2377
-Prednicarbate—Corticosteroid Hormone Receptor Agonists—Dexamethasone—multiple sclerosis	0.03612520351963096	0.17172430802235225	CiPCiCtD	DB01130	DOID:2377
-Prednicarbate—Corticosteroid Hormone Receptor Agonists—Betamethasone—multiple sclerosis	0.03612520351963096	0.17172430802235225	CiPCiCtD	DB01130	DOID:2377
-Prednicarbate—Corticosteroid Hormone Receptor Agonists—Triamcinolone—multiple sclerosis	0.03488951064269771	0.1658503340777017	CiPCiCtD	DB01130	DOID:2377
-Prednicarbate—Methylprednisolone—multiple sclerosis	0.03383293362172061	0.17442108491201141	CrCtD	DB01130	DOID:2377
-Prednicarbate—Corticosteroid Hormone Receptor Agonists—Prednisolone—multiple sclerosis	0.03379014345867819	0.16062439621314004	CiPCiCtD	DB01130	DOID:2377
-Prednicarbate—Betamethasone—multiple sclerosis	0.03329937287238007	0.17167038508187032	CrCtD	DB01130	DOID:2377
-Prednicarbate—Dexamethasone—multiple sclerosis	0.03329937287238007	0.17167038508187032	CrCtD	DB01130	DOID:2377
-Prednicarbate—Triamcinolone—multiple sclerosis	0.03253540978592594	0.16773187735854028	CrCtD	DB01130	DOID:2377
-Prednicarbate—Corticosteroid Hormone Receptor Agonists—Prednisone—multiple sclerosis	0.031910298952355774	0.15168839127513561	CiPCiCtD	DB01130	DOID:2377
-Prednicarbate—Prednisone—multiple sclerosis	0.0308772891783494	0.15918366222230418	CrCtD	DB01130	DOID:2377
-Prednicarbate—Prednisolone—multiple sclerosis	0.030139050538327602	0.1553777733816775	CrCtD	DB01130	DOID:2377
-Prednicarbate—NR3C1—Methylprednisolone—multiple sclerosis	0.024794358031036752	0.24791620655192254	CbGbCtD	DB01130	DOID:2377
-Prednicarbate—NR3C1—Triamcinolone—multiple sclerosis	0.018790609611816268	0.18788535068858134	CbGbCtD	DB01130	DOID:2377
-Prednicarbate—NR3C1—Betamethasone—multiple sclerosis	0.01612160592756088	0.1611982605108312	CbGbCtD	DB01130	DOID:2377
-Prednicarbate—NR3C1—Prednisolone—multiple sclerosis	0.015906872978062498	0.15905116808784103	CbGbCtD	DB01130	DOID:2377
-Prednicarbate—NR3C1—Prednisone—multiple sclerosis	0.015021927111610444	0.15020268643165258	CbGbCtD	DB01130	DOID:2377
-Prednicarbate—Megestrol acetate—PGR—multiple sclerosis	0.009982302012110728	0.27747971114211656	CrCbGaD	DB01130	DOID:2377
-Prednicarbate—NR3C1—Dexamethasone—multiple sclerosis	0.009377770894739136	0.09376735559059529	CbGbCtD	DB01130	DOID:2377
-Prednicarbate—TSC22D3—PRMT1—CRKL—multiple sclerosis	0.007949568828879535	0.9999634765728347	CuGcG<rGdD	DB01130	DOID:2377
-Prednicarbate—Medroxyprogesterone Acetate—PGR—multiple sclerosis	0.00581582828294042	0.16166354715020606	CrCbGaD	DB01130	DOID:2377
-Prednicarbate—Fluticasone Propionate—PGR—multiple sclerosis	0.005763783245257627	0.16021684257193533	CrCbGaD	DB01130	DOID:2377
-Prednicarbate—Betamethasone—PGR—multiple sclerosis	0.005281015412105189	0.1467972647301386	CrCbGaD	DB01130	DOID:2377
-Ropinirole—Alzheimer's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.17787534240570346	0.6905566032895959	CpDrDrD	DB00268	DOID:2377
-Ropinirole—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.07959119835526839	0.3089929545299376	CpDrDrD	DB00268	DOID:2377
-Ropinirole—Alzheimer's disease—amyotrophic lateral sclerosis—Dextromethorphan—multiple sclerosis	0.0674324870622892	0.290810923953682	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—Parkinson's disease—amyotrophic lateral sclerosis—Dextromethorphan—multiple sclerosis	0.030172998577410685	0.1301247807550768	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—restless legs syndrome—narcolepsy—Modafinil—multiple sclerosis	0.020344975887282665	0.08774021978650715	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—Alzheimer's disease—Parkinson's disease—Amantadine—multiple sclerosis	0.01778303835533382	0.07669154794841453	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—DRD3—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.015661837703519994	0.180979732839839	CbGaDrDrD	DB00268	DOID:2377
-Ropinirole—DRD1—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.01537309690638091	0.17764320022371768	CbGaDrDrD	DB00268	DOID:2377
-Ropinirole—restless legs syndrome—migraine—Tizanidine—multiple sclerosis	0.014334174356229213	0.061817896243358275	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—HTR1A—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.012767422179675747	0.1475334311893575	CbGaDrDrD	DB00268	DOID:2377
-Ropinirole—DRD2—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.010838248559265623	0.12524094335793146	CbGaDrDrD	DB00268	DOID:2377
-Ropinirole—restless legs syndrome—Parkinson's disease—Amantadine—multiple sclerosis	0.010213673452810568	0.04404772748526	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—Alzheimer's disease—Parkinson's disease—Modafinil—multiple sclerosis	0.010213673452810568	0.04404772748526	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—HTR1B—trigeminal nucleus—multiple sclerosis	0.00982410776099317	0.1722103978478066	CbGeAlD	DB00268	DOID:2377
-Ropinirole—HTR1D—trigeminal nucleus—multiple sclerosis	0.00951133530047647	0.1667276943624803	CbGeAlD	DB00268	DOID:2377
-Ropinirole—HTR2A—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.00837505221087321	0.09677757746799281	CbGaDrDrD	DB00268	DOID:2377
-Ropinirole—HTR2A—Alzheimer's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.008283140046852568	0.09571549016993272	CbGaDrDrD	DB00268	DOID:2377
-Ropinirole—DRD2—nicotine dependence—CRKL—multiple sclerosis	0.008278523441001669	0.20519730351753857	CbGaDdGdD	DB00268	DOID:2377
-Ropinirole—CYP2D6—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.0076590358637233244	0.0885036794957887	CbGaDrDrD	DB00268	DOID:2377
-Ropinirole—CYP2D6—Alzheimer's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.007574981634230571	0.0875323942427026	CbGaDrDrD	DB00268	DOID:2377
-Ropinirole—Alzheimer's disease—Parkinson's disease—Gabapentin—multiple sclerosis	0.007384293693202928	0.03184567802878231	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—Parkinson's disease—restless legs syndrome—Pregabalin—multiple sclerosis	0.007384293693202928	0.03184567802878231	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—Alzheimer's disease—Parkinson's disease—Clonazepam—multiple sclerosis	0.006527569878734842	0.02815095082958461	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—NNT—Misoprostol—PTGER4—multiple sclerosis	0.0065058606040962145	0.19063878814196528	CuGuCbGaD	DB00268	DOID:2377
-Ropinirole—HTR1D—meninx—multiple sclerosis	0.00631345171670281	0.11067081697161611	CbGeAlD	DB00268	DOID:2377
-Ropinirole—restless legs syndrome—attention deficit hyperactivity disorder—Nortriptyline—multiple sclerosis	0.0061880633472281696	0.026686787005631867	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—restless legs syndrome—attention deficit hyperactivity disorder—Modafinil—multiple sclerosis	0.0061880633472281696	0.026686787005631867	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—restless legs syndrome—Parkinson's disease—Modafinil—multiple sclerosis	0.0058662149468601925	0.02529877605183792	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—Parkinson's disease—restless legs syndrome—Carbamazepine—multiple sclerosis	0.0058662149468601925	0.02529877605183792	CpDrDpCpD	DB00268	DOID:2377
-Ropinirole—CYP2D6—Fingolimod—multiple sclerosis	0.00575549674983914	0.26105935786904794	CbGbCtD	DB00268	DOID:2377
-Ropinirole—DRD3—Parkinson's disease—PRKAR1A—multiple sclerosis	0.005335848875773799	0.13225810243685127	CbGaDdGdD	DB00268	DOID:2377
-Ropinirole—DRD1—Parkinson's disease—PRKAR1A—multiple sclerosis	0.0052374774530218994	0.12981979917712996	CbGaDdGdD	DB00268	DOID:2377
-Medrysone—Methylprednisolone—multiple sclerosis	0.08379010240148285	0.5289696362662892	CrCtD	DB00253	DOID:2377
-Medrysone—Prednisolone—multiple sclerosis	0.0746418906242487	0.4712166783679481	CrCtD	DB00253	DOID:2377
-Medrysone—NR3C1—ADORA2A—Sildenafil—multiple sclerosis	0.058610875877992144	1.0000226232467115	CbG<rGbCpD	DB00253	DOID:2377
-Medrysone—Corticosteroid Hormone Receptor Agonists—Methylprednisolone—multiple sclerosis	0.0390876247113271	0.1783975349392017	CiPCiCtD	DB00253	DOID:2377
-Medrysone—Corticosteroid Hormone Receptor Agonists—Betamethasone—multiple sclerosis	0.03762549358138613	0.17172430802235225	CiPCiCtD	DB00253	DOID:2377
-Medrysone—Corticosteroid Hormone Receptor Agonists—Dexamethasone—multiple sclerosis	0.03762549358138613	0.17172430802235225	CiPCiCtD	DB00253	DOID:2377
-Medrysone—Corticosteroid Hormone Receptor Agonists—Triamcinolone—multiple sclerosis	0.03633848202491556	0.1658503340777017	CiPCiCtD	DB00253	DOID:2377
-Medrysone—Corticosteroid Hormone Receptor Agonists—Prednisolone—multiple sclerosis	0.03519345780647939	0.16062439621314004	CiPCiCtD	DB00253	DOID:2377
-Medrysone—Corticosteroid Hormone Receptor Agonists—Prednisone—multiple sclerosis	0.03323554281872846	0.15168839127513561	CiPCiCtD	DB00253	DOID:2377
-Medrysone—SERPINA6—Triamcinolone—multiple sclerosis	0.026962299175968683	0.2307229644894188	CbGbCtD	DB00253	DOID:2377
-Medrysone—SERPINA6—Prednisolone—multiple sclerosis	0.02282447866507497	0.19531462603253277	CbGbCtD	DB00253	DOID:2377
-Medrysone—Dydrogesterone—PGR—multiple sclerosis	0.017091029788693726	0.3138961047146943	CrCbGaD	DB00253	DOID:2377
-Medrysone—NR3C1—Methylprednisolone—multiple sclerosis	0.016625163211885015	0.1422655729888706	CbGbCtD	DB00253	DOID:2377
-Medrysone—NR3C1—Triamcinolone—multiple sclerosis	0.012599517650596668	0.1078171429116627	CbGbCtD	DB00253	DOID:2377
-Medrysone—NR3C1—Betamethasone—multiple sclerosis	0.01080989188943261	0.09250287915961494	CbGbCtD	DB00253	DOID:2377
-Medrysone—NR3C1—Prednisolone—multiple sclerosis	0.010665908716812804	0.09127078006425877	CbGbCtD	DB00253	DOID:2377
-Medrysone—Megestrol acetate—PGR—multiple sclerosis	0.010281732057037331	0.18883564550096607	CrCbGaD	DB00253	DOID:2377
-Medrysone—NR3C1—Prednisone—multiple sclerosis	0.010072533020413166	0.08619311963048833	CbGbCtD	DB00253	DOID:2377
-Medrysone—Drospirenone—PGR—multiple sclerosis	0.008978012989179421	0.1648913693454362	CrCbGaD	DB00253	DOID:2377
-Medrysone—TSC22D3—PRMT1—CRKL—multiple sclerosis	0.007415151818801527	0.432750543708675	CuGcG<rGdD	DB00253	DOID:2377
-Medrysone—NR3C1—Dexamethasone—multiple sclerosis	0.006288001951635286	0.05380796502286499	CbGbCtD	DB00253	DOID:2377
-Medrysone—Drospirenone—BCHE—multiple sclerosis	0.006146151167962085	0.1128810220603109	CrCbGaD	DB00253	DOID:2377
-Medrysone—Medroxyprogesterone Acetate—PGR—multiple sclerosis	0.005990280400491415	0.11001827901013495	CrCbGaD	DB00253	DOID:2377
-Medrysone—TIPARP—ZNF432—PRKAR1A—multiple sclerosis	0.005985500372437852	0.3493156450247303	CuGcG<rGdD	DB00253	DOID:2377
-Alclometasone—NR3C1—ADORA2A—Sildenafil—multiple sclerosis	0.054481580083090654	1.000027347869041	CbG<rGbCpD	DB00240	DOID:2377
-Alclometasone—Corticosteroid Hormone Receptor Agonists—Methylprednisolone—multiple sclerosis	0.03858106408794284	0.1783975349392017	CiPCiCtD	DB00240	DOID:2377
-Alclometasone—Corticosteroid Hormone Receptor Agonists—Betamethasone—multiple sclerosis	0.037137881616614986	0.17172430802235225	CiPCiCtD	DB00240	DOID:2377
-Alclometasone—Corticosteroid Hormone Receptor Agonists—Dexamethasone—multiple sclerosis	0.037137881616614986	0.17172430802235225	CiPCiCtD	DB00240	DOID:2377
-Alclometasone—Corticosteroid Hormone Receptor Agonists—Triamcinolone—multiple sclerosis	0.035867549236256124	0.1658503340777017	CiPCiCtD	DB00240	DOID:2377
-Alclometasone—Corticosteroid Hormone Receptor Agonists—Prednisolone—multiple sclerosis	0.03473736409249293	0.16062439621314004	CiPCiCtD	DB00240	DOID:2377
-Alclometasone—Methylprednisolone—multiple sclerosis	0.03456503859551314	0.1744023645526232	CrCtD	DB00240	DOID:2377
-Alclometasone—Betamethasone—multiple sclerosis	0.034019932217798185	0.17165195995106305	CrCtD	DB00240	DOID:2377
-Alclometasone—Dexamethasone—multiple sclerosis	0.034019932217798185	0.17165195995106305	CrCtD	DB00240	DOID:2377
-Alclometasone—Triamcinolone—multiple sclerosis	0.03323943786681817	0.16771387494199413	CrCtD	DB00240	DOID:2377
-Alclometasone—Corticosteroid Hormone Receptor Agonists—Prednisone—multiple sclerosis	0.032804822931984084	0.15168839127513561	CiPCiCtD	DB00240	DOID:2377
-Alclometasone—Prednisone—multiple sclerosis	0.031545437475433126	0.15916657727315914	CrCtD	DB00240	DOID:2377
-Alclometasone—Prednisolone—multiple sclerosis	0.03079122421771342	0.1553610969130033	CrCtD	DB00240	DOID:2377
-Alclometasone—SERPINA6—Triamcinolone—multiple sclerosis	0.023243847348214712	0.20507135946227717	CbGbCtD	DB00240	DOID:2377
-Alclometasone—SERPINA6—Prednisolone—multiple sclerosis	0.019676686117571264	0.17359969334649675	CbGbCtD	DB00240	DOID:2377
-Alclometasone—NR3C1—Methylprednisolone—multiple sclerosis	0.014332336916602245	0.1264485939753322	CbGbCtD	DB00240	DOID:2377
-Alclometasone—NR3C1—Triamcinolone—multiple sclerosis	0.01086188025065129	0.09583011435017896	CbGbCtD	DB00240	DOID:2377
-Alclometasone—NR3C1—Betamethasone—multiple sclerosis	0.009319067164443652	0.08221847888187546	CbGbCtD	DB00240	DOID:2377
-Alclometasone—NR3C1—Prednisolone—multiple sclerosis	0.00919494114450581	0.08112336363387199	CbGbCtD	DB00240	DOID:2377
-Alclometasone—NR3C1—Prednisone—multiple sclerosis	0.00868339967627869	0.07661023365417774	CbGbCtD	DB00240	DOID:2377
-Alclometasone—NR3C1—Dexamethasone—multiple sclerosis	0.005420804677494116	0.04782563608939601	CbGbCtD	DB00240	DOID:2377
-Alclometasone—Fluticasone Propionate—PGR—multiple sclerosis	0.005290305325210126	0.285701786693392	CrCbGaD	DB00240	DOID:2377
-Fluorometholone—NR3C1—ADORA2A—Sildenafil—multiple sclerosis	0.04895480851682614	1.000027347869041	CbG<rGbCpD	DB00324	DOID:2377
-Fluorometholone—Corticosteroid Hormone Receptor Agonists—Methylprednisolone—multiple sclerosis	0.034667287584539797	0.1783975349392017	CiPCiCtD	DB00324	DOID:2377
-Fluorometholone—Corticosteroid Hormone Receptor Agonists—Betamethasone—multiple sclerosis	0.03337050578359084	0.17172430802235225	CiPCiCtD	DB00324	DOID:2377
-Fluorometholone—Corticosteroid Hormone Receptor Agonists—Dexamethasone—multiple sclerosis	0.03337050578359084	0.17172430802235225	CiPCiCtD	DB00324	DOID:2377
-Fluorometholone—Corticosteroid Hormone Receptor Agonists—Triamcinolone—multiple sclerosis	0.03222903965249944	0.1658503340777017	CiPCiCtD	DB00324	DOID:2377
-Fluorometholone—Corticosteroid Hormone Receptor Agonists—Prednisolone—multiple sclerosis	0.03121350381053033	0.16062439621314004	CiPCiCtD	DB00324	DOID:2377
-Fluorometholone—Methylprednisolone—multiple sclerosis	0.030633872148302342	0.17440992470687122	CrCtD	DB00324	DOID:2377
-Fluorometholone—Dexamethasone—multiple sclerosis	0.030150762053227503	0.17165940087824053	CrCtD	DB00324	DOID:2377
-Fluorometholone—Betamethasone—multiple sclerosis	0.030150762053227503	0.17165940087824053	CrCtD	DB00324	DOID:2377
-Fluorometholone—NFIL3—ST6GALNAC2—MAPK1—multiple sclerosis	0.02954109244087084	0.36564639904166213	CuGcG<rGdD	DB00324	DOID:2377
-Fluorometholone—Corticosteroid Hormone Receptor Agonists—Prednisone—multiple sclerosis	0.029477005303708233	0.15168839127513561	CiPCiCtD	DB00324	DOID:2377
-Fluorometholone—Triamcinolone—multiple sclerosis	0.029459035235265912	0.16772114515743736	CrCtD	DB00324	DOID:2377
-Fluorometholone—Prednisone—multiple sclerosis	0.02795769765493988	0.15917347697247464	CrCtD	DB00324	DOID:2377
-Fluorometholone—Prednisolone—multiple sclerosis	0.02728926291717166	0.1553678316488529	CrCtD	DB00324	DOID:2377
-Fluorometholone—PDLIM1—CEP68—CRKL—multiple sclerosis	0.023766218674403313	0.29416760042053824	CuGcG<rGdD	DB00324	DOID:2377
-Fluorometholone—SERPINA6—Triamcinolone—multiple sclerosis	0.020885923176067273	0.20507135946227717	CbGbCtD	DB00324	DOID:2377
-Fluorometholone—SERPINA6—Prednisolone—multiple sclerosis	0.01768062526201145	0.17359969334649675	CbGbCtD	DB00324	DOID:2377
-Fluorometholone—NR3C1—Methylprednisolone—multiple sclerosis	0.012878422547232014	0.1264485939753322	CbGbCtD	DB00324	DOID:2377
-Fluorometholone—NR3C1—Triamcinolone—multiple sclerosis	0.009760019202680301	0.09583011435017896	CbGbCtD	DB00324	DOID:2377
-Fluorometholone—NR3C1—Betamethasone—multiple sclerosis	0.008373713609168523	0.08221847888187546	CbGbCtD	DB00324	DOID:2377
-Fluorometholone—NFIL3—ST6GALNAC2—PRKAR1A—multiple sclerosis	0.008328822486002882	0.10309043094326414	CuGcG<rGdD	DB00324	DOID:2377
-Fluorometholone—NR3C1—Prednisolone—multiple sclerosis	0.008262179297411312	0.08112336363387199	CbGbCtD	DB00324	DOID:2377
-Fluorometholone—NR3C1—Prednisone—multiple sclerosis	0.007802530098777901	0.07661023365417774	CbGbCtD	DB00324	DOID:2377
-Folic Acid—Methotrexate—multiple sclerosis	0.23338968046332376	0.9998666571190211	CrCtD	DB00158	DOID:2377
-Folic Acid—Tetrahydrofolic acid—Methotrexate—multiple sclerosis	0.0522405459498901	0.20002189285143873	CrCrCtD	DB00158	DOID:2377
-Folic Acid—Pralatrexate—Methotrexate—multiple sclerosis	0.0522405459498901	0.20002189285143873	CrCrCtD	DB00158	DOID:2377
-Folic Acid—Raltitrexed—Methotrexate—multiple sclerosis	0.0522405459498901	0.20002189285143873	CrCrCtD	DB00158	DOID:2377
-Folic Acid—Leucovorin—Methotrexate—multiple sclerosis	0.0522405459498901	0.20002189285143873	CrCrCtD	DB00158	DOID:2377
-Folic Acid—Pemetrexed—Methotrexate—multiple sclerosis	0.0522405459498901	0.20002189285143873	CrCrCtD	DB00158	DOID:2377
-Folic Acid—GGH—Methotrexate—multiple sclerosis	0.04343633865607434	0.2936593232675868	CbGbCtD	DB00158	DOID:2377
-Folic Acid—SLC46A1—Methotrexate—multiple sclerosis	0.024947625380663356	0.16866299078350974	CbGbCtD	DB00158	DOID:2377
-Folic Acid—ABCC11—Methotrexate—multiple sclerosis	0.020868979073001226	0.14108855537726017	CbGbCtD	DB00158	DOID:2377
-Folic Acid—SLC25A32—Afatinib—CD24—multiple sclerosis	0.019901343632305352	0.20963901330863702	CbGdCdGaD	DB00158	DOID:2377
-Folic Acid—MTHFR—Methotrexate—multiple sclerosis	0.013040168387556578	0.08816044681633697	CbGbCtD	DB00158	DOID:2377
-Folic Acid—MTHFR—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.012305284858176538	0.3850150841102918	CbGaDrDrD	DB00158	DOID:2377
-Folic Acid—MTHFR—Alzheimer's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.01217024028391859	0.3807897290115828	CbGaDrDrD	DB00158	DOID:2377
-Folic Acid—SLC25A32—Ponatinib—SRM—multiple sclerosis	0.008902834918447509	0.09378168441468271	CbGdCdGaD	DB00158	DOID:2377
-Folic Acid—CYP2E1—Fingolimod—multiple sclerosis	0.008613049309662404	0.05823009742079419	CbGbCtD	DB00158	DOID:2377
-Folic Acid—GGH—Fluoropyrimidine Activity—RRM1—multiple sclerosis	0.008609903640187976	0.09944963306517517	CbGpPWpGaD	DB00158	DOID:2377
-Folic Acid—SLC25A32—Dasatinib—MALT1—multiple sclerosis	0.007998386406207585	0.08425430288720347	CbGdCdGaD	DB00158	DOID:2377
-Folic Acid—SLC25A32—Sirolimus—MALT1—multiple sclerosis	0.007998386406207585	0.08425430288720347	CbGdCdGaD	DB00158	DOID:2377
-Folic Acid—ABCG2—Cladribine—multiple sclerosis	0.00778437858500589	0.05262771720774044	CbGbCtD	DB00158	DOID:2377
-Folic Acid—CYP2E1—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.007480930206740556	0.2340678014339159	CbGaDrDrD	DB00158	DOID:2377
-Folic Acid—SLC25A32—Afatinib—SRM—multiple sclerosis	0.00656499508945917	0.06915508411684265	CbGdCdGaD	DB00158	DOID:2377
-Folic Acid—SLC25A32—Pitavastatin—SRM—multiple sclerosis	0.006395022168161014	0.06736460422922894	CbGdCdGaD	DB00158	DOID:2377
-Folic Acid—SLC25A32—Sirolimus—SRM—multiple sclerosis	0.006354061178531851	0.06693312474680525	CbGdCdGaD	DB00158	DOID:2377
-Folic Acid—SLC25A32—Simvastatin—SRM—multiple sclerosis	0.006354061178531851	0.06693312474680525	CbGdCdGaD	DB00158	DOID:2377
-Folic Acid—SLC25A32—Treprostinil—SRM—multiple sclerosis	0.006354061178531851	0.06693312474680525	CbGdCdGaD	DB00158	DOID:2377
-Folic Acid—SLC25A32—Dasatinib—SRM—multiple sclerosis	0.006354061178531851	0.06693312474680525	CbGdCdGaD	DB00158	DOID:2377
-Folic Acid—ABCC3—Methotrexate—multiple sclerosis	0.005758709886286631	0.0389328129493438	CbGbCtD	DB00158	DOID:2377
-Folic Acid—ABCG2—Mitoxantrone—multiple sclerosis	0.005678777813278427	0.03839241752944388	CbGbCtD	DB00158	DOID:2377
-Rasagiline—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.24546274336515359	1.0000975610695808	CpDrDrD	DB01367	DOID:2377
-Rasagiline—Parkinson's disease—amyotrophic lateral sclerosis—Dextromethorphan—multiple sclerosis	0.12347842899499163	0.5867750095445212	CpDrDpCpD	DB01367	DOID:2377
-Rasagiline—BCL2—Alzheimer's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.056099580359703645	0.36184873882633967	CbGaDrDrD	DB01367	DOID:2377
-Rasagiline—MAOB—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.049737634905549694	0.32081345969756486	CbGaDrDrD	DB01367	DOID:2377
-Rasagiline—MAOB—Alzheimer's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.049191788319482725	0.3172926865029249	CbGaDrDrD	DB01367	DOID:2377
-Rasagiline—Parkinson's disease—restless legs syndrome—Pregabalin—multiple sclerosis	0.030219104081917504	0.14360253228370146	CpDrDpCpD	DB01367	DOID:2377
-Rasagiline—Parkinson's disease—restless legs syndrome—Carbamazepine—multiple sclerosis	0.024006596624026877	0.11408041937240875	CpDrDpCpD	DB01367	DOID:2377
-Rasagiline—MAOB—Parkinson's disease—PRKAR1A—multiple sclerosis	0.017919156060031555	0.4560930140782536	CbGaDdGdD	DB01367	DOID:2377
-Rasagiline—Parkinson's disease—restless legs syndrome—Gabapentin—multiple sclerosis	0.017356317574191413	0.08247799630384824	CpDrDpCpD	DB01367	DOID:2377
-Rasagiline—Parkinson's disease—restless legs syndrome—Clonazepam—multiple sclerosis	0.015342642168652238	0.07290892083923618	CpDrDpCpD	DB01367	DOID:2377
-Rasagiline—BCL2—Fulvestrant—RRM1—multiple sclerosis	0.012795609047739147	0.18416813609208899	CbGdCdGaD	DB01367	DOID:2377
-Rasagiline—BCL2—Treprostinil—SRM—multiple sclerosis	0.01246951244226395	0.17947460381923983	CbGdCdGaD	DB01367	DOID:2377
-Rasagiline—BCL2—hematologic cancer—PALLD—multiple sclerosis	0.011922680126316646	0.30346580477814517	CbGaDdGdD	DB01367	DOID:2377
-Rasagiline—CYP1A2—chronic obstructive pulmonary disease—LIN7C—multiple sclerosis	0.009448014383824772	0.24047858855277732	CbGaDdGdD	DB01367	DOID:2377
-Rasagiline—BCL2—Dabrafenib—TLR4—multiple sclerosis	0.008643178246014191	0.12440189611461902	CbGdCdGaD	DB01367	DOID:2377
-Rasagiline—BCL2—Inflammasomes—P2RX7—multiple sclerosis	0.007525296144277185	0.0607312838355315	CbGpPWpGaD	DB01367	DOID:2377
-Rasagiline—BCL2—Irinotecan—ZMIZ1—multiple sclerosis	0.007154624937738709	0.10297703956922098	CbGdCdGaD	DB01367	DOID:2377
-Rasagiline—BCL2—Irinotecan—PTPRK—multiple sclerosis	0.006859364409493797	0.0987273332093632	CbGdCdGaD	DB01367	DOID:2377
-Regadenoson—Cladribine—multiple sclerosis	0.2862088730110679	0.9999348503039694	CrCtD	DB06213	DOID:2377
-Regadenoson—ADORA2A—Parkinson's disease—amyotrophic lateral sclerosis—multiple sclerosis	0.09626072359716328	0.9999507167748762	CbGaDrDrD	DB06213	DOID:2377
-Regadenoson—S-Adenosylmethionine—SRM—multiple sclerosis	0.06986336800750194	0.4787735656399522	CrCbGaD	DB06213	DOID:2377
-Regadenoson—Clofarabine—Cladribine—multiple sclerosis	0.0481025014960418	0.1641977757090674	CrCrCtD	DB06213	DOID:2377
-Regadenoson—Fludarabine—Cladribine—multiple sclerosis	0.045118845330153784	0.15401307240502468	CrCrCtD	DB06213	DOID:2377
-Regadenoson—Nelarabine—Cladribine—multiple sclerosis	0.042521661908759535	0.14514759290524248	CrCrCtD	DB06213	DOID:2377
-Regadenoson—Adenosine monophosphate—Cladribine—multiple sclerosis	0.042521661908759535	0.14514759290524248	CrCrCtD	DB06213	DOID:2377
-Regadenoson—Azacitidine—Cladribine—multiple sclerosis	0.03821348729902024	0.13044164900867236	CrCrCtD	DB06213	DOID:2377
-Regadenoson—Adenosine—Cladribine—multiple sclerosis	0.03821348729902024	0.13044164900867236	CrCrCtD	DB06213	DOID:2377
-Regadenoson—Vidarabine—Cladribine—multiple sclerosis	0.03821348729902024	0.13044164900867236	CrCrCtD	DB06213	DOID:2377
-Regadenoson—ADORA2A—Parkinson's disease—PRKAR1A—multiple sclerosis	0.03248140935489856	0.9999818072304747	CbGaDdGdD	DB06213	DOID:2377
-Regadenoson—Clofarabine—RRM1—multiple sclerosis	0.029917273857030878	0.20502303692572524	CrCbGaD	DB06213	DOID:2377
-Regadenoson—Fludarabine—RRM1—multiple sclerosis	0.02897458166938254	0.1985627686498978	CrCbGaD	DB06213	DOID:2377
-Regadenoson—Cladribine—RRM1—multiple sclerosis	0.017182961632783593	0.11775481262653853	CrCbGaD	DB06213	DOID:2377
-Regadenoson—Fludarabine—lymphatic system cancer—Mitoxantrone—multiple sclerosis	0.007049983812742815	0.08861322977507763	CrCtDtCtD	DB06213	DOID:2377
-Regadenoson—Electrocardiogram PR prolongation—Fingolimod—multiple sclerosis	0.006704481150133579	0.10068330989575736	CcSEcCtD	DB06213	DOID:2377
-Regadenoson—Cytarabine—lymphatic system cancer—Mitoxantrone—multiple sclerosis	0.006657772594218296	0.08368341663640677	CrCtDtCtD	DB06213	DOID:2377
-Regadenoson—Clofarabine—hematologic cancer—Cladribine—multiple sclerosis	0.005774838338450246	0.07258556759720139	CrCtDtCtD	DB06213	DOID:2377
-Regadenoson—Nelarabine—hematologic cancer—Cladribine—multiple sclerosis	0.005429515973983694	0.0682451136555004	CrCtDtCtD	DB06213	DOID:2377
-Mifepristone—PGR—multiple sclerosis	0.1407216063584752	0.9999456201168258	CbGaD	DB00834	DOID:2377
-Mifepristone—SIRT3—CDCA4—PAM—multiple sclerosis	0.11988382888029453	1.000105095000122	CuGcG<rGdD	DB00834	DOID:2377
-Mifepristone—NR3C1—ADORA2A—Sildenafil—multiple sclerosis	0.09691746965132308	0.9998077153768313	CbG<rGbCpD	DB00834	DOID:2377
-Mifepristone—PNP—Cladribine—multiple sclerosis	0.09098182661086521	1.000027013825886	CdGbCtD	DB00834	DOID:2377
-Mifepristone—PGR—Betamethasone—multiple sclerosis	0.028547480357156384	0.12927146136338852	CbGbCtD	DB00834	DOID:2377
-Mifepristone—NR3C1—Methylprednisolone—multiple sclerosis	0.022426065659026693	0.10155187932888582	CbGbCtD	DB00834	DOID:2377
-Mifepristone—NR3C1—Triamcinolone—multiple sclerosis	0.016995779620518344	0.07696193292952855	CbGbCtD	DB00834	DOID:2377
-Mifepristone—PGR—Dexamethasone—multiple sclerosis	0.016605773122999403	0.07519586779016323	CbGbCtD	DB00834	DOID:2377
-Mifepristone—ABCC1—Mitoxantrone—multiple sclerosis	0.01578846442410671	0.07149485149839153	CbGbCtD	DB00834	DOID:2377
-Mifepristone—NR3C1—Betamethasone—multiple sclerosis	0.0145817122027465	0.06603031938532736	CbGbCtD	DB00834	DOID:2377
-Mifepristone—NR3C1—Prednisolone—multiple sclerosis	0.014387489984184557	0.06515082355211811	CbGbCtD	DB00834	DOID:2377
-Mifepristone—NR3C1—Prednisone—multiple sclerosis	0.013587071837407145	0.06152629269191024	CbGbCtD	DB00834	DOID:2377
-Mifepristone—NR3C1—Dexamethasone—multiple sclerosis	0.008482030692525887	0.038409151674118416	CbGbCtD	DB00834	DOID:2377
-Mifepristone—CYP2D6—Fingolimod—multiple sclerosis	0.007636065344336298	0.034578369571632746	CbGbCtD	DB00834	DOID:2377
-Mifepristone—Pituitary-dependent Cushing's syndrome—Methylprednisolone—multiple sclerosis	0.0070764127994862305	0.08754989149641718	CcSEcCtD	DB00834	DOID:2377
-Mifepristone—ABCC1—Methotrexate—multiple sclerosis	0.006578264764719105	0.02978833468773538	CbGbCtD	DB00834	DOID:2377
-Mifepristone—Endometritis—Mitoxantrone—multiple sclerosis	0.006246918693286191	0.07728733035809529	CcSEcCtD	DB00834	DOID:2377
-Mifepristone—ABCB1—Methylprednisolone—multiple sclerosis	0.005222279445383405	0.023648030828173055	CbGbCtD	DB00834	DOID:2377
-Raltegravir—CCR1—multiple sclerosis	0.40613853460581284	1.0000255715113302	CbGaD	DB06817	DOID:2377
-Raltegravir—CCR1—IgA glomerulonephritis—HP1BP3—multiple sclerosis	0.061088835930256546	0.7669191601192211	CbGaDdGdD	DB06817	DOID:2377
-Raltegravir—CCR1—medulla oblongata—amyotrophic lateral sclerosis—multiple sclerosis	0.030533864119353733	0.5358806308141808	CbGuAlDrD	DB06817	DOID:2377
-Raltegravir—CCR1—spinal cord—amyotrophic lateral sclerosis—multiple sclerosis	0.026425745968014887	0.4637816348340663	CbGuAlDrD	DB06817	DOID:2377
-Raltegravir—UGT1A1—hematologic cancer—PALLD—multiple sclerosis	0.018564360198633993	0.23305999066574928	CbGaDdGdD	DB06817	DOID:2377
-Raltegravir—CCR1—Chemokine receptors bind chemokines—CXCL13—multiple sclerosis	0.012115755480002852	0.048911945658880976	CbGpPWpGaD	DB06817	DOID:2377
-Raltegravir—CCR1—Chemokine receptors bind chemokines—CCL3—multiple sclerosis	0.008632961134107647	0.03485172068416532	CbGpPWpGaD	DB06817	DOID:2377
-Raltegravir—CCR1—Chemokine receptors bind chemokines—CXCR3—multiple sclerosis	0.008025780673816606	0.032400501053007597	CbGpPWpGaD	DB06817	DOID:2377
-Raltegravir—CCR1—Chemokine receptors bind chemokines—CCR2—multiple sclerosis	0.00780732031824171	0.0315185650434756	CbGpPWpGaD	DB06817	DOID:2377
-Raltegravir—CCR1—Chemokine receptors bind chemokines—CXCL10—multiple sclerosis	0.006487309033208091	0.026189609672162772	CbGpPWpGaD	DB06817	DOID:2377
-Raltegravir—CCR1—Peptide GPCRs—CXCR3—multiple sclerosis	0.006421734307245783	0.02592488103529335	CbGpPWpGaD	DB06817	DOID:2377
-Raltegravir—CCR1—Peptide GPCRs—CCR2—multiple sclerosis	0.006246935815088472	0.025219210277595727	CbGpPWpGaD	DB06817	DOID:2377
-Raltegravir—CCR1—Chemokine receptors bind chemokines—CCL5—multiple sclerosis	0.0055843633443168166	0.022544370170518385	CbGpPWpGaD	DB06817	DOID:2377
-Raltegravir—CCR1—G alpha (i) signalling events—S1PR1—multiple sclerosis	0.005217277287970095	0.02106242434635592	CbGpPWpGaD	DB06817	DOID:2377
-Raltegravir—CCR1—Chemokine receptors bind chemokines—CCR5—multiple sclerosis	0.005030990486085269	0.020310374674686976	CbGpPWpGaD	DB06817	DOID:2377
-Frovatriptan—migraine—Prednisone—multiple sclerosis	0.5056634089505881	1.0000489609330117	CpDpCtD	DB00998	DOID:2377
-Frovatriptan—migraine—restless legs syndrome—Pregabalin—multiple sclerosis	0.0870105438216776	0.3475583905548481	CpDrDpCpD	DB00998	DOID:2377
-Frovatriptan—migraine—restless legs syndrome—Carbamazepine—multiple sclerosis	0.06912273182890749	0.276106600074187	CpDrDpCpD	DB00998	DOID:2377
-Frovatriptan—migraine—restless legs syndrome—Gabapentin—multiple sclerosis	0.04997443427767924	0.1996198757478855	CpDrDpCpD	DB00998	DOID:2377
-Frovatriptan—migraine—restless legs syndrome—Clonazepam—multiple sclerosis	0.04417641354081883	0.1764600302027668	CpDrDpCpD	DB00998	DOID:2377
-Frovatriptan—HTR1B—trigeminal nucleus—multiple sclerosis	0.0249203008716824	0.2824439084170392	CbGeAlD	DB00998	DOID:2377
-Frovatriptan—HTR1D—trigeminal nucleus—multiple sclerosis	0.024126907312686602	0.27345167437983636	CbGeAlD	DB00998	DOID:2377
-Frovatriptan—HTR1D—meninx—multiple sclerosis	0.016015003107332382	0.18151225758618256	CbGeAlD	DB00998	DOID:2377
-Frovatriptan—HTR1B—trigeminal nerve—multiple sclerosis	0.006545252742223323	0.07418316398385014	CbGeAlD	DB00998	DOID:2377
-Frovatriptan—HTR1D—trigeminal nerve—multiple sclerosis	0.006336869970505647	0.0718213769093772	CbGeAlD	DB00998	DOID:2377
-Frovatriptan—HTR1A—Parkinson's disease—PRKAR1A—multiple sclerosis	0.0053623920519895235	0.5011670034692276	CbGaDdGdD	DB00998	DOID:2377
-Frovatriptan—CYP1A2—chronic obstructive pulmonary disease—LIN7C—multiple sclerosis	0.00533900083371413	0.4989808696213258	CbGaDdGdD	DB00998	DOID:2377
-Nabilone—CNR1—multiple sclerosis	0.31317501875796155	1.000093527732621	CbGaD	DB00486	DOID:2377
-Nabilone—Dronabinol—CNR1—multiple sclerosis	0.24945456977588856	0.9997581130369914	CrCbGaD	DB00486	DOID:2377
-Nabilone—CNR2—hematologic cancer—PALLD—multiple sclerosis	0.031423101106301664	1.0000487055686613	CbGaDdGdD	DB00486	DOID:2377
-Nabilone—CNR2—Small Ligand GPCRs—S1PR1—multiple sclerosis	0.027593046975010197	0.0943507126576863	CbGpPWpGaD	DB00486	DOID:2377
-Nabilone—CNR1—Small Ligand GPCRs—S1PR1—multiple sclerosis	0.021652252667918242	0.07403696560631903	CbGpPWpGaD	DB00486	DOID:2377
-Nabilone—CNR2—Small Ligand GPCRs—PTGER4—multiple sclerosis	0.0139525820299818	0.047708977523788804	CbGpPWpGaD	DB00486	DOID:2377
-Nabilone—CNR2—Small Ligand GPCRs—CNR1—multiple sclerosis	0.012097449016816527	0.041365599714681164	CbGpPWpGaD	DB00486	DOID:2377
-Nabilone—CNR1—Small Ligand GPCRs—PTGER4—multiple sclerosis	0.010948585408368438	0.03743721513643115	CbGpPWpGaD	DB00486	DOID:2377
-Nabilone—CNR1—BDNF signaling pathway—KCNA3—multiple sclerosis	0.007070387089732759	0.024176237632840974	CbGpPWpGaD	DB00486	DOID:2377
-Nabilone—CNR1—GPCRs, Other—S1PR1—multiple sclerosis	0.006184048020163282	0.021145520403751786	CbGpPWpGaD	DB00486	DOID:2377
-Nabilone—CNR1—BDNF signaling pathway—LINGO1—multiple sclerosis	0.005652336018201744	0.019327402732327147	CbGpPWpGaD	DB00486	DOID:2377
+Methylprednisolone—brain cancer—Triamcinolone—multiple sclerosis	0.0732648372231505	0.4448734080568945	CpDpCtD	DB00959	DOID:2377
+Methylprednisolone—Corticosteroid Hormone Receptor Agonists—Betamethasone—multiple sclerosis	0.06320666740057798	0.20901914170861063	CiPCiCtD	DB00959	DOID:2377
+Methylprednisolone—Corticosteroid Hormone Receptor Agonists—Dexamethasone—multiple sclerosis	0.06320666740057798	0.20901914170861063	CiPCiCtD	DB00959	DOID:2377
+Methylprednisolone—Corticosteroid Hormone Receptor Agonists—Triamcinolone—multiple sclerosis	0.0610446303441185	0.2018694667064567	CiPCiCtD	DB00959	DOID:2377
+Methylprednisolone—Corticosteroid Hormone Receptor Agonists—Prednisolone—multiple sclerosis	0.05912111631010975	0.19550856731106633	CiPCiCtD	DB00959	DOID:2377
+Methylprednisolone—Corticosteroid Hormone Receptor Agonists—Prednisone—multiple sclerosis	0.055832035698803115	0.18463185390947573	CiPCiCtD	DB00959	DOID:2377
+Methylprednisolone—Betamethasone—multiple sclerosis	0.04557081689148837	0.2079026084850747	CrCtD	DB00959	DOID:2377
+Methylprednisolone—Dexamethasone—multiple sclerosis	0.04557081689148837	0.2079026084850747	CrCtD	DB00959	DOID:2377
+Methylprednisolone—Triamcinolone—multiple sclerosis	0.04452531906610636	0.20313285143683113	CrCtD	DB00959	DOID:2377
+Methylprednisolone—Prednisone—multiple sclerosis	0.04225614988741145	0.1927804763089514	CrCtD	DB00959	DOID:2377
+Methylprednisolone—Prednisolone—multiple sclerosis	0.041245856449886716	0.18817132827684807	CrCtD	DB00959	DOID:2377
+Methylprednisolone—brain cancer—Dexamethasone—multiple sclerosis	0.03984951239515237	0.24197130657153962	CpDpCtD	DB00959	DOID:2377
+Methylprednisolone—brain cancer—Betamethasone—multiple sclerosis	0.03984951239515237	0.24197130657153962	CpDpCtD	DB00959	DOID:2377
+Methylprednisolone—NR3C1—Triamcinolone—multiple sclerosis	0.01658551721212855	0.16672379034256943	CbGbCtD	DB00959	DOID:2377
+Methylprednisolone—NR3C1—Betamethasone—multiple sclerosis	0.014229723150151143	0.14304247186115535	CbGbCtD	DB00959	DOID:2377
+Methylprednisolone—NR3C1—Prednisolone—multiple sclerosis	0.014040189276397688	0.1411372068382848	CbGbCtD	DB00959	DOID:2377
+Methylprednisolone—NR3C1—Prednisone—multiple sclerosis	0.013259092483741589	0.13328533123920386	CbGbCtD	DB00959	DOID:2377
+Methylprednisolone—osteoarthritis—Prednisone—multiple sclerosis	0.011722373955704081	0.07117974528910313	CpDpCtD	DB00959	DOID:2377
+Methylprednisolone—NR3C1—Dexamethasone—multiple sclerosis	0.008277282312772201	0.08320632171251907	CbGbCtD	DB00959	DOID:2377
+Pemetrexed—Folic Acid Metabolism Inhibitors—Methotrexate—multiple sclerosis	0.3842669229203424	1.0000366682416144	CiPCiCtD	DB00642	DOID:2377
+Pemetrexed—Methotrexate—multiple sclerosis	0.24912780071103532	0.9998666571190211	CrCtD	DB00642	DOID:2377
+Pemetrexed—DCK—Cladribine—multiple sclerosis	0.04596485941789852	0.3046366626043711	CbGbCtD	DB00642	DOID:2377
+Pemetrexed—ATIC—Methotrexate—multiple sclerosis	0.0395043994963695	0.26181932400466834	CbGbCtD	DB00642	DOID:2377
+Pemetrexed—Folic Acid—Methotrexate—multiple sclerosis	0.032935642736384566	0.20002189285143873	CrCrCtD	DB00642	DOID:2377
+Pemetrexed—Tetrahydrofolic acid—Methotrexate—multiple sclerosis	0.032935642736384566	0.20002189285143873	CrCrCtD	DB00642	DOID:2377
+Pemetrexed—Leucovorin—Methotrexate—multiple sclerosis	0.032935642736384566	0.20002189285143873	CrCrCtD	DB00642	DOID:2377
+Pemetrexed—Pralatrexate—Methotrexate—multiple sclerosis	0.032935642736384566	0.20002189285143873	CrCrCtD	DB00642	DOID:2377
+Pemetrexed—Raltitrexed—Methotrexate—multiple sclerosis	0.032935642736384566	0.20002189285143873	CrCrCtD	DB00642	DOID:2377
+Pemetrexed—SLC46A1—Methotrexate—multiple sclerosis	0.03138300132965345	0.2079939525247712	CbGbCtD	DB00642	DOID:2377
+Pemetrexed—DHFR—Methotrexate—multiple sclerosis	0.020056910486732863	0.13292916263013038	CbGbCtD	DB00642	DOID:2377
+Pemetrexed—TYMS—Methotrexate—multiple sclerosis	0.013971026620189765	0.09259436396914411	CbGbCtD	DB00642	DOID:2377
+Prednisone—osteoarthritis—Methylprednisolone—multiple sclerosis	0.10032136206664119	1.0000406075594221	CpDpCtD	DB00635	DOID:2377
+Prednisone—Corticosteroid Hormone Receptor Agonists—Methylprednisolone—multiple sclerosis	0.06457642717043012	0.21029276344442915	CiPCiCtD	DB00635	DOID:2377
+Prednisone—Corticosteroid Hormone Receptor Agonists—Dexamethasone—multiple sclerosis	0.06216084921900526	0.202426447747218	CiPCiCtD	DB00635	DOID:2377
+Prednisone—Corticosteroid Hormone Receptor Agonists—Betamethasone—multiple sclerosis	0.06216084921900526	0.202426447747218	CiPCiCtD	DB00635	DOID:2377
+Prednisone—Corticosteroid Hormone Receptor Agonists—Triamcinolone—multiple sclerosis	0.06003458525035231	0.19550228136990724	CiPCiCtD	DB00635	DOID:2377
+Prednisone—Corticosteroid Hormone Receptor Agonists—Prednisolone—multiple sclerosis	0.05814289769971956	0.18934201174789658	CiPCiCtD	DB00635	DOID:2377
+Prednisone—Methylprednisolone—multiple sclerosis	0.046818187103814725	0.20742273456993765	CrCtD	DB00635	DOID:2377
+Prednisone—Betamethasone—multiple sclerosis	0.0460798430017875	0.20415158371660627	CrCtD	DB00635	DOID:2377
+Prednisone—Dexamethasone—multiple sclerosis	0.0460798430017875	0.20415158371660627	CrCtD	DB00635	DOID:2377
+Prednisone—Triamcinolone—multiple sclerosis	0.045022666963731625	0.19946788367821894	CrCtD	DB00635	DOID:2377
+Prednisone—Prednisolone—multiple sclerosis	0.04170657274392716	0.18477629962268508	CrCtD	DB00635	DOID:2377
+Prednisone—ALB—multiple sclerosis	0.04170526304506434	1.0000445717576216	CbGaD	DB00635	DOID:2377
+Prednisone—NR3C1—Methylprednisolone—multiple sclerosis	0.015624252659042657	0.15453847668024653	CbGbCtD	DB00635	DOID:2377
+Prednisone—NR3C1—Triamcinolone—multiple sclerosis	0.011840969297327548	0.11711826463376526	CbGbCtD	DB00635	DOID:2377
+Prednisone—NR3C1—Betamethasone—multiple sclerosis	0.010159087158716745	0.10048287673211094	CbGbCtD	DB00635	DOID:2377
+Prednisone—NR3C1—Prednisolone—multiple sclerosis	0.010023772428930868	0.0991444874555265	CbGbCtD	DB00635	DOID:2377
+Prednisone—SLCO1A2—Prednisolone—multiple sclerosis	0.008637193390729051	0.08542992349931358	CbGbCtD	DB00635	DOID:2377
+Prednisone—NR3C1—Dexamethasone—multiple sclerosis	0.0059094355923477076	0.058449846812538786	CbGbCtD	DB00635	DOID:2377
+Prednisone—SLCO1A2—Dexamethasone—multiple sclerosis	0.005091988909669276	0.050364534326547146	CbGbCtD	DB00635	DOID:2377
+Fluticasone Propionate—PGR—multiple sclerosis	0.09368105343607885	1.0000227773425365	CbGaD	DB00588	DOID:2377
+Fluticasone Propionate—Corticosteroid Hormone Receptor Agonists—Methylprednisolone—multiple sclerosis	0.05820312272321735	0.1783975349392017	CiPCiCtD	DB00588	DOID:2377
+Fluticasone Propionate—Methylprednisolone—multiple sclerosis	0.057552290883768016	0.2544413443727122	CrCtD	DB00588	DOID:2377
+Fluticasone Propionate—Betamethasone—multiple sclerosis	0.05664466508360705	0.2504286886602452	CrCtD	DB00588	DOID:2377
+Fluticasone Propionate—Dexamethasone—multiple sclerosis	0.05664466508360705	0.2504286886602452	CrCtD	DB00588	DOID:2377
+Fluticasone Propionate—Corticosteroid Hormone Receptor Agonists—Betamethasone—multiple sclerosis	0.05602594776766858	0.17172430802235225	CiPCiCtD	DB00588	DOID:2377
+Fluticasone Propionate—Corticosteroid Hormone Receptor Agonists—Dexamethasone—multiple sclerosis	0.05602594776766858	0.17172430802235225	CiPCiCtD	DB00588	DOID:2377
+Fluticasone Propionate—Triamcinolone—multiple sclerosis	0.05534510808190966	0.2446832869477633	CrCtD	DB00588	DOID:2377
+Fluticasone Propionate—Corticosteroid Hormone Receptor Agonists—Triamcinolone—multiple sclerosis	0.054109533247198936	0.1658503340777017	CiPCiCtD	DB00588	DOID:2377
+Fluticasone Propionate—Corticosteroid Hormone Receptor Agonists—Prednisolone—multiple sclerosis	0.052404543865038185	0.16062439621314004	CiPCiCtD	DB00588	DOID:2377
+Fluticasone Propionate—Corticosteroid Hormone Receptor Agonists—Prednisone—multiple sclerosis	0.04948912582274741	0.15168839127513561	CiPCiCtD	DB00588	DOID:2377
+Fluticasone Propionate—NR3C2—Betamethasone—multiple sclerosis	0.018415127227468606	0.12730149935937618	CbGbCtD	DB00588	DOID:2377
+Fluticasone Propionate—NR3C2—Prednisolone—multiple sclerosis	0.018169845547547248	0.12560589741030034	CbGbCtD	DB00588	DOID:2377
+Fluticasone Propionate—SERPINA6—Triamcinolone—multiple sclerosis	0.01515173281546792	0.10474205697719048	CbGbCtD	DB00588	DOID:2377
+Fluticasone Propionate—SERPINA6—Prednisolone—multiple sclerosis	0.01282644332846066	0.088667618039887	CbGbCtD	DB00588	DOID:2377
+Fluticasone Propionate—PGR—Betamethasone—multiple sclerosis	0.011892851361473633	0.08221381211613316	CbGbCtD	DB00588	DOID:2377
+Fluticasone Propionate—NR3C2—Dexamethasone—multiple sclerosis	0.010711888437952963	0.07404996133221002	CbGbCtD	DB00588	DOID:2377
+Fluticasone Propionate—NR3C1—Methylprednisolone—multiple sclerosis	0.009342676207099766	0.06458476634464498	CbGbCtD	DB00588	DOID:2377
+Fluticasone Propionate—NR3C1—Triamcinolone—multiple sclerosis	0.00708042455132182	0.04894610014639079	CbGbCtD	DB00588	DOID:2377
+Fluticasone Propionate—PGR—Dexamethasone—multiple sclerosis	0.006917948240033671	0.04782292148018478	CbGbCtD	DB00588	DOID:2377
+Fluticasone Propionate—NR3C1—Betamethasone—multiple sclerosis	0.006074726513633536	0.04199383386448686	CbGbCtD	DB00588	DOID:2377
+Fluticasone Propionate—NR3C1—Prednisolone—multiple sclerosis	0.005993813734377562	0.04143449381815498	CbGbCtD	DB00588	DOID:2377
+Fluticasone Propionate—NR3C1—Prednisone—multiple sclerosis	0.00566036034628324	0.03912937174397497	CbGbCtD	DB00588	DOID:2377
+Hydrocortisone—Corticosteroid Hormone Receptor Agonists—Methylprednisolone—multiple sclerosis	0.05332856834049834	0.1783975349392017	CiPCiCtD	DB00741	DOID:2377
+Hydrocortisone—Corticosteroid Hormone Receptor Agonists—Betamethasone—multiple sclerosis	0.051333733390519116	0.17172430802235225	CiPCiCtD	DB00741	DOID:2377
+Hydrocortisone—Corticosteroid Hormone Receptor Agonists—Dexamethasone—multiple sclerosis	0.051333733390519116	0.17172430802235225	CiPCiCtD	DB00741	DOID:2377
+Hydrocortisone—Corticosteroid Hormone Receptor Agonists—Triamcinolone—multiple sclerosis	0.049577819997184615	0.1658503340777017	CiPCiCtD	DB00741	DOID:2377
+Hydrocortisone—Corticosteroid Hormone Receptor Agonists—Prednisolone—multiple sclerosis	0.048015624731154435	0.16062439621314004	CiPCiCtD	DB00741	DOID:2377
+Hydrocortisone—Corticosteroid Hormone Receptor Agonists—Prednisone—multiple sclerosis	0.045344375096512304	0.15168839127513561	CiPCiCtD	DB00741	DOID:2377
+Hydrocortisone—kidney cancer—Betamethasone—multiple sclerosis	0.042995428721403633	0.2901826614391859	CpDpCtD	DB00741	DOID:2377
+Hydrocortisone—kidney cancer—Dexamethasone—multiple sclerosis	0.042995428721403633	0.2901826614391859	CpDpCtD	DB00741	DOID:2377
+Hydrocortisone—Methylprednisolone—multiple sclerosis	0.03773487898693765	0.17441358271189275	CrCtD	DB00741	DOID:2377
+Hydrocortisone—Betamethasone—multiple sclerosis	0.037139782784708864	0.17166300119485933	CrCtD	DB00741	DOID:2377
+Hydrocortisone—Dexamethasone—multiple sclerosis	0.037139782784708864	0.17166300119485933	CrCtD	DB00741	DOID:2377
+Hydrocortisone—Triamcinolone—multiple sclerosis	0.03628771199060761	0.1677246628746328	CrCtD	DB00741	DOID:2377
+Hydrocortisone—Prednisone—multiple sclerosis	0.034438360670021	0.15917681541424644	CrCtD	DB00741	DOID:2377
+Hydrocortisone—Prednisolone—multiple sclerosis	0.03361498111753609	0.15537109027251964	CrCtD	DB00741	DOID:2377
+Hydrocortisone—prostate cancer—Dexamethasone—multiple sclerosis	0.03108488582593667	0.20979660321454408	CpDpCtD	DB00741	DOID:2377
+Hydrocortisone—prostate cancer—Betamethasone—multiple sclerosis	0.03108488582593667	0.20979660321454408	CpDpCtD	DB00741	DOID:2377
+Hydrocortisone—ANXA1—Dexamethasone—multiple sclerosis	0.029164935872709498	0.249295164774835	CbGbCtD	DB00741	DOID:2377
+Hydrocortisone—NR3C1—Methylprednisolone—multiple sclerosis	0.008995993607255155	0.07689568454469184	CbGbCtD	DB00741	DOID:2377
+Hydrocortisone—NR3C1—Triamcinolone—multiple sclerosis	0.006817688271369137	0.05827603147877349	CbGbCtD	DB00741	DOID:2377
+Hydrocortisone—NR3C1—Betamethasone—multiple sclerosis	0.005849309092071708	0.049998548952457755	CbGbCtD	DB00741	DOID:2377
+Hydrocortisone—ABCG2—Cladribine—multiple sclerosis	0.0058097896092874	0.04966074550191942	CbGbCtD	DB00741	DOID:2377
+Hydrocortisone—NR3C1—Prednisolone—multiple sclerosis	0.005771398777211517	0.049332589498080726	CbGbCtD	DB00741	DOID:2377
+Hydrocortisone—NR3C1—Prednisone—multiple sclerosis	0.005450318983679283	0.046588073261739964	CbGbCtD	DB00741	DOID:2377
+Clofarabine—Nucleic Acid Synthesis Inhibitors—Azathioprine—multiple sclerosis	0.2487968534905401	1.0000027966747946	CiPCiCtD	DB00631	DOID:2377
+Clofarabine—Cladribine—multiple sclerosis	0.23012181898941597	0.9999348503039694	CrCtD	DB00631	DOID:2377
+Clofarabine—RRM1—multiple sclerosis	0.15343934745259186	1.000120149899283	CbGaD	DB00631	DOID:2377
+Clofarabine—RRM1—Cladribine—multiple sclerosis	0.049040287686390675	0.27247629791401856	CbGbCtD	DB00631	DOID:2377
+Clofarabine—RRM2—Cladribine—multiple sclerosis	0.049040287686390675	0.27247629791401856	CbGbCtD	DB00631	DOID:2377
+Clofarabine—POLA1—Cladribine—multiple sclerosis	0.042384592532793856	0.23549610752252517	CbGbCtD	DB00631	DOID:2377
+Clofarabine—DCK—Cladribine—multiple sclerosis	0.02609845898019905	0.14500754012009934	CbGbCtD	DB00631	DOID:2377
+Clofarabine—Regadenoson—Cladribine—multiple sclerosis	0.02095510007555684	0.14607429189396132	CrCrCtD	DB00631	DOID:2377
+Clofarabine—Fludarabine—Cladribine—multiple sclerosis	0.019655317078774846	0.1370137347891919	CrCrCtD	DB00631	DOID:2377
+Clofarabine—Adenosine monophosphate—Cladribine—multiple sclerosis	0.01852389486959156	0.1291267909214157	CrCrCtD	DB00631	DOID:2377
+Clofarabine—Nelarabine—Cladribine—multiple sclerosis	0.01852389486959156	0.1291267909214157	CrCrCtD	DB00631	DOID:2377
+Clofarabine—Azacitidine—Cladribine—multiple sclerosis	0.016647106193695187	0.11604402940380538	CrCrCtD	DB00631	DOID:2377
+Clofarabine—Vidarabine—Cladribine—multiple sclerosis	0.016647106193695187	0.11604402940380538	CrCrCtD	DB00631	DOID:2377
+Clofarabine—Adenosine—Cladribine—multiple sclerosis	0.016647106193695187	0.11604402940380538	CrCrCtD	DB00631	DOID:2377
+Clofarabine—Decitabine—Cladribine—multiple sclerosis	0.01585899269171493	0.11055022974077625	CrCrCtD	DB00631	DOID:2377
+Clofarabine—ABCG2—Cladribine—multiple sclerosis	0.005560042853467252	0.030892557210191074	CbGbCtD	DB00631	DOID:2377
+Triamcinolone—BCHE—multiple sclerosis	0.07645424273720294	1.000034658195014	CbGaD	DB00620	DOID:2377
+Triamcinolone—brain cancer—Methylprednisolone—multiple sclerosis	0.060370188076027266	0.38917510311898273	CpDpCtD	DB00620	DOID:2377
+Triamcinolone—Corticosteroid Hormone Receptor Agonists—Methylprednisolone—multiple sclerosis	0.05912686673190506	0.21385763993958148	CiPCiCtD	DB00620	DOID:2377
+Triamcinolone—Corticosteroid Hormone Receptor Agonists—Betamethasone—multiple sclerosis	0.056915137748548936	0.20585797469922332	CiPCiCtD	DB00620	DOID:2377
+Triamcinolone—Corticosteroid Hormone Receptor Agonists—Dexamethasone—multiple sclerosis	0.056915137748548936	0.20585797469922332	CiPCiCtD	DB00620	DOID:2377
+Triamcinolone—Corticosteroid Hormone Receptor Agonists—Prednisolone—multiple sclerosis	0.053236258404712376	0.19255173174096377	CiPCiCtD	DB00620	DOID:2377
+Triamcinolone—Corticosteroid Hormone Receptor Agonists—Prednisone—multiple sclerosis	0.05027456965007181	0.1818395157499673	CiPCiCtD	DB00620	DOID:2377
+Triamcinolone—brain cancer—Dexamethasone—multiple sclerosis	0.04737246187475111	0.30538554413461017	CpDpCtD	DB00620	DOID:2377
+Triamcinolone—brain cancer—Betamethasone—multiple sclerosis	0.04737246187475111	0.30538554413461017	CpDpCtD	DB00620	DOID:2377
+Triamcinolone—Methylprednisolone—multiple sclerosis	0.04228234983479474	0.20958328661076292	CrCtD	DB00620	DOID:2377
+Triamcinolone—Dexamethasone—multiple sclerosis	0.0416155379492523	0.20627806286919834	CrCtD	DB00620	DOID:2377
+Triamcinolone—Betamethasone—multiple sclerosis	0.0416155379492523	0.20627806286919834	CrCtD	DB00620	DOID:2377
+Triamcinolone—Prednisone—multiple sclerosis	0.038588564550338725	0.19127409464353456	CrCtD	DB00620	DOID:2377
+Triamcinolone—Prednisolone—multiple sclerosis	0.03766595864249852	0.1867009623751729	CrCtD	DB00620	DOID:2377
+Triamcinolone—SERPINA6—Prednisolone—multiple sclerosis	0.02123867663953355	0.2231724649926396	CbGbCtD	DB00620	DOID:2377
+Triamcinolone—NR3C1—Methylprednisolone—multiple sclerosis	0.015470078012208344	0.16255699459101494	CbGbCtD	DB00620	DOID:2377
+Triamcinolone—NR3C1—Betamethasone—multiple sclerosis	0.010058840848762993	0.10569661873416962	CbGbCtD	DB00620	DOID:2377
+Triamcinolone—NR3C1—Prednisolone—multiple sclerosis	0.009924861357284601	0.10428878462665106	CbGbCtD	DB00620	DOID:2377
+Triamcinolone—NR3C1—Prednisone—multiple sclerosis	0.00937271229282979	0.09848689452543868	CbGbCtD	DB00620	DOID:2377
+Triamcinolone—PTGS2—Betamethasone—multiple sclerosis	0.007100729159146865	0.0746132754214164	CbGbCtD	DB00620	DOID:2377
+Triamcinolone—NR3C1—Dexamethasone—multiple sclerosis	0.005851123353975588	0.061482626438791696	CbGbCtD	DB00620	DOID:2377
+Dexamethasone—PGR—multiple sclerosis	0.06009152054650924	0.9999659761892988	CbGaD	DB01234	DOID:2377
+Dexamethasone—Corticosteroid Hormone Receptor Agonists—Methylprednisolone—multiple sclerosis	0.05706963223157617	0.2153969567319153	CiPCiCtD	DB01234	DOID:2377
+Dexamethasone—Corticosteroid Hormone Receptor Agonists—Betamethasone—multiple sclerosis	0.05493485718509224	0.20733971104205337	CiPCiCtD	DB01234	DOID:2377
+Dexamethasone—Corticosteroid Hormone Receptor Agonists—Triamcinolone—multiple sclerosis	0.05305576433286581	0.2002474823740312	CiPCiCtD	DB01234	DOID:2377
+Dexamethasone—Corticosteroid Hormone Receptor Agonists—Prednisolone—multiple sclerosis	0.051383979170042546	0.19393769164469019	CiPCiCtD	DB01234	DOID:2377
+Dexamethasone—Corticosteroid Hormone Receptor Agonists—Prednisone—multiple sclerosis	0.04852533812657038	0.18314837065074543	CiPCiCtD	DB01234	DOID:2377
+Dexamethasone—brain cancer—Triamcinolone—multiple sclerosis	0.04115956897046075	0.2733546305123603	CpDpCtD	DB01234	DOID:2377
+Dexamethasone—Methylprednisolone—multiple sclerosis	0.04060762642576795	0.21053372946515542	CrCtD	DB01234	DOID:2377
+Dexamethasone—Betamethasone—multiple sclerosis	0.03996722568999602	0.20721351680754638	CrCtD	DB01234	DOID:2377
+Dexamethasone—Triamcinolone—multiple sclerosis	0.03905028694727078	0.20245956908420604	CrCtD	DB01234	DOID:2377
+Dexamethasone—Prednisone—multiple sclerosis	0.037060144946752444	0.1921415068280852	CrCtD	DB01234	DOID:2377
+Dexamethasone—Prednisolone—multiple sclerosis	0.03617408170310199	0.18754763578347403	CrCtD	DB01234	DOID:2377
+Dexamethasone—brain cancer—Methylprednisolone—multiple sclerosis	0.028529542978363447	0.189474352492223	CpDpCtD	DB01234	DOID:2377
+Dexamethasone—PLA2G1B—Betamethasone—multiple sclerosis	0.022846751020012254	0.19592537192781545	CbGbCtD	DB01234	DOID:2377
+Dexamethasone—colon cancer—Betamethasone—multiple sclerosis	0.022387120698457396	0.1486804468519664	CpDpCtD	DB01234	DOID:2377
+Dexamethasone—brain cancer—Betamethasone—multiple sclerosis	0.022387120698457396	0.1486804468519664	CpDpCtD	DB01234	DOID:2377
+Dexamethasone—kidney cancer—Betamethasone—multiple sclerosis	0.016185466957248505	0.10749316502667823	CpDpCtD	DB01234	DOID:2377
+Dexamethasone—prostate cancer—Betamethasone—multiple sclerosis	0.011701788012526075	0.07771553537875217	CpDpCtD	DB01234	DOID:2377
+Dexamethasone—NR3C2—Betamethasone—multiple sclerosis	0.010170874459474899	0.08722169552940966	CbGbCtD	DB01234	DOID:2377
+Dexamethasone—NR3C2—Prednisolone—multiple sclerosis	0.010035402727845047	0.08605993955885462	CbGbCtD	DB01234	DOID:2377
+Dexamethasone—breast cancer—Betamethasone—multiple sclerosis	0.00821757743659259	0.054575713499298364	CpDpCtD	DB01234	DOID:2377
+Dexamethasone—PGR—Betamethasone—multiple sclerosis	0.006568550771797794	0.056329486493022225	CbGbCtD	DB01234	DOID:2377
+Dexamethasone—NR3C1—Methylprednisolone—multiple sclerosis	0.005160061380200248	0.04425079715713329	CbGbCtD	DB01234	DOID:2377
+Dexamethasone—CYP1B1—Mitoxantrone—multiple sclerosis	0.0051138847092407885	0.04385480293352593	CbGbCtD	DB01234	DOID:2377
+Betamethasone—PGR—multiple sclerosis	0.08028981882752574	1.0000041233323114	CbGaD	DB00443	DOID:2377
+Betamethasone—Corticosteroid Hormone Receptor Agonists—Methylprednisolone—multiple sclerosis	0.056781384460474246	0.2153969567319153	CiPCiCtD	DB00443	DOID:2377
+Betamethasone—Corticosteroid Hormone Receptor Agonists—Dexamethasone—multiple sclerosis	0.0546573917534744	0.20733971104205337	CiPCiCtD	DB00443	DOID:2377
+Betamethasone—Corticosteroid Hormone Receptor Agonists—Triamcinolone—multiple sclerosis	0.05278778983898785	0.2002474823740312	CiPCiCtD	DB00443	DOID:2377
+Betamethasone—Corticosteroid Hormone Receptor Agonists—Prednisolone—multiple sclerosis	0.05112444854251	0.19393769164469019	CiPCiCtD	DB00443	DOID:2377
+Betamethasone—Corticosteroid Hormone Receptor Agonists—Prednisone—multiple sclerosis	0.04828024594689427	0.18314837065074543	CiPCiCtD	DB00443	DOID:2377
+Betamethasone—brain cancer—Triamcinolone—multiple sclerosis	0.04095167987863852	0.2733546305123603	CpDpCtD	DB00443	DOID:2377
+Betamethasone—Methylprednisolone—multiple sclerosis	0.04040252508992141	0.21053372946515542	CrCtD	DB00443	DOID:2377
+Betamethasone—Dexamethasone—multiple sclerosis	0.039765358895489246	0.20721351680754638	CrCtD	DB00443	DOID:2377
+Betamethasone—Triamcinolone—multiple sclerosis	0.03885305143455947	0.20245956908420604	CrCtD	DB00443	DOID:2377
+Betamethasone—Prednisone—multiple sclerosis	0.036872961259738865	0.1921415068280852	CrCtD	DB00443	DOID:2377
+Betamethasone—Prednisolone—multiple sclerosis	0.035991373351657446	0.18754763578347403	CrCtD	DB00443	DOID:2377
+Betamethasone—brain cancer—Methylprednisolone—multiple sclerosis	0.028385445726418664	0.189474352492223	CpDpCtD	DB00443	DOID:2377
+Betamethasone—PLA2G1B—Dexamethasone—multiple sclerosis	0.023276977351891576	0.20354427697418875	CbGbCtD	DB00443	DOID:2377
+Betamethasone—colon cancer—Dexamethasone—multiple sclerosis	0.022274047643832916	0.1486804468519664	CpDpCtD	DB00443	DOID:2377
+Betamethasone—brain cancer—Dexamethasone—multiple sclerosis	0.022274047643832916	0.1486804468519664	CpDpCtD	DB00443	DOID:2377
+Betamethasone—NR3C2—Prednisolone—multiple sclerosis	0.017577035247725935	0.1537014396999217	CbGbCtD	DB00443	DOID:2377
+Betamethasone—kidney cancer—Dexamethasone—multiple sclerosis	0.01610371726669961	0.10749316502667823	CpDpCtD	DB00443	DOID:2377
+Betamethasone—prostate cancer—Dexamethasone—multiple sclerosis	0.011642684524723125	0.07771553537875217	CpDpCtD	DB00443	DOID:2377
+Betamethasone—NR3C2—Dexamethasone—multiple sclerosis	0.010362401823994784	0.09061346561862041	CbGbCtD	DB00443	DOID:2377
+Betamethasone—NR3C1—Methylprednisolone—multiple sclerosis	0.00903786158063686	0.07903109467407009	CbGbCtD	DB00443	DOID:2377
+Betamethasone—breast cancer—Dexamethasone—multiple sclerosis	0.00817607202842133	0.054575713499298364	CpDpCtD	DB00443	DOID:2377
+Betamethasone—NR3C1—Triamcinolone—multiple sclerosis	0.006849418261799569	0.05989436973346986	CbGbCtD	DB00443	DOID:2377
+Betamethasone—PGR—Dexamethasone—multiple sclerosis	0.006692242910861169	0.058519958327672726	CbGbCtD	DB00443	DOID:2377
+Betamethasone—NR3C1—Prednisolone—multiple sclerosis	0.0057982592643270915	0.05070256639530741	CbGbCtD	DB00443	DOID:2377
+Betamethasone—NR3C1—Prednisone—multiple sclerosis	0.005475685143338003	0.04788183433741533	CbGbCtD	DB00443	DOID:2377
