@@ -1,9 +1,15 @@
-old_indication	drugbank_id	old_indication	old_doid_id	new_indication	new_doid_id	sources
-Bupropion	DB01156	Depression	DOID:1595	Nicotine dependence	DOID:0050742	Table 1 of [@10.1038/nrd1468] & Table 2 of [@10.1016/j.tips.2013.03.004]
-Sibutramine	DB01105	Depression	DOID:1596	Obesity	DOID:9970	Table 1 of [@10.1038/nrd1468] & Table 2 of [@10.1016/j.tips.2013.03.004]
-Zidovudine	DB00495	Cancer		HIV/AIDS	DOID:635	Table 2 of [@10.1016/j.tips.2013.03.004]
-Minoxidil	DB00350	Hypertension	DOID:10763	Alopecia	DOID:986	Table 2 of [@10.1016/j.tips.2013.03.004]
-Methotrexate	DB00563	Breast cancer	DOID:1612	Rheumatoid arthritis	DOID:7148 	Table 2 of [@10.1016/j.tips.2013.03.004]
-Atomoxetine	DB00289	Parkinson's disease	DOID:14330	ADHD	DOID:1094	Table 2 of [@10.1016/j.tips.2013.03.004]
-Topiramate	DB00273	Epilepsy	DOID:1826	Migraine	DOID:6364	Table 2 of [@10.1016/j.tips.2013.03.004]
-Ropinirole	DB00268	Parkinson's disease	DOID:14330	Restless legs	DOID:0050425	Table 2 of [@10.1016/j.tips.2013.03.004]
+compound_id	compound_name	disease_id	disease_name	history
+DB01156	Bupropion	DOID:1595	endogenous depression	original
+DB01156	Bupropion	DOID:0050742	nicotine dependence	new
+DB01105	Sibutramine	DOID:1595	endogenous depression	original
+DB01105	Sibutramine	DOID:9970	obesity	new
+DB00350	Minoxidil	DOID:10763	hypertension	original
+DB00350	Minoxidil	DOID:986	alopecia areata	new
+DB00563	Methotrexate	DOID:1612	breast cancer	original
+DB00563	Methotrexate	DOID:7148	rheumatoid arthritis	new
+DB00289	Atomoxetine	DOID:14330	Parkinson's disease	original
+DB00289	Atomoxetine	DOID:1094	attention deficit hyperactivity disorder	new
+DB00273	Topiramate	DOID:1826	epilepsy syndrome	original
+DB00273	Topiramate	DOID:6364	migraine	new
+DB00268	Ropinirole	DOID:14330	Parkinson's disease	original
+DB00268	Ropinirole	DOID:0050425	restless legs syndrome	new
