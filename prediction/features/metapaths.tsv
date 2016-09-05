@@ -1,0 +1,1207 @@
+metapath	length	delta_auroc	mlog10_pval_delta_auroc	coef	verbose
+CbGaD	2	0.1453	6.2137	0.19819	Compound–binds–Gene–associates–Disease
+CbGdD	2	-0.0030012	1.527		Compound–binds–Gene–downregulates–Disease
+CbGuD	2	0.009111	3.6875		Compound–binds–Gene–upregulates–Disease
+CdGaD	2	0.01767	3.9346		Compound–downregulates–Gene–associates–Disease
+CdGdD	2	0.015378	2.2629		Compound–downregulates–Gene–downregulates–Disease
+CdGuD	2	0.017019	4.4641		Compound–downregulates–Gene–upregulates–Disease
+CpDrD	2	0.010266	3.1166		Compound–palliates–Disease–resembles–Disease
+CrCpD	2	0.0029729	0.67459		Compound–resembles–Compound–palliates–Disease
+CrCtD	2	0.22788	6.9155	0.14517	Compound–resembles–Compound–treats–Disease
+CtDrD	2	0.17171	5.7889	0.12631	Compound–treats–Disease–resembles–Disease
+CuGaD	2	0.028871	2.7457		Compound–upregulates–Gene–associates–Disease
+CuGdD	2	0.011426	2.6429		Compound–upregulates–Gene–downregulates–Disease
+CuGuD	2	0.020695	3.1159		Compound–upregulates–Gene–upregulates–Disease
+CbG<rGaD	3	0.037355	3.2007	0	Compound–binds–Gene←regulates←Gene–associates–Disease
+CbG<rGdD	3	0.0296	2.9324		Compound–binds–Gene←regulates←Gene–downregulates–Disease
+CbG<rGuD	3	0.023716	3.587		Compound–binds–Gene←regulates←Gene–upregulates–Disease
+CbGaDrD	3	0.12753	3.4266	0	Compound–binds–Gene–associates–Disease–resembles–Disease
+CbGbCpD	3	0.011777	1.8064		Compound–binds–Gene–binds–Compound–palliates–Disease
+CbGbCtD	3	0.21687	6.4962	0.22284	Compound–binds–Gene–binds–Compound–treats–Disease
+CbGcGaD	3	0.0024881	0.23902		Compound–binds–Gene–covaries–Gene–associates–Disease
+CbGcGdD	3	-0.015856	2.3775		Compound–binds–Gene–covaries–Gene–downregulates–Disease
+CbGcGuD	3	-0.0013379	0.16495		Compound–binds–Gene–covaries–Gene–upregulates–Disease
+CbGdAlD	3	0.021576	1.7083		Compound–binds–Gene–downregulates–Anatomy–localizes–Disease
+CbGdCpD	3	0.0057867	1.859		Compound–binds–Gene–downregulates–Compound–palliates–Disease
+CbGdCtD	3	0.039069	4.0536		Compound–binds–Gene–downregulates–Compound–treats–Disease
+CbGdDrD	3	0.026132	2.5966		Compound–binds–Gene–downregulates–Disease–resembles–Disease
+CbGeAlD	3	0.084312	5.1873	0.037021	Compound–binds–Gene–expresses–Anatomy–localizes–Disease
+CbGiGaD	3	0.089828	4.4107	0	Compound–binds–Gene–interacts–Gene–associates–Disease
+CbGiGdD	3	0.0091671	1.1151		Compound–binds–Gene–interacts–Gene–downregulates–Disease
+CbGiGuD	3	0.02155	2.8035		Compound–binds–Gene–interacts–Gene–upregulates–Disease
+CbGr>GaD	3	0.04692	2.806	0	Compound–binds–Gene→regulates→Gene–associates–Disease
+CbGr>GdD	3	0.016298	1.9491		Compound–binds–Gene→regulates→Gene–downregulates–Disease
+CbGr>GuD	3	0.021987	4.4408		Compound–binds–Gene→regulates→Gene–upregulates–Disease
+CbGuAlD	3	0.076129	3.5805	0	Compound–binds–Gene–upregulates–Anatomy–localizes–Disease
+CbGuCpD	3	0.0081261	2.6866		Compound–binds–Gene–upregulates–Compound–palliates–Disease
+CbGuCtD	3	0.024796	3.2085		Compound–binds–Gene–upregulates–Compound–treats–Disease
+CbGuDrD	3	0.020925	1.7202		Compound–binds–Gene–upregulates–Disease–resembles–Disease
+CcSEcCpD	3	0.015703	1.7418		Compound–causes–Side Effect–causes–Compound–palliates–Disease
+CcSEcCtD	3	0.13975	6.7614	0.081389	Compound–causes–Side Effect–causes–Compound–treats–Disease
+CdG<rGaD	3	0.010134	2.6632		Compound–downregulates–Gene←regulates←Gene–associates–Disease
+CdG<rGdD	3	0.012029	2.1803		Compound–downregulates–Gene←regulates←Gene–downregulates–Disease
+CdG<rGuD	3	0.0029995	0.2331		Compound–downregulates–Gene←regulates←Gene–upregulates–Disease
+CdGaDrD	3	0.019248	1.9037		Compound–downregulates–Gene–associates–Disease–resembles–Disease
+CdGbCpD	3	-0.019392	2.5709		Compound–downregulates–Gene–binds–Compound–palliates–Disease
+CdGbCtD	3	0.03937	3.5157	0	Compound–downregulates–Gene–binds–Compound–treats–Disease
+CdGcGaD	3	0.0040642	0.49507		Compound–downregulates–Gene–covaries–Gene–associates–Disease
+CdGcGdD	3	0.013285	3.3112		Compound–downregulates–Gene–covaries–Gene–downregulates–Disease
+CdGcGuD	3	0.013666	2.29		Compound–downregulates–Gene–covaries–Gene–upregulates–Disease
+CdGdAlD	3	0.0020184	0.12765		Compound–downregulates–Gene–downregulates–Anatomy–localizes–Disease
+CdGdCpD	3	0.010733	0.86062		Compound–downregulates–Gene–downregulates–Compound–palliates–Disease
+CdGdCtD	3	0.03801	4.5768	0	Compound–downregulates–Gene–downregulates–Compound–treats–Disease
+CdGdDrD	3	0.020877	1.5127		Compound–downregulates–Gene–downregulates–Disease–resembles–Disease
+CdGeAlD	3	0.014567	2.7014		Compound–downregulates–Gene–expresses–Anatomy–localizes–Disease
+CdGiGaD	3	0.014589	3.004	0	Compound–downregulates–Gene–interacts–Gene–associates–Disease
+CdGiGdD	3	0.007601	1.9041		Compound–downregulates–Gene–interacts–Gene–downregulates–Disease
+CdGiGuD	3	0.0064435	0.87887		Compound–downregulates–Gene–interacts–Gene–upregulates–Disease
+CdGr>GaD	3	0.00095669	0.2801		Compound–downregulates–Gene→regulates→Gene–associates–Disease
+CdGr>GdD	3	0.00089837	0.16147		Compound–downregulates–Gene→regulates→Gene–downregulates–Disease
+CdGr>GuD	3	0.0014264	0.12682		Compound–downregulates–Gene→regulates→Gene–upregulates–Disease
+CdGuAlD	3	0.011843	1.0161		Compound–downregulates–Gene–upregulates–Anatomy–localizes–Disease
+CdGuCpD	3	-0.0048485	1.2547		Compound–downregulates–Gene–upregulates–Compound–palliates–Disease
+CdGuCtD	3	-0.020999	2.3954		Compound–downregulates–Gene–upregulates–Compound–treats–Disease
+CdGuDrD	3	0.010985	0.73377		Compound–downregulates–Gene–upregulates–Disease–resembles–Disease
+CiPCiCpD	3	0.00025407	0.081315		Compound–includes–Pharmacologic Class–includes–Compound–palliates–Disease
+CiPCiCtD	3	0.23337	7.5116	0.15932	Compound–includes–Pharmacologic Class–includes–Compound–treats–Disease
+CpDaGaD	3	0.0029419	1.356		Compound–palliates–Disease–associates–Gene–associates–Disease
+CpDaGdD	3	-0.00080789	0.29307		Compound–palliates–Disease–associates–Gene–downregulates–Disease
+CpDaGuD	3	-0.0098684	2.6583		Compound–palliates–Disease–associates–Gene–upregulates–Disease
+CpDdGaD	3	-2.6287e-05	0.0028758		Compound–palliates–Disease–downregulates–Gene–associates–Disease
+CpDdGdD	3	0.00043064	0.058707		Compound–palliates–Disease–downregulates–Gene–downregulates–Disease
+CpDdGuD	3	-0.0071271	1.1257		Compound–palliates–Disease–downregulates–Gene–upregulates–Disease
+CpDlAlD	3	0.0061743	2.6733		Compound–palliates–Disease–localizes–Anatomy–localizes–Disease
+CpDpCpD	3	0.0053424	2.3783		Compound–palliates–Disease–palliates–Compound–palliates–Disease
+CpDpCtD	3	0.042701	3.8644	0.064054	Compound–palliates–Disease–palliates–Compound–treats–Disease
+CpDpSpD	3	0.0065538	2.7087		Compound–palliates–Disease–presents–Symptom–presents–Disease
+CpDrDrD	3	0.012017	3.4478		Compound–palliates–Disease–resembles–Disease–resembles–Disease
+CpDtCpD	3	-0.00050196	0.17681		Compound–palliates–Disease–treats–Compound–palliates–Disease
+CpDtCtD	3	0.0026486	0.42106		Compound–palliates–Disease–treats–Compound–treats–Disease
+CpDuGaD	3	0.0013304	0.14481		Compound–palliates–Disease–upregulates–Gene–associates–Disease
+CpDuGdD	3	-0.0035066	0.56277		Compound–palliates–Disease–upregulates–Gene–downregulates–Disease
+CpDuGuD	3	-0.0048298	0.66402		Compound–palliates–Disease–upregulates–Gene–upregulates–Disease
+CrCbGaD	3	0.082185	6.0926	0.0020351	Compound–resembles–Compound–binds–Gene–associates–Disease
+CrCbGdD	3	-0.017312	1.8099		Compound–resembles–Compound–binds–Gene–downregulates–Disease
+CrCbGuD	3	-0.0041819	0.3956		Compound–resembles–Compound–binds–Gene–upregulates–Disease
+CrCdGaD	3	0.052807	4.0015	0	Compound–resembles–Compound–downregulates–Gene–associates–Disease
+CrCdGdD	3	0.015545	2.7934		Compound–resembles–Compound–downregulates–Gene–downregulates–Disease
+CrCdGuD	3	0.02453	3.0358		Compound–resembles–Compound–downregulates–Gene–upregulates–Disease
+CrCpDrD	3	0.0076517	1.6218		Compound–resembles–Compound–palliates–Disease–resembles–Disease
+CrCrCpD	3	-0.019047	2.4766		Compound–resembles–Compound–resembles–Compound–palliates–Disease
+CrCrCtD	3	0.17036	4.9726	0.11695	Compound–resembles–Compound–resembles–Compound–treats–Disease
+CrCtDrD	3	0.13953	6.5749		Compound–resembles–Compound–treats–Disease–resembles–Disease
+CrCuGaD	3	0.055085	3.8335	0	Compound–resembles–Compound–upregulates–Gene–associates–Disease
+CrCuGdD	3	0.014496	1.7309		Compound–resembles–Compound–upregulates–Gene–downregulates–Disease
+CrCuGuD	3	0.016876	2.3502		Compound–resembles–Compound–upregulates–Gene–upregulates–Disease
+CtDaGaD	3	0.12697	7.2485		Compound–treats–Disease–associates–Gene–associates–Disease
+CtDaGdD	3	0.0020677	0.28355		Compound–treats–Disease–associates–Gene–downregulates–Disease
+CtDaGuD	3	-0.0073857	1.3946		Compound–treats–Disease–associates–Gene–upregulates–Disease
+CtDdGaD	3	0.023798	2.7745		Compound–treats–Disease–downregulates–Gene–associates–Disease
+CtDdGdD	3	0.041768	3.8667		Compound–treats–Disease–downregulates–Gene–downregulates–Disease
+CtDdGuD	3	0.0050341	0.95008		Compound–treats–Disease–downregulates–Gene–upregulates–Disease
+CtDlAlD	3	0.12411	5.9833		Compound–treats–Disease–localizes–Anatomy–localizes–Disease
+CtDpCpD	3	0.047334	4.0999		Compound–treats–Disease–palliates–Compound–palliates–Disease
+CtDpCtD	3	0.0033892	0.2942		Compound–treats–Disease–palliates–Compound–treats–Disease
+CtDpSpD	3	0.13858	6.0814		Compound–treats–Disease–presents–Symptom–presents–Disease
+CtDrDrD	3	0.18637	6.0983		Compound–treats–Disease–resembles–Disease–resembles–Disease
+CtDtCpD	3	0.018275	2.6926		Compound–treats–Disease–treats–Compound–palliates–Disease
+CtDtCtD	3	0.20916	5.7102	0	Compound–treats–Disease–treats–Compound–treats–Disease
+CtDuGaD	3	0.027629	2.7912		Compound–treats–Disease–upregulates–Gene–associates–Disease
+CtDuGdD	3	0.0070021	1.2732		Compound–treats–Disease–upregulates–Gene–downregulates–Disease
+CtDuGuD	3	0.010569	1.3772		Compound–treats–Disease–upregulates–Gene–upregulates–Disease
+CuG<rGaD	3	0.016314	3.3368	0	Compound–upregulates–Gene←regulates←Gene–associates–Disease
+CuG<rGdD	3	0.015115	2.4287		Compound–upregulates–Gene←regulates←Gene–downregulates–Disease
+CuG<rGuD	3	0.010962	1.1527		Compound–upregulates–Gene←regulates←Gene–upregulates–Disease
+CuGaDrD	3	0.020185	2.0986		Compound–upregulates–Gene–associates–Disease–resembles–Disease
+CuGbCpD	3	0.0055847	1.9335		Compound–upregulates–Gene–binds–Compound–palliates–Disease
+CuGbCtD	3	0.01619	2.8605		Compound–upregulates–Gene–binds–Compound–treats–Disease
+CuGcGaD	3	0.010493	2.3776		Compound–upregulates–Gene–covaries–Gene–associates–Disease
+CuGcGdD	3	0.02034	3.8847		Compound–upregulates–Gene–covaries–Gene–downregulates–Disease
+CuGcGuD	3	0.0090585	1.4274		Compound–upregulates–Gene–covaries–Gene–upregulates–Disease
+CuGdAlD	3	-0.00086992	0.076109		Compound–upregulates–Gene–downregulates–Anatomy–localizes–Disease
+CuGdCpD	3	0.015408	1.9297		Compound–upregulates–Gene–downregulates–Compound–palliates–Disease
+CuGdCtD	3	-0.015902	2.9388		Compound–upregulates–Gene–downregulates–Compound–treats–Disease
+CuGdDrD	3	0.025612	1.612		Compound–upregulates–Gene–downregulates–Disease–resembles–Disease
+CuGeAlD	3	0.005472	1.0965		Compound–upregulates–Gene–expresses–Anatomy–localizes–Disease
+CuGiGaD	3	0.0094162	1.9485		Compound–upregulates–Gene–interacts–Gene–associates–Disease
+CuGiGdD	3	0.010229	1.3155		Compound–upregulates–Gene–interacts–Gene–downregulates–Disease
+CuGiGuD	3	0.0074061	1.0304		Compound–upregulates–Gene–interacts–Gene–upregulates–Disease
+CuGr>GaD	3	0.0019685	0.40813		Compound–upregulates–Gene→regulates→Gene–associates–Disease
+CuGr>GdD	3	0.0046138	1.3966		Compound–upregulates–Gene→regulates→Gene–downregulates–Disease
+CuGr>GuD	3	0.0086597	1.5803		Compound–upregulates–Gene→regulates→Gene–upregulates–Disease
+CuGuAlD	3	0.00027796	0.015302		Compound–upregulates–Gene–upregulates–Anatomy–localizes–Disease
+CuGuCpD	3	0.020593	2.2307		Compound–upregulates–Gene–upregulates–Compound–palliates–Disease
+CuGuCtD	3	0.044138	3.5131	0	Compound–upregulates–Gene–upregulates–Compound–treats–Disease
+CuGuDrD	3	0.0079209	0.46708		Compound–upregulates–Gene–upregulates–Disease–resembles–Disease
+CbG<rG<rGaD	4	0.070275	4.6907	0	Compound–binds–Gene←regulates←Gene←regulates←Gene–associates–Disease
+CbG<rG<rGdD	4	0.0306	3.9887		Compound–binds–Gene←regulates←Gene←regulates←Gene–downregulates–Disease
+CbG<rG<rGuD	4	0.02292	2.3537		Compound–binds–Gene←regulates←Gene←regulates←Gene–upregulates–Disease
+CbG<rGaDrD	4	0.036387	1.9762	0	Compound–binds–Gene←regulates←Gene–associates–Disease–resembles–Disease
+CbG<rGbCpD	4	0.031127	3.0599		Compound–binds–Gene←regulates←Gene–binds–Compound–palliates–Disease
+CbG<rGbCtD	4	0.0332	2.5089		Compound–binds–Gene←regulates←Gene–binds–Compound–treats–Disease
+CbG<rGcGaD	4	0.047255	3.7609	0	Compound–binds–Gene←regulates←Gene–covaries–Gene–associates–Disease
+CbG<rGcGdD	4	0.027712	3.2802		Compound–binds–Gene←regulates←Gene–covaries–Gene–downregulates–Disease
+CbG<rGcGuD	4	0.01955	2.3391		Compound–binds–Gene←regulates←Gene–covaries–Gene–upregulates–Disease
+CbG<rGdAlD	4	0.052576	3.1608		Compound–binds–Gene←regulates←Gene–downregulates–Anatomy–localizes–Disease
+CbG<rGdCpD	4	0.024959	2.0742		Compound–binds–Gene←regulates←Gene–downregulates–Compound–palliates–Disease
+CbG<rGdCtD	4	0.033477	2.8769		Compound–binds–Gene←regulates←Gene–downregulates–Compound–treats–Disease
+CbG<rGdDrD	4	0.031402	1.3331		Compound–binds–Gene←regulates←Gene–downregulates–Disease–resembles–Disease
+CbG<rGeAlD	4	0.0606	4.1363	0	Compound–binds–Gene←regulates←Gene–expresses–Anatomy–localizes–Disease
+CbG<rGiGaD	4	0.065123	4.7073	0	Compound–binds–Gene←regulates←Gene–interacts–Gene–associates–Disease
+CbG<rGiGdD	4	0.018298	4.6441		Compound–binds–Gene←regulates←Gene–interacts–Gene–downregulates–Disease
+CbG<rGiGuD	4	0.028912	5.303		Compound–binds–Gene←regulates←Gene–interacts–Gene–upregulates–Disease
+CbG<rGr>GaD	4	0.070783	4.7184	0	Compound–binds–Gene←regulates←Gene→regulates→Gene–associates–Disease
+CbG<rGr>GdD	4	0.019153	4.1572		Compound–binds–Gene←regulates←Gene→regulates→Gene–downregulates–Disease
+CbG<rGr>GuD	4	0.027046	4.7957		Compound–binds–Gene←regulates←Gene→regulates→Gene–upregulates–Disease
+CbG<rGuAlD	4	0.052143	3.3185		Compound–binds–Gene←regulates←Gene–upregulates–Anatomy–localizes–Disease
+CbG<rGuCpD	4	0.024993	2.1532		Compound–binds–Gene←regulates←Gene–upregulates–Compound–palliates–Disease
+CbG<rGuCtD	4	0.052564	4.0557		Compound–binds–Gene←regulates←Gene–upregulates–Compound–treats–Disease
+CbG<rGuDrD	4	0.031557	1.1931		Compound–binds–Gene←regulates←Gene–upregulates–Disease–resembles–Disease
+CbGaDaGaD	4	0.074769	4.8143	0	Compound–binds–Gene–associates–Disease–associates–Gene–associates–Disease
+CbGaDaGdD	4	0.012401	3.6084		Compound–binds–Gene–associates–Disease–associates–Gene–downregulates–Disease
+CbGaDaGuD	4	0.013123	4.1787		Compound–binds–Gene–associates–Disease–associates–Gene–upregulates–Disease
+CbGaDdGaD	4	0.043364	3.8519		Compound–binds–Gene–associates–Disease–downregulates–Gene–associates–Disease
+CbGaDdGdD	4	0.013308	3.5589		Compound–binds–Gene–associates–Disease–downregulates–Gene–downregulates–Disease
+CbGaDdGuD	4	0.00045804	0.042752		Compound–binds–Gene–associates–Disease–downregulates–Gene–upregulates–Disease
+CbGaDlAlD	4	0.081278	4.6682	0	Compound–binds–Gene–associates–Disease–localizes–Anatomy–localizes–Disease
+CbGaDpCpD	4	0.0031491	0.50296		Compound–binds–Gene–associates–Disease–palliates–Compound–palliates–Disease
+CbGaDpCtD	4	0.01876	0.88954		Compound–binds–Gene–associates–Disease–palliates–Compound–treats–Disease
+CbGaDpSpD	4	0.079194	4.3646	0	Compound–binds–Gene–associates–Disease–presents–Symptom–presents–Disease
+CbGaDrDrD	4	0.088284	3.9916	0	Compound–binds–Gene–associates–Disease–resembles–Disease–resembles–Disease
+CbGaDtCpD	4	0.016178	1.5297		Compound–binds–Gene–associates–Disease–treats–Compound–palliates–Disease
+CbGaDtCtD	4	0.066515	4.7467		Compound–binds–Gene–associates–Disease–treats–Compound–treats–Disease
+CbGaDuGaD	4	0.033073	2.8742		Compound–binds–Gene–associates–Disease–upregulates–Gene–associates–Disease
+CbGaDuGdD	4	0.0019568	0.80145		Compound–binds–Gene–associates–Disease–upregulates–Gene–downregulates–Disease
+CbGaDuGuD	4	0.0027217	0.44749		Compound–binds–Gene–associates–Disease–upregulates–Gene–upregulates–Disease
+CbGbCbGaD	4	0.049412	3.9316	0	Compound–binds–Gene–binds–Compound–binds–Gene–associates–Disease
+CbGbCbGdD	4	-0.015087	1.5608		Compound–binds–Gene–binds–Compound–binds–Gene–downregulates–Disease
+CbGbCbGuD	4	0.018669	2.7176		Compound–binds–Gene–binds–Compound–binds–Gene–upregulates–Disease
+CbGbCdGaD	4	0.022962	2.5432	0	Compound–binds–Gene–binds–Compound–downregulates–Gene–associates–Disease
+CbGbCdGdD	4	-0.00074125	0.095723		Compound–binds–Gene–binds–Compound–downregulates–Gene–downregulates–Disease
+CbGbCdGuD	4	0.026071	3.8385		Compound–binds–Gene–binds–Compound–downregulates–Gene–upregulates–Disease
+CbGbCpDrD	4	0.019067	0.41758		Compound–binds–Gene–binds–Compound–palliates–Disease–resembles–Disease
+CbGbCrCpD	4	0.022331	1.5577		Compound–binds–Gene–binds–Compound–resembles–Compound–palliates–Disease
+CbGbCrCtD	4	0.17619	5.8496	0	Compound–binds–Gene–binds–Compound–resembles–Compound–treats–Disease
+CbGbCtDrD	4	0.18852	4.3174	0	Compound–binds–Gene–binds–Compound–treats–Disease–resembles–Disease
+CbGbCuGaD	4	0.028989	2.5348	-0.031794	Compound–binds–Gene–binds–Compound–upregulates–Gene–associates–Disease
+CbGbCuGdD	4	0.012726	3.2652		Compound–binds–Gene–binds–Compound–upregulates–Gene–downregulates–Disease
+CbGbCuGuD	4	0.013989	2.7105		Compound–binds–Gene–binds–Compound–upregulates–Gene–upregulates–Disease
+CbGcG<rGaD	4	-0.0006464	0.071973		Compound–binds–Gene–covaries–Gene←regulates←Gene–associates–Disease
+CbGcG<rGdD	4	-0.012007	1.3305		Compound–binds–Gene–covaries–Gene←regulates←Gene–downregulates–Disease
+CbGcG<rGuD	4	-0.015375	1.4513		Compound–binds–Gene–covaries–Gene←regulates←Gene–upregulates–Disease
+CbGcGaDrD	4	-0.012056	1.1033		Compound–binds–Gene–covaries–Gene–associates–Disease–resembles–Disease
+CbGcGbCpD	4	-0.0043138	0.3743		Compound–binds–Gene–covaries–Gene–binds–Compound–palliates–Disease
+CbGcGbCtD	4	-0.0073984	0.4952		Compound–binds–Gene–covaries–Gene–binds–Compound–treats–Disease
+CbGcGcGaD	4	-0.020205	2.6551		Compound–binds–Gene–covaries–Gene–covaries–Gene–associates–Disease
+CbGcGcGdD	4	-0.0086294	2.214		Compound–binds–Gene–covaries–Gene–covaries–Gene–downregulates–Disease
+CbGcGcGuD	4	-0.03256	2.698		Compound–binds–Gene–covaries–Gene–covaries–Gene–upregulates–Disease
+CbGcGdAlD	4	0.018044	1.259		Compound–binds–Gene–covaries–Gene–downregulates–Anatomy–localizes–Disease
+CbGcGdCpD	4	0.0054323	1.8114		Compound–binds–Gene–covaries–Gene–downregulates–Compound–palliates–Disease
+CbGcGdCtD	4	-0.050104	2.864		Compound–binds–Gene–covaries–Gene–downregulates–Compound–treats–Disease
+CbGcGdDrD	4	-0.019897	1.1521		Compound–binds–Gene–covaries–Gene–downregulates–Disease–resembles–Disease
+CbGcGeAlD	4	0.011283	1.2925		Compound–binds–Gene–covaries–Gene–expresses–Anatomy–localizes–Disease
+CbGcGiGaD	4	0.022915	2.3861		Compound–binds–Gene–covaries–Gene–interacts–Gene–associates–Disease
+CbGcGiGdD	4	-0.01043	1.202		Compound–binds–Gene–covaries–Gene–interacts–Gene–downregulates–Disease
+CbGcGiGuD	4	-0.018696	2.0866		Compound–binds–Gene–covaries–Gene–interacts–Gene–upregulates–Disease
+CbGcGr>GaD	4	0.0076778	0.61861		Compound–binds–Gene–covaries–Gene→regulates→Gene–associates–Disease
+CbGcGr>GdD	4	-0.0076275	1.0131		Compound–binds–Gene–covaries–Gene→regulates→Gene–downregulates–Disease
+CbGcGr>GuD	4	-0.010403	0.84433		Compound–binds–Gene–covaries–Gene→regulates→Gene–upregulates–Disease
+CbGcGuAlD	4	0.020574	1.3617		Compound–binds–Gene–covaries–Gene–upregulates–Anatomy–localizes–Disease
+CbGcGuCpD	4	0.0071971	1.2808		Compound–binds–Gene–covaries–Gene–upregulates–Compound–palliates–Disease
+CbGcGuCtD	4	-0.02129	1.7376		Compound–binds–Gene–covaries–Gene–upregulates–Compound–treats–Disease
+CbGcGuDrD	4	-0.018352	0.70001		Compound–binds–Gene–covaries–Gene–upregulates–Disease–resembles–Disease
+CbGdAdGaD	4	0.033426	3.7697	0	Compound–binds–Gene–downregulates–Anatomy–downregulates–Gene–associates–Disease
+CbGdAdGdD	4	0.011292	2.3844		Compound–binds–Gene–downregulates–Anatomy–downregulates–Gene–downregulates–Disease
+CbGdAdGuD	4	0.01243	2.31		Compound–binds–Gene–downregulates–Anatomy–downregulates–Gene–upregulates–Disease
+CbGdAeGaD	4	0.023834	3.2841		Compound–binds–Gene–downregulates–Anatomy–expresses–Gene–associates–Disease
+CbGdAeGdD	4	0.010444	2.2771		Compound–binds–Gene–downregulates–Anatomy–expresses–Gene–downregulates–Disease
+CbGdAeGuD	4	0.0093234	2.0034		Compound–binds–Gene–downregulates–Anatomy–expresses–Gene–upregulates–Disease
+CbGdAlDrD	4	-0.016133	1.2282		Compound–binds–Gene–downregulates–Anatomy–localizes–Disease–resembles–Disease
+CbGdAuGaD	4	0.022143	3.1137		Compound–binds–Gene–downregulates–Anatomy–upregulates–Gene–associates–Disease
+CbGdAuGdD	4	0.011589	2.5243		Compound–binds–Gene–downregulates–Anatomy–upregulates–Gene–downregulates–Disease
+CbGdAuGuD	4	0.0098379	2.0771		Compound–binds–Gene–downregulates–Anatomy–upregulates–Gene–upregulates–Disease
+CbGdCbGaD	4	0.038838	2.995		Compound–binds–Gene–downregulates–Compound–binds–Gene–associates–Disease
+CbGdCbGdD	4	0.020254	2.5344		Compound–binds–Gene–downregulates–Compound–binds–Gene–downregulates–Disease
+CbGdCbGuD	4	0.02287	2.4175		Compound–binds–Gene–downregulates–Compound–binds–Gene–upregulates–Disease
+CbGdCdGaD	4	0.064053	4.382	0	Compound–binds–Gene–downregulates–Compound–downregulates–Gene–associates–Disease
+CbGdCdGdD	4	0.014023	2.2676		Compound–binds–Gene–downregulates–Compound–downregulates–Gene–downregulates–Disease
+CbGdCdGuD	4	0.016952	2.0821		Compound–binds–Gene–downregulates–Compound–downregulates–Gene–upregulates–Disease
+CbGdCpDrD	4	0.010762	1.1162		Compound–binds–Gene–downregulates–Compound–palliates–Disease–resembles–Disease
+CbGdCrCpD	4	0.020771	1.7356		Compound–binds–Gene–downregulates–Compound–resembles–Compound–palliates–Disease
+CbGdCrCtD	4	0.09258	4.1106	0.00069397	Compound–binds–Gene–downregulates–Compound–resembles–Compound–treats–Disease
+CbGdCtDrD	4	0.065756	3.763	0	Compound–binds–Gene–downregulates–Compound–treats–Disease–resembles–Disease
+CbGdCuGaD	4	0.058009	4.7722	0	Compound–binds–Gene–downregulates–Compound–upregulates–Gene–associates–Disease
+CbGdCuGdD	4	0.011561	1.3827		Compound–binds–Gene–downregulates–Compound–upregulates–Gene–downregulates–Disease
+CbGdCuGuD	4	0.0085412	1.2242		Compound–binds–Gene–downregulates–Compound–upregulates–Gene–upregulates–Disease
+CbGdDaGaD	4	0.034052	2.5193		Compound–binds–Gene–downregulates–Disease–associates–Gene–associates–Disease
+CbGdDaGdD	4	0.010108	1.4886		Compound–binds–Gene–downregulates–Disease–associates–Gene–downregulates–Disease
+CbGdDaGuD	4	0.0090531	0.84719		Compound–binds–Gene–downregulates–Disease–associates–Gene–upregulates–Disease
+CbGdDdGaD	4	0.042596	3.509	-0.056157	Compound–binds–Gene–downregulates–Disease–downregulates–Gene–associates–Disease
+CbGdDdGdD	4	0.0063653	0.99465		Compound–binds–Gene–downregulates–Disease–downregulates–Gene–downregulates–Disease
+CbGdDdGuD	4	0.0081667	0.94761		Compound–binds–Gene–downregulates–Disease–downregulates–Gene–upregulates–Disease
+CbGdDlAlD	4	0.046627	3.2824		Compound–binds–Gene–downregulates–Disease–localizes–Anatomy–localizes–Disease
+CbGdDpCpD	4	0.0095854	0.91357		Compound–binds–Gene–downregulates–Disease–palliates–Compound–palliates–Disease
+CbGdDpCtD	4	0.018628	1.0094		Compound–binds–Gene–downregulates–Disease–palliates–Compound–treats–Disease
+CbGdDpSpD	4	0.035207	2.5693		Compound–binds–Gene–downregulates–Disease–presents–Symptom–presents–Disease
+CbGdDrDrD	4	0.018305	2.9421		Compound–binds–Gene–downregulates–Disease–resembles–Disease–resembles–Disease
+CbGdDtCpD	4	0.018815	2.0806		Compound–binds–Gene–downregulates–Disease–treats–Compound–palliates–Disease
+CbGdDtCtD	4	-0.024874	1.6822		Compound–binds–Gene–downregulates–Disease–treats–Compound–treats–Disease
+CbGdDuGaD	4	0.037453	4.1002	-0.0026671	Compound–binds–Gene–downregulates–Disease–upregulates–Gene–associates–Disease
+CbGdDuGdD	4	0.0092763	1.3063		Compound–binds–Gene–downregulates–Disease–upregulates–Gene–downregulates–Disease
+CbGdDuGuD	4	0.012519	1.6303		Compound–binds–Gene–downregulates–Disease–upregulates–Gene–upregulates–Disease
+CbGeAdGaD	4	0.028246	4.0641		Compound–binds–Gene–expresses–Anatomy–downregulates–Gene–associates–Disease
+CbGeAdGdD	4	0.014424	3.3188		Compound–binds–Gene–expresses–Anatomy–downregulates–Gene–downregulates–Disease
+CbGeAdGuD	4	0.014333	3.2756		Compound–binds–Gene–expresses–Anatomy–downregulates–Gene–upregulates–Disease
+CbGeAeGaD	4	0.048874	4.6535	0	Compound–binds–Gene–expresses–Anatomy–expresses–Gene–associates–Disease
+CbGeAeGdD	4	0.012549	3.3575		Compound–binds–Gene–expresses–Anatomy–expresses–Gene–downregulates–Disease
+CbGeAeGuD	4	0.012813	3.2432		Compound–binds–Gene–expresses–Anatomy–expresses–Gene–upregulates–Disease
+CbGeAlDrD	4	0.06141	3.6931	0	Compound–binds–Gene–expresses–Anatomy–localizes–Disease–resembles–Disease
+CbGeAuGaD	4	0.038063	4.3861	0	Compound–binds–Gene–expresses–Anatomy–upregulates–Gene–associates–Disease
+CbGeAuGdD	4	0.015734	3.9407		Compound–binds–Gene–expresses–Anatomy–upregulates–Gene–downregulates–Disease
+CbGeAuGuD	4	0.014272	3.4931		Compound–binds–Gene–expresses–Anatomy–upregulates–Gene–upregulates–Disease
+CbGiG<rGaD	4	0.035816	2.6919		Compound–binds–Gene–interacts–Gene←regulates←Gene–associates–Disease
+CbGiG<rGdD	4	0.015004	2.5587		Compound–binds–Gene–interacts–Gene←regulates←Gene–downregulates–Disease
+CbGiG<rGuD	4	0.0034823	0.47252		Compound–binds–Gene–interacts–Gene←regulates←Gene–upregulates–Disease
+CbGiGaDrD	4	0.04968	1.7504	0	Compound–binds–Gene–interacts–Gene–associates–Disease–resembles–Disease
+CbGiGbCpD	4	0.045376	2.9285		Compound–binds–Gene–interacts–Gene–binds–Compound–palliates–Disease
+CbGiGbCtD	4	0.10863	4.3686	0	Compound–binds–Gene–interacts–Gene–binds–Compound–treats–Disease
+CbGiGcGaD	4	0.014281	1.8582		Compound–binds–Gene–interacts–Gene–covaries–Gene–associates–Disease
+CbGiGcGdD	4	0.015878	1.8307		Compound–binds–Gene–interacts–Gene–covaries–Gene–downregulates–Disease
+CbGiGcGuD	4	0.015053	1.6656		Compound–binds–Gene–interacts–Gene–covaries–Gene–upregulates–Disease
+CbGiGdAlD	4	0.023237	1.7277		Compound–binds–Gene–interacts–Gene–downregulates–Anatomy–localizes–Disease
+CbGiGdCpD	4	-0.0041763	0.47326		Compound–binds–Gene–interacts–Gene–downregulates–Compound–palliates–Disease
+CbGiGdCtD	4	0.016727	0.81833		Compound–binds–Gene–interacts–Gene–downregulates–Compound–treats–Disease
+CbGiGdDrD	4	0.0072721	0.1753		Compound–binds–Gene–interacts–Gene–downregulates–Disease–resembles–Disease
+CbGiGeAlD	4	0.045847	3.6647		Compound–binds–Gene–interacts–Gene–expresses–Anatomy–localizes–Disease
+CbGiGiGaD	4	0.070256	5.0567	0	Compound–binds–Gene–interacts–Gene–interacts–Gene–associates–Disease
+CbGiGiGdD	4	0.0055785	1.7042		Compound–binds–Gene–interacts–Gene–interacts–Gene–downregulates–Disease
+CbGiGiGuD	4	0.013661	2.5866		Compound–binds–Gene–interacts–Gene–interacts–Gene–upregulates–Disease
+CbGiGr>GaD	4	0.02864	2.678		Compound–binds–Gene–interacts–Gene→regulates→Gene–associates–Disease
+CbGiGr>GdD	4	0.0052411	0.92654		Compound–binds–Gene–interacts–Gene→regulates→Gene–downregulates–Disease
+CbGiGr>GuD	4	-0.0010481	0.1595		Compound–binds–Gene–interacts–Gene→regulates→Gene–upregulates–Disease
+CbGiGuAlD	4	0.054263	2.9574	0	Compound–binds–Gene–interacts–Gene–upregulates–Anatomy–localizes–Disease
+CbGiGuCpD	4	0.01438	1.3307		Compound–binds–Gene–interacts–Gene–upregulates–Compound–palliates–Disease
+CbGiGuCtD	4	-0.029784	2.2936		Compound–binds–Gene–interacts–Gene–upregulates–Compound–treats–Disease
+CbGiGuDrD	4	0.022726	0.61791		Compound–binds–Gene–interacts–Gene–upregulates–Disease–resembles–Disease
+CbGpBPpGaD	4	0.049163	3.8255	0	Compound–binds–Gene–participates–Biological Process–participates–Gene–associates–Disease
+CbGpBPpGdD	4	0.0054481	3.2646		Compound–binds–Gene–participates–Biological Process–participates–Gene–downregulates–Disease
+CbGpBPpGuD	4	0.0045596	1.1537		Compound–binds–Gene–participates–Biological Process–participates–Gene–upregulates–Disease
+CbGpCCpGaD	4	0.018189	1.7552		Compound–binds–Gene–participates–Cellular Component–participates–Gene–associates–Disease
+CbGpCCpGdD	4	0.0018105	0.50667		Compound–binds–Gene–participates–Cellular Component–participates–Gene–downregulates–Disease
+CbGpCCpGuD	4	-0.0058497	2.1169		Compound–binds–Gene–participates–Cellular Component–participates–Gene–upregulates–Disease
+CbGpMFpGaD	4	0.050222	3.9517	0	Compound–binds–Gene–participates–Molecular Function–participates–Gene–associates–Disease
+CbGpMFpGdD	4	0.0055123	2.0215		Compound–binds–Gene–participates–Molecular Function–participates–Gene–downregulates–Disease
+CbGpMFpGuD	4	0.014989	4.2693		Compound–binds–Gene–participates–Molecular Function–participates–Gene–upregulates–Disease
+CbGpPWpGaD	4	0.076082	7.8625	0.054669	Compound–binds–Gene–participates–Pathway–participates–Gene–associates–Disease
+CbGpPWpGdD	4	0.007744	1.4759		Compound–binds–Gene–participates–Pathway–participates–Gene–downregulates–Disease
+CbGpPWpGuD	4	0.0055208	1.3042		Compound–binds–Gene–participates–Pathway–participates–Gene–upregulates–Disease
+CbGr>G<rGaD	4	0.057124	3.7893	0	Compound–binds–Gene→regulates→Gene←regulates←Gene–associates–Disease
+CbGr>G<rGdD	4	0.022707	2.7557	0	Compound–binds–Gene→regulates→Gene←regulates←Gene–downregulates–Disease
+CbGr>G<rGuD	4	0.017894	1.8311		Compound–binds–Gene→regulates→Gene←regulates←Gene–upregulates–Disease
+CbGr>GaDrD	4	0.046132	1.5785	0	Compound–binds–Gene→regulates→Gene–associates–Disease–resembles–Disease
+CbGr>GbCpD	4	-0.0040312	0.38705		Compound–binds–Gene→regulates→Gene–binds–Compound–palliates–Disease
+CbGr>GbCtD	4	0.015924	1.8423		Compound–binds–Gene→regulates→Gene–binds–Compound–treats–Disease
+CbGr>GcGaD	4	0.03842	3.1852		Compound–binds–Gene→regulates→Gene–covaries–Gene–associates–Disease
+CbGr>GcGdD	4	0.017421	2.5921		Compound–binds–Gene→regulates→Gene–covaries–Gene–downregulates–Disease
+CbGr>GcGuD	4	0.016923	1.9975		Compound–binds–Gene→regulates→Gene–covaries–Gene–upregulates–Disease
+CbGr>GdAlD	4	0.048465	2.714		Compound–binds–Gene→regulates→Gene–downregulates–Anatomy–localizes–Disease
+CbGr>GdCpD	4	0.017287	1.1295		Compound–binds–Gene→regulates→Gene–downregulates–Compound–palliates–Disease
+CbGr>GdCtD	4	0.042766	2.5367		Compound–binds–Gene→regulates→Gene–downregulates–Compound–treats–Disease
+CbGr>GdDrD	4	0.029507	0.83639		Compound–binds–Gene→regulates→Gene–downregulates–Disease–resembles–Disease
+CbGr>GeAlD	4	0.059396	3.3803	0	Compound–binds–Gene→regulates→Gene–expresses–Anatomy–localizes–Disease
+CbGr>GiGaD	4	0.050258	3.4075	0	Compound–binds–Gene→regulates→Gene–interacts–Gene–associates–Disease
+CbGr>GiGdD	4	0.016259	2.1625		Compound–binds–Gene→regulates→Gene–interacts–Gene–downregulates–Disease
+CbGr>GiGuD	4	0.0092934	2.1558		Compound–binds–Gene→regulates→Gene–interacts–Gene–upregulates–Disease
+CbGr>Gr>GaD	4	0.049271	3.5523	0	Compound–binds–Gene→regulates→Gene→regulates→Gene–associates–Disease
+CbGr>Gr>GdD	4	0.011769	1.8169		Compound–binds–Gene→regulates→Gene→regulates→Gene–downregulates–Disease
+CbGr>Gr>GuD	4	0.0096112	1.3548		Compound–binds–Gene→regulates→Gene→regulates→Gene–upregulates–Disease
+CbGr>GuAlD	4	0.05258	2.7601		Compound–binds–Gene→regulates→Gene–upregulates–Anatomy–localizes–Disease
+CbGr>GuCpD	4	0.040301	3.0277		Compound–binds–Gene→regulates→Gene–upregulates–Compound–palliates–Disease
+CbGr>GuCtD	4	0.031759	2.1841		Compound–binds–Gene→regulates→Gene–upregulates–Compound–treats–Disease
+CbGr>GuDrD	4	0.028412	0.78933		Compound–binds–Gene→regulates→Gene–upregulates–Disease–resembles–Disease
+CbGuAdGaD	4	0.023658	3.0671		Compound–binds–Gene–upregulates–Anatomy–downregulates–Gene–associates–Disease
+CbGuAdGdD	4	0.011878	3.4686		Compound–binds–Gene–upregulates–Anatomy–downregulates–Gene–downregulates–Disease
+CbGuAdGuD	4	0.010887	2.8066		Compound–binds–Gene–upregulates–Anatomy–downregulates–Gene–upregulates–Disease
+CbGuAeGaD	4	0.037326	3.4292	0	Compound–binds–Gene–upregulates–Anatomy–expresses–Gene–associates–Disease
+CbGuAeGdD	4	0.012032	3.9093		Compound–binds–Gene–upregulates–Anatomy–expresses–Gene–downregulates–Disease
+CbGuAeGuD	4	0.011383	3.3414		Compound–binds–Gene–upregulates–Anatomy–expresses–Gene–upregulates–Disease
+CbGuAlDrD	4	0.059081	4.1818	0	Compound–binds–Gene–upregulates–Anatomy–localizes–Disease–resembles–Disease
+CbGuAuGaD	4	0.043833	3.8082	0	Compound–binds–Gene–upregulates–Anatomy–upregulates–Gene–associates–Disease
+CbGuAuGdD	4	0.013724	3.8388		Compound–binds–Gene–upregulates–Anatomy–upregulates–Gene–downregulates–Disease
+CbGuAuGuD	4	0.012785	3.3699		Compound–binds–Gene–upregulates–Anatomy–upregulates–Gene–upregulates–Disease
+CbGuCbGaD	4	0.053156	6.7969		Compound–binds–Gene–upregulates–Compound–binds–Gene–associates–Disease
+CbGuCbGdD	4	0.024654	3.5217		Compound–binds–Gene–upregulates–Compound–binds–Gene–downregulates–Disease
+CbGuCbGuD	4	0.0077772	1.898		Compound–binds–Gene–upregulates–Compound–binds–Gene–upregulates–Disease
+CbGuCdGaD	4	0.064551	4.1745	0	Compound–binds–Gene–upregulates–Compound–downregulates–Gene–associates–Disease
+CbGuCdGdD	4	0.034151	3.6695		Compound–binds–Gene–upregulates–Compound–downregulates–Gene–downregulates–Disease
+CbGuCdGuD	4	0.031112	3.5634		Compound–binds–Gene–upregulates–Compound–downregulates–Gene–upregulates–Disease
+CbGuCpDrD	4	0.00099471	0.074502		Compound–binds–Gene–upregulates–Compound–palliates–Disease–resembles–Disease
+CbGuCrCpD	4	0.0082947	0.73979		Compound–binds–Gene–upregulates–Compound–resembles–Compound–palliates–Disease
+CbGuCrCtD	4	0.032069	5.3095		Compound–binds–Gene–upregulates–Compound–resembles–Compound–treats–Disease
+CbGuCtDrD	4	0.040563	2.508	0	Compound–binds–Gene–upregulates–Compound–treats–Disease–resembles–Disease
+CbGuCuGaD	4	0.086593	4.7347	0	Compound–binds–Gene–upregulates–Compound–upregulates–Gene–associates–Disease
+CbGuCuGdD	4	0.040221	4.5578		Compound–binds–Gene–upregulates–Compound–upregulates–Gene–downregulates–Disease
+CbGuCuGuD	4	0.024099	2.8705		Compound–binds–Gene–upregulates–Compound–upregulates–Gene–upregulates–Disease
+CbGuDaGaD	4	0.063969	3.247	0	Compound–binds–Gene–upregulates–Disease–associates–Gene–associates–Disease
+CbGuDaGdD	4	0.013627	1.9443		Compound–binds–Gene–upregulates–Disease–associates–Gene–downregulates–Disease
+CbGuDaGuD	4	0.018535	2.6684		Compound–binds–Gene–upregulates–Disease–associates–Gene–upregulates–Disease
+CbGuDdGaD	4	0.039136	2.2474		Compound–binds–Gene–upregulates–Disease–downregulates–Gene–associates–Disease
+CbGuDdGdD	4	0.015076	2.7769		Compound–binds–Gene–upregulates–Disease–downregulates–Gene–downregulates–Disease
+CbGuDdGuD	4	0.0059142	2.1052		Compound–binds–Gene–upregulates–Disease–downregulates–Gene–upregulates–Disease
+CbGuDlAlD	4	0.0512	2.8357		Compound–binds–Gene–upregulates–Disease–localizes–Anatomy–localizes–Disease
+CbGuDpCpD	4	0.0076322	0.945		Compound–binds–Gene–upregulates–Disease–palliates–Compound–palliates–Disease
+CbGuDpCtD	4	-0.030249	1.7448		Compound–binds–Gene–upregulates–Disease–palliates–Compound–treats–Disease
+CbGuDpSpD	4	0.058115	3.3872	0	Compound–binds–Gene–upregulates–Disease–presents–Symptom–presents–Disease
+CbGuDrDrD	4	0.047095	4.1649	0	Compound–binds–Gene–upregulates–Disease–resembles–Disease–resembles–Disease
+CbGuDtCpD	4	0.019015	2.9294		Compound–binds–Gene–upregulates–Disease–treats–Compound–palliates–Disease
+CbGuDtCtD	4	0.0379	2.4696		Compound–binds–Gene–upregulates–Disease–treats–Compound–treats–Disease
+CbGuDuGaD	4	0.059057	2.9411	0	Compound–binds–Gene–upregulates–Disease–upregulates–Gene–associates–Disease
+CbGuDuGdD	4	0.016677	2.3898		Compound–binds–Gene–upregulates–Disease–upregulates–Gene–downregulates–Disease
+CbGuDuGuD	4	0.017785	3.7809		Compound–binds–Gene–upregulates–Disease–upregulates–Gene–upregulates–Disease
+CcSEcCbGaD	4	0.012355	1.6695	0	Compound–causes–Side Effect–causes–Compound–binds–Gene–associates–Disease
+CcSEcCbGdD	4	-0.0049865	0.49131		Compound–causes–Side Effect–causes–Compound–binds–Gene–downregulates–Disease
+CcSEcCbGuD	4	0.0061186	0.815		Compound–causes–Side Effect–causes–Compound–binds–Gene–upregulates–Disease
+CcSEcCdGaD	4	0.00072708	0.051587		Compound–causes–Side Effect–causes–Compound–downregulates–Gene–associates–Disease
+CcSEcCdGdD	4	-0.0093004	1.7325		Compound–causes–Side Effect–causes–Compound–downregulates–Gene–downregulates–Disease
+CcSEcCdGuD	4	0.017364	2.2177		Compound–causes–Side Effect–causes–Compound–downregulates–Gene–upregulates–Disease
+CcSEcCpDrD	4	-0.0047932	0.084759		Compound–causes–Side Effect–causes–Compound–palliates–Disease–resembles–Disease
+CcSEcCrCpD	4	0.017345	1.4416		Compound–causes–Side Effect–causes–Compound–resembles–Compound–palliates–Disease
+CcSEcCrCtD	4	0.10812	4.9199		Compound–causes–Side Effect–causes–Compound–resembles–Compound–treats–Disease
+CcSEcCtDrD	4	0.12083	3.4315	0	Compound–causes–Side Effect–causes–Compound–treats–Disease–resembles–Disease
+CcSEcCuGaD	4	0.016229	2.2101	0	Compound–causes–Side Effect–causes–Compound–upregulates–Gene–associates–Disease
+CcSEcCuGdD	4	0.0063625	1.4169		Compound–causes–Side Effect–causes–Compound–upregulates–Gene–downregulates–Disease
+CcSEcCuGuD	4	0.0099959	2.0478		Compound–causes–Side Effect–causes–Compound–upregulates–Gene–upregulates–Disease
+CdG<rG<rGaD	4	0.0068794	2.5711		Compound–downregulates–Gene←regulates←Gene←regulates←Gene–associates–Disease
+CdG<rG<rGdD	4	0.016492	3.3593		Compound–downregulates–Gene←regulates←Gene←regulates←Gene–downregulates–Disease
+CdG<rG<rGuD	4	0.0088232	0.9268		Compound–downregulates–Gene←regulates←Gene←regulates←Gene–upregulates–Disease
+CdG<rGaDrD	4	0.00031249	0.018254		Compound–downregulates–Gene←regulates←Gene–associates–Disease–resembles–Disease
+CdG<rGbCpD	4	0.01593	1.962		Compound–downregulates–Gene←regulates←Gene–binds–Compound–palliates–Disease
+CdG<rGbCtD	4	0.0018004	0.69711		Compound–downregulates–Gene←regulates←Gene–binds–Compound–treats–Disease
+CdG<rGcGaD	4	0.0035044	1.0687		Compound–downregulates–Gene←regulates←Gene–covaries–Gene–associates–Disease
+CdG<rGcGdD	4	0.008473	1.4065		Compound–downregulates–Gene←regulates←Gene–covaries–Gene–downregulates–Disease
+CdG<rGcGuD	4	0.0059822	1.4348		Compound–downregulates–Gene←regulates←Gene–covaries–Gene–upregulates–Disease
+CdG<rGdAlD	4	-0.0012709	0.10266		Compound–downregulates–Gene←regulates←Gene–downregulates–Anatomy–localizes–Disease
+CdG<rGdCpD	4	0.0049354	0.30996		Compound–downregulates–Gene←regulates←Gene–downregulates–Compound–palliates–Disease
+CdG<rGdCtD	4	-0.009009	1.4166		Compound–downregulates–Gene←regulates←Gene–downregulates–Compound–treats–Disease
+CdG<rGdDrD	4	0.0060229	0.17959		Compound–downregulates–Gene←regulates←Gene–downregulates–Disease–resembles–Disease
+CdG<rGeAlD	4	0.0046693	1.135		Compound–downregulates–Gene←regulates←Gene–expresses–Anatomy–localizes–Disease
+CdG<rGiGaD	4	0.0072408	2.793		Compound–downregulates–Gene←regulates←Gene–interacts–Gene–associates–Disease
+CdG<rGiGdD	4	0.013279	2.8964		Compound–downregulates–Gene←regulates←Gene–interacts–Gene–downregulates–Disease
+CdG<rGiGuD	4	0.010206	3.647		Compound–downregulates–Gene←regulates←Gene–interacts–Gene–upregulates–Disease
+CdG<rGr>GaD	4	0.0046353	1.7604		Compound–downregulates–Gene←regulates←Gene→regulates→Gene–associates–Disease
+CdG<rGr>GdD	4	0.010264	3.631		Compound–downregulates–Gene←regulates←Gene→regulates→Gene–downregulates–Disease
+CdG<rGr>GuD	4	0.0076027	2.0825		Compound–downregulates–Gene←regulates←Gene→regulates→Gene–upregulates–Disease
+CdG<rGuAlD	4	-0.0010214	0.068583		Compound–downregulates–Gene←regulates←Gene–upregulates–Anatomy–localizes–Disease
+CdG<rGuCpD	4	0.019932	0.94877		Compound–downregulates–Gene←regulates←Gene–upregulates–Compound–palliates–Disease
+CdG<rGuCtD	4	-0.0077055	0.84582		Compound–downregulates–Gene←regulates←Gene–upregulates–Compound–treats–Disease
+CdG<rGuDrD	4	0.0086804	0.27619		Compound–downregulates–Gene←regulates←Gene–upregulates–Disease–resembles–Disease
+CdGaDaGaD	4	0.01895	3.2479		Compound–downregulates–Gene–associates–Disease–associates–Gene–associates–Disease
+CdGaDaGdD	4	0.017107	3.3779		Compound–downregulates–Gene–associates–Disease–associates–Gene–downregulates–Disease
+CdGaDaGuD	4	0.013946	3.6354		Compound–downregulates–Gene–associates–Disease–associates–Gene–upregulates–Disease
+CdGaDdGaD	4	0.018251	2.2371	-0.0099847	Compound–downregulates–Gene–associates–Disease–downregulates–Gene–associates–Disease
+CdGaDdGdD	4	0.018269	3.4974		Compound–downregulates–Gene–associates–Disease–downregulates–Gene–downregulates–Disease
+CdGaDdGuD	4	0.0023705	0.29992		Compound–downregulates–Gene–associates–Disease–downregulates–Gene–upregulates–Disease
+CdGaDlAlD	4	0.013558	3.1246		Compound–downregulates–Gene–associates–Disease–localizes–Anatomy–localizes–Disease
+CdGaDpCpD	4	0.0067909	0.9751		Compound–downregulates–Gene–associates–Disease–palliates–Compound–palliates–Disease
+CdGaDpCtD	4	-0.032192	2.7598		Compound–downregulates–Gene–associates–Disease–palliates–Compound–treats–Disease
+CdGaDpSpD	4	0.014409	2.4695		Compound–downregulates–Gene–associates–Disease–presents–Symptom–presents–Disease
+CdGaDrDrD	4	0.02291	2.4863		Compound–downregulates–Gene–associates–Disease–resembles–Disease–resembles–Disease
+CdGaDtCpD	4	0.012963	2.0631		Compound–downregulates–Gene–associates–Disease–treats–Compound–palliates–Disease
+CdGaDtCtD	4	0.00024702	0.029244		Compound–downregulates–Gene–associates–Disease–treats–Compound–treats–Disease
+CdGaDuGaD	4	0.02769	2.8024	0	Compound–downregulates–Gene–associates–Disease–upregulates–Gene–associates–Disease
+CdGaDuGdD	4	0.012494	3.2313		Compound–downregulates–Gene–associates–Disease–upregulates–Gene–downregulates–Disease
+CdGaDuGuD	4	0.008721	1.3673		Compound–downregulates–Gene–associates–Disease–upregulates–Gene–upregulates–Disease
+CdGbCbGaD	4	0.013679	2.1684		Compound–downregulates–Gene–binds–Compound–binds–Gene–associates–Disease
+CdGbCbGdD	4	0.012072	1.7518		Compound–downregulates–Gene–binds–Compound–binds–Gene–downregulates–Disease
+CdGbCbGuD	4	0.010537	2.4069		Compound–downregulates–Gene–binds–Compound–binds–Gene–upregulates–Disease
+CdGbCdGaD	4	0.0085248	1.6915	0	Compound–downregulates–Gene–binds–Compound–downregulates–Gene–associates–Disease
+CdGbCdGdD	4	0.012912	2.6325		Compound–downregulates–Gene–binds–Compound–downregulates–Gene–downregulates–Disease
+CdGbCdGuD	4	0.013712	2.1262		Compound–downregulates–Gene–binds–Compound–downregulates–Gene–upregulates–Disease
+CdGbCpDrD	4	-0.032658	3.1162		Compound–downregulates–Gene–binds–Compound–palliates–Disease–resembles–Disease
+CdGbCrCpD	4	-0.035282	3.8452		Compound–downregulates–Gene–binds–Compound–resembles–Compound–palliates–Disease
+CdGbCrCtD	4	0.023594	1.9816	0	Compound–downregulates–Gene–binds–Compound–resembles–Compound–treats–Disease
+CdGbCtDrD	4	0.026749	3.1656		Compound–downregulates–Gene–binds–Compound–treats–Disease–resembles–Disease
+CdGbCuGaD	4	0.0073573	1.1586		Compound–downregulates–Gene–binds–Compound–upregulates–Gene–associates–Disease
+CdGbCuGdD	4	0.009387	1.9897		Compound–downregulates–Gene–binds–Compound–upregulates–Gene–downregulates–Disease
+CdGbCuGuD	4	0.01172	2.2328		Compound–downregulates–Gene–binds–Compound–upregulates–Gene–upregulates–Disease
+CdGcG<rGaD	4	0.0087133	1.6619	0	Compound–downregulates–Gene–covaries–Gene←regulates←Gene–associates–Disease
+CdGcG<rGdD	4	0.0081786	0.98983		Compound–downregulates–Gene–covaries–Gene←regulates←Gene–downregulates–Disease
+CdGcG<rGuD	4	-0.00068493	0.041422		Compound–downregulates–Gene–covaries–Gene←regulates←Gene–upregulates–Disease
+CdGcGaDrD	4	0.002982	0.17754		Compound–downregulates–Gene–covaries–Gene–associates–Disease–resembles–Disease
+CdGcGbCpD	4	-0.0015066	0.12035		Compound–downregulates–Gene–covaries–Gene–binds–Compound–palliates–Disease
+CdGcGbCtD	4	-0.0056338	1.0151		Compound–downregulates–Gene–covaries–Gene–binds–Compound–treats–Disease
+CdGcGcGaD	4	0.0023051	0.22916		Compound–downregulates–Gene–covaries–Gene–covaries–Gene–associates–Disease
+CdGcGcGdD	4	0.0001479	0.0216		Compound–downregulates–Gene–covaries–Gene–covaries–Gene–downregulates–Disease
+CdGcGcGuD	4	-0.0067223	1.3545		Compound–downregulates–Gene–covaries–Gene–covaries–Gene–upregulates–Disease
+CdGcGdAlD	4	-0.00072806	0.042671		Compound–downregulates–Gene–covaries–Gene–downregulates–Anatomy–localizes–Disease
+CdGcGdCpD	4	-0.0017163	0.11907		Compound–downregulates–Gene–covaries–Gene–downregulates–Compound–palliates–Disease
+CdGcGdCtD	4	-0.015423	2.2183		Compound–downregulates–Gene–covaries–Gene–downregulates–Compound–treats–Disease
+CdGcGdDrD	4	0.013015	0.75733		Compound–downregulates–Gene–covaries–Gene–downregulates–Disease–resembles–Disease
+CdGcGeAlD	4	0.0091542	1.2381		Compound–downregulates–Gene–covaries–Gene–expresses–Anatomy–localizes–Disease
+CdGcGiGaD	4	0.016152	2.1544	0	Compound–downregulates–Gene–covaries–Gene–interacts–Gene–associates–Disease
+CdGcGiGdD	4	0.0058621	0.86841		Compound–downregulates–Gene–covaries–Gene–interacts–Gene–downregulates–Disease
+CdGcGiGuD	4	0.0046312	0.92122		Compound–downregulates–Gene–covaries–Gene–interacts–Gene–upregulates–Disease
+CdGcGr>GaD	4	0.011412	1.5231		Compound–downregulates–Gene–covaries–Gene→regulates→Gene–associates–Disease
+CdGcGr>GdD	4	0.00988	1.0971		Compound–downregulates–Gene–covaries–Gene→regulates→Gene–downregulates–Disease
+CdGcGr>GuD	4	0.004583	0.37172		Compound–downregulates–Gene–covaries–Gene→regulates→Gene–upregulates–Disease
+CdGcGuAlD	4	0.0021957	0.12898		Compound–downregulates–Gene–covaries–Gene–upregulates–Anatomy–localizes–Disease
+CdGcGuCpD	4	0.015982	1.8031		Compound–downregulates–Gene–covaries–Gene–upregulates–Compound–palliates–Disease
+CdGcGuCtD	4	-0.0066374	2.1132		Compound–downregulates–Gene–covaries–Gene–upregulates–Compound–treats–Disease
+CdGcGuDrD	4	0.01831	0.92241		Compound–downregulates–Gene–covaries–Gene–upregulates–Disease–resembles–Disease
+CdGdAdGaD	4	0.011295	2.7361		Compound–downregulates–Gene–downregulates–Anatomy–downregulates–Gene–associates–Disease
+CdGdAdGdD	4	0.01593	2.9015		Compound–downregulates–Gene–downregulates–Anatomy–downregulates–Gene–downregulates–Disease
+CdGdAdGuD	4	0.011303	2.4268		Compound–downregulates–Gene–downregulates–Anatomy–downregulates–Gene–upregulates–Disease
+CdGdAeGaD	4	0.0094036	2.2758		Compound–downregulates–Gene–downregulates–Anatomy–expresses–Gene–associates–Disease
+CdGdAeGdD	4	0.016282	2.8873		Compound–downregulates–Gene–downregulates–Anatomy–expresses–Gene–downregulates–Disease
+CdGdAeGuD	4	0.010156	2.2895		Compound–downregulates–Gene–downregulates–Anatomy–expresses–Gene–upregulates–Disease
+CdGdAlDrD	4	0.00047436	0.11579		Compound–downregulates–Gene–downregulates–Anatomy–localizes–Disease–resembles–Disease
+CdGdAuGaD	4	0.0080175	2.0499		Compound–downregulates–Gene–downregulates–Anatomy–upregulates–Gene–associates–Disease
+CdGdAuGdD	4	0.016266	2.8908		Compound–downregulates–Gene–downregulates–Anatomy–upregulates–Gene–downregulates–Disease
+CdGdAuGuD	4	0.010761	2.4033		Compound–downregulates–Gene–downregulates–Anatomy–upregulates–Gene–upregulates–Disease
+CdGdCbGaD	4	0.012413	2.2499		Compound–downregulates–Gene–downregulates–Compound–binds–Gene–associates–Disease
+CdGdCbGdD	4	-0.0089598	1.6362		Compound–downregulates–Gene–downregulates–Compound–binds–Gene–downregulates–Disease
+CdGdCbGuD	4	0.0072209	1.0269		Compound–downregulates–Gene–downregulates–Compound–binds–Gene–upregulates–Disease
+CdGdCdGaD	4	0.002805	0.8599		Compound–downregulates–Gene–downregulates–Compound–downregulates–Gene–associates–Disease
+CdGdCdGdD	4	0.0060503	1.1125		Compound–downregulates–Gene–downregulates–Compound–downregulates–Gene–downregulates–Disease
+CdGdCdGuD	4	0.0090183	1.3376		Compound–downregulates–Gene–downregulates–Compound–downregulates–Gene–upregulates–Disease
+CdGdCpDrD	4	0.00077726	0.019824		Compound–downregulates–Gene–downregulates–Compound–palliates–Disease–resembles–Disease
+CdGdCrCpD	4	-0.00069987	0.039116		Compound–downregulates–Gene–downregulates–Compound–resembles–Compound–palliates–Disease
+CdGdCrCtD	4	0.05468	4.4447		Compound–downregulates–Gene–downregulates–Compound–resembles–Compound–treats–Disease
+CdGdCtDrD	4	0.054681	3.887	0	Compound–downregulates–Gene–downregulates–Compound–treats–Disease–resembles–Disease
+CdGdCuGaD	4	0.0090103	3.2561	0	Compound–downregulates–Gene–downregulates–Compound–upregulates–Gene–associates–Disease
+CdGdCuGdD	4	0.013306	3.3561		Compound–downregulates–Gene–downregulates–Compound–upregulates–Gene–downregulates–Disease
+CdGdCuGuD	4	0.0032619	0.9119		Compound–downregulates–Gene–downregulates–Compound–upregulates–Gene–upregulates–Disease
+CdGdDaGaD	4	0.011381	2.8691		Compound–downregulates–Gene–downregulates–Disease–associates–Gene–associates–Disease
+CdGdDaGdD	4	0.0014249	0.18336		Compound–downregulates–Gene–downregulates–Disease–associates–Gene–downregulates–Disease
+CdGdDaGuD	4	0.0095431	1.5741		Compound–downregulates–Gene–downregulates–Disease–associates–Gene–upregulates–Disease
+CdGdDdGaD	4	0.012987	3.4361		Compound–downregulates–Gene–downregulates–Disease–downregulates–Gene–associates–Disease
+CdGdDdGdD	4	0.0059992	1.2602		Compound–downregulates–Gene–downregulates–Disease–downregulates–Gene–downregulates–Disease
+CdGdDdGuD	4	0.0015692	0.15079		Compound–downregulates–Gene–downregulates–Disease–downregulates–Gene–upregulates–Disease
+CdGdDlAlD	4	0.016717	2.8406		Compound–downregulates–Gene–downregulates–Disease–localizes–Anatomy–localizes–Disease
+CdGdDpCpD	4	-0.00088708	0.1147		Compound–downregulates–Gene–downregulates–Disease–palliates–Compound–palliates–Disease
+CdGdDpCtD	4	-0.050377	3.9305		Compound–downregulates–Gene–downregulates–Disease–palliates–Compound–treats–Disease
+CdGdDpSpD	4	0.0048705	1.0937		Compound–downregulates–Gene–downregulates–Disease–presents–Symptom–presents–Disease
+CdGdDrDrD	4	0.016582	1.7243		Compound–downregulates–Gene–downregulates–Disease–resembles–Disease–resembles–Disease
+CdGdDtCpD	4	0.001322	0.17915		Compound–downregulates–Gene–downregulates–Disease–treats–Compound–palliates–Disease
+CdGdDtCtD	4	-0.0056897	0.89079		Compound–downregulates–Gene–downregulates–Disease–treats–Compound–treats–Disease
+CdGdDuGaD	4	0.0053243	1.5276		Compound–downregulates–Gene–downregulates–Disease–upregulates–Gene–associates–Disease
+CdGdDuGdD	4	0.009044	1.599		Compound–downregulates–Gene–downregulates–Disease–upregulates–Gene–downregulates–Disease
+CdGdDuGuD	4	-0.0048478	0.54272		Compound–downregulates–Gene–downregulates–Disease–upregulates–Gene–upregulates–Disease
+CdGeAdGaD	4	0.010019	2.8861		Compound–downregulates–Gene–expresses–Anatomy–downregulates–Gene–associates–Disease
+CdGeAdGdD	4	0.015229	3.0882		Compound–downregulates–Gene–expresses–Anatomy–downregulates–Gene–downregulates–Disease
+CdGeAdGuD	4	0.01011	2.4073		Compound–downregulates–Gene–expresses–Anatomy–downregulates–Gene–upregulates–Disease
+CdGeAeGaD	4	0.010909	2.9809		Compound–downregulates–Gene–expresses–Anatomy–expresses–Gene–associates–Disease
+CdGeAeGdD	4	0.014864	3.0825		Compound–downregulates–Gene–expresses–Anatomy–expresses–Gene–downregulates–Disease
+CdGeAeGuD	4	0.0087985	2.3023		Compound–downregulates–Gene–expresses–Anatomy–expresses–Gene–upregulates–Disease
+CdGeAlDrD	4	0.011256	2.8347		Compound–downregulates–Gene–expresses–Anatomy–localizes–Disease–resembles–Disease
+CdGeAuGaD	4	0.0098256	2.9192		Compound–downregulates–Gene–expresses–Anatomy–upregulates–Gene–associates–Disease
+CdGeAuGdD	4	0.015745	3.1296		Compound–downregulates–Gene–expresses–Anatomy–upregulates–Gene–downregulates–Disease
+CdGeAuGuD	4	0.0096576	2.4014		Compound–downregulates–Gene–expresses–Anatomy–upregulates–Gene–upregulates–Disease
+CdGiG<rGaD	4	0.0093786	2.9499	0	Compound–downregulates–Gene–interacts–Gene←regulates←Gene–associates–Disease
+CdGiG<rGdD	4	0.013682	2.3854		Compound–downregulates–Gene–interacts–Gene←regulates←Gene–downregulates–Disease
+CdGiG<rGuD	4	0.0025369	0.2539		Compound–downregulates–Gene–interacts–Gene←regulates←Gene–upregulates–Disease
+CdGiGaDrD	4	0.013051	1.1117		Compound–downregulates–Gene–interacts–Gene–associates–Disease–resembles–Disease
+CdGiGbCpD	4	-0.0077704	0.81879		Compound–downregulates–Gene–interacts–Gene–binds–Compound–palliates–Disease
+CdGiGbCtD	4	0.00090965	0.44038		Compound–downregulates–Gene–interacts–Gene–binds–Compound–treats–Disease
+CdGiGcGaD	4	0.0028843	1.7719		Compound–downregulates–Gene–interacts–Gene–covaries–Gene–associates–Disease
+CdGiGcGdD	4	0.0074885	1.3375		Compound–downregulates–Gene–interacts–Gene–covaries–Gene–downregulates–Disease
+CdGiGcGuD	4	0.0036908	0.79442		Compound–downregulates–Gene–interacts–Gene–covaries–Gene–upregulates–Disease
+CdGiGdAlD	4	0.0016222	0.13985		Compound–downregulates–Gene–interacts–Gene–downregulates–Anatomy–localizes–Disease
+CdGiGdCpD	4	-0.0068025	0.55055		Compound–downregulates–Gene–interacts–Gene–downregulates–Compound–palliates–Disease
+CdGiGdCtD	4	-0.026949	2.8092		Compound–downregulates–Gene–interacts–Gene–downregulates–Compound–treats–Disease
+CdGiGdDrD	4	0.013973	0.55908		Compound–downregulates–Gene–interacts–Gene–downregulates–Disease–resembles–Disease
+CdGiGeAlD	4	0.010955	2.3705		Compound–downregulates–Gene–interacts–Gene–expresses–Anatomy–localizes–Disease
+CdGiGiGaD	4	0.01274	3.0118	0	Compound–downregulates–Gene–interacts–Gene–interacts–Gene–associates–Disease
+CdGiGiGdD	4	0.014169	2.9755		Compound–downregulates–Gene–interacts–Gene–interacts–Gene–downregulates–Disease
+CdGiGiGuD	4	0.0089415	3.1156		Compound–downregulates–Gene–interacts–Gene–interacts–Gene–upregulates–Disease
+CdGiGr>GaD	4	0.010134	2.7651		Compound–downregulates–Gene–interacts–Gene→regulates→Gene–associates–Disease
+CdGiGr>GdD	4	0.0073253	2.7346		Compound–downregulates–Gene–interacts–Gene→regulates→Gene–downregulates–Disease
+CdGiGr>GuD	4	0.0070362	1.5965		Compound–downregulates–Gene–interacts–Gene→regulates→Gene–upregulates–Disease
+CdGiGuAlD	4	0.00087072	0.062246		Compound–downregulates–Gene–interacts–Gene–upregulates–Anatomy–localizes–Disease
+CdGiGuCpD	4	0.009298	0.64018		Compound–downregulates–Gene–interacts–Gene–upregulates–Compound–palliates–Disease
+CdGiGuCtD	4	-0.016709	2.2703		Compound–downregulates–Gene–interacts–Gene–upregulates–Compound–treats–Disease
+CdGiGuDrD	4	0.020795	0.85316		Compound–downregulates–Gene–interacts–Gene–upregulates–Disease–resembles–Disease
+CdGpBPpGaD	4	0.012338	2.5193		Compound–downregulates–Gene–participates–Biological Process–participates–Gene–associates–Disease
+CdGpBPpGdD	4	0.012729	2.7251		Compound–downregulates–Gene–participates–Biological Process–participates–Gene–downregulates–Disease
+CdGpBPpGuD	4	0.0058342	1.6283		Compound–downregulates–Gene–participates–Biological Process–participates–Gene–upregulates–Disease
+CdGpCCpGaD	4	0.0046841	1.0845		Compound–downregulates–Gene–participates–Cellular Component–participates–Gene–associates–Disease
+CdGpCCpGdD	4	0.011015	2.1816		Compound–downregulates–Gene–participates–Cellular Component–participates–Gene–downregulates–Disease
+CdGpCCpGuD	4	-0.00031319	0.054039		Compound–downregulates–Gene–participates–Cellular Component–participates–Gene–upregulates–Disease
+CdGpMFpGaD	4	0.0096796	1.8714		Compound–downregulates–Gene–participates–Molecular Function–participates–Gene–associates–Disease
+CdGpMFpGdD	4	0.013624	2.341		Compound–downregulates–Gene–participates–Molecular Function–participates–Gene–downregulates–Disease
+CdGpMFpGuD	4	0.0020968	0.5913		Compound–downregulates–Gene–participates–Molecular Function–participates–Gene–upregulates–Disease
+CdGpPWpGaD	4	0.015337	3.0263		Compound–downregulates–Gene–participates–Pathway–participates–Gene–associates–Disease
+CdGpPWpGdD	4	0.01361	2.9921		Compound–downregulates–Gene–participates–Pathway–participates–Gene–downregulates–Disease
+CdGpPWpGuD	4	0.0013374	0.63605		Compound–downregulates–Gene–participates–Pathway–participates–Gene–upregulates–Disease
+CdGr>G<rGaD	4	0.0081693	3.609		Compound–downregulates–Gene→regulates→Gene←regulates←Gene–associates–Disease
+CdGr>G<rGdD	4	0.016737	3.2427		Compound–downregulates–Gene→regulates→Gene←regulates←Gene–downregulates–Disease
+CdGr>G<rGuD	4	0.0087205	0.88339		Compound–downregulates–Gene→regulates→Gene←regulates←Gene–upregulates–Disease
+CdGr>GaDrD	4	-0.0011652	0.076404		Compound–downregulates–Gene→regulates→Gene–associates–Disease–resembles–Disease
+CdGr>GbCpD	4	-0.0064138	0.84324		Compound–downregulates–Gene→regulates→Gene–binds–Compound–palliates–Disease
+CdGr>GbCtD	4	-0.0045899	1.0186		Compound–downregulates–Gene→regulates→Gene–binds–Compound–treats–Disease
+CdGr>GcGaD	4	2.899e-05	0.015698		Compound–downregulates–Gene→regulates→Gene–covaries–Gene–associates–Disease
+CdGr>GcGdD	4	0.0055155	1.4351		Compound–downregulates–Gene→regulates→Gene–covaries–Gene–downregulates–Disease
+CdGr>GcGuD	4	-0.0068188	1.5282		Compound–downregulates–Gene→regulates→Gene–covaries–Gene–upregulates–Disease
+CdGr>GdAlD	4	-0.0012594	0.10384		Compound–downregulates–Gene→regulates→Gene–downregulates–Anatomy–localizes–Disease
+CdGr>GdCpD	4	-0.0028697	0.16722		Compound–downregulates–Gene→regulates→Gene–downregulates–Compound–palliates–Disease
+CdGr>GdCtD	4	-0.0060207	0.68054		Compound–downregulates–Gene→regulates→Gene–downregulates–Compound–treats–Disease
+CdGr>GdDrD	4	0.0022166	0.066938		Compound–downregulates–Gene→regulates→Gene–downregulates–Disease–resembles–Disease
+CdGr>GeAlD	4	0.0044807	1.4727		Compound–downregulates–Gene→regulates→Gene–expresses–Anatomy–localizes–Disease
+CdGr>GiGaD	4	0.0046351	2.0627		Compound–downregulates–Gene→regulates→Gene–interacts–Gene–associates–Disease
+CdGr>GiGdD	4	0.010405	2.2466		Compound–downregulates–Gene→regulates→Gene–interacts–Gene–downregulates–Disease
+CdGr>GiGuD	4	0.0046844	2.0449		Compound–downregulates–Gene→regulates→Gene–interacts–Gene–upregulates–Disease
+CdGr>Gr>GaD	4	0.0031724	1.9784		Compound–downregulates–Gene→regulates→Gene→regulates→Gene–associates–Disease
+CdGr>Gr>GdD	4	0.0092976	3.2791		Compound–downregulates–Gene→regulates→Gene→regulates→Gene–downregulates–Disease
+CdGr>Gr>GuD	4	0.0061409	1.5095		Compound–downregulates–Gene→regulates→Gene→regulates→Gene–upregulates–Disease
+CdGr>GuAlD	4	-0.0013589	0.098547		Compound–downregulates–Gene→regulates→Gene–upregulates–Anatomy–localizes–Disease
+CdGr>GuCpD	4	0.019285	1.1058		Compound–downregulates–Gene→regulates→Gene–upregulates–Compound–palliates–Disease
+CdGr>GuCtD	4	-0.0025566	0.21907		Compound–downregulates–Gene→regulates→Gene–upregulates–Compound–treats–Disease
+CdGr>GuDrD	4	0.0091028	0.31968		Compound–downregulates–Gene→regulates→Gene–upregulates–Disease–resembles–Disease
+CdGuAdGaD	4	0.0095625	2.9274		Compound–downregulates–Gene–upregulates–Anatomy–downregulates–Gene–associates–Disease
+CdGuAdGdD	4	0.014899	2.8685		Compound–downregulates–Gene–upregulates–Anatomy–downregulates–Gene–downregulates–Disease
+CdGuAdGuD	4	0.01115	2.4749		Compound–downregulates–Gene–upregulates–Anatomy–downregulates–Gene–upregulates–Disease
+CdGuAeGaD	4	0.011634	2.9609		Compound–downregulates–Gene–upregulates–Anatomy–expresses–Gene–associates–Disease
+CdGuAeGdD	4	0.015827	2.9949		Compound–downregulates–Gene–upregulates–Anatomy–expresses–Gene–downregulates–Disease
+CdGuAeGuD	4	0.010335	2.4388		Compound–downregulates–Gene–upregulates–Anatomy–expresses–Gene–upregulates–Disease
+CdGuAlDrD	4	0.012036	2.7775		Compound–downregulates–Gene–upregulates–Anatomy–localizes–Disease–resembles–Disease
+CdGuAuGaD	4	0.012671	3.2233		Compound–downregulates–Gene–upregulates–Anatomy–upregulates–Gene–associates–Disease
+CdGuAuGdD	4	0.016248	2.9847		Compound–downregulates–Gene–upregulates–Anatomy–upregulates–Gene–downregulates–Disease
+CdGuAuGuD	4	0.0091003	2.194		Compound–downregulates–Gene–upregulates–Anatomy–upregulates–Gene–upregulates–Disease
+CdGuCbGaD	4	0.0017349	0.35363		Compound–downregulates–Gene–upregulates–Compound–binds–Gene–associates–Disease
+CdGuCbGdD	4	-0.001168	0.13552		Compound–downregulates–Gene–upregulates–Compound–binds–Gene–downregulates–Disease
+CdGuCbGuD	4	0.011327	1.8024		Compound–downregulates–Gene–upregulates–Compound–binds–Gene–upregulates–Disease
+CdGuCdGaD	4	0.0052606	2.3753		Compound–downregulates–Gene–upregulates–Compound–downregulates–Gene–associates–Disease
+CdGuCdGdD	4	0.0074472	1.2272		Compound–downregulates–Gene–upregulates–Compound–downregulates–Gene–downregulates–Disease
+CdGuCdGuD	4	0.0049833	0.6056		Compound–downregulates–Gene–upregulates–Compound–downregulates–Gene–upregulates–Disease
+CdGuCpDrD	4	0.0051907	0.30066		Compound–downregulates–Gene–upregulates–Compound–palliates–Disease–resembles–Disease
+CdGuCrCpD	4	0.0049487	0.41648		Compound–downregulates–Gene–upregulates–Compound–resembles–Compound–palliates–Disease
+CdGuCrCtD	4	-0.0010473	0.086499		Compound–downregulates–Gene–upregulates–Compound–resembles–Compound–treats–Disease
+CdGuCtDrD	4	0.0031589	0.27506		Compound–downregulates–Gene–upregulates–Compound–treats–Disease–resembles–Disease
+CdGuCuGaD	4	0.017129	4.8762		Compound–downregulates–Gene–upregulates–Compound–upregulates–Gene–associates–Disease
+CdGuCuGdD	4	0.014033	2.7035		Compound–downregulates–Gene–upregulates–Compound–upregulates–Gene–downregulates–Disease
+CdGuCuGuD	4	-0.0034091	0.7091		Compound–downregulates–Gene–upregulates–Compound–upregulates–Gene–upregulates–Disease
+CdGuDaGaD	4	0.011243	3.2325	0	Compound–downregulates–Gene–upregulates–Disease–associates–Gene–associates–Disease
+CdGuDaGdD	4	0.0092596	2.0109		Compound–downregulates–Gene–upregulates–Disease–associates–Gene–downregulates–Disease
+CdGuDaGuD	4	0.0095086	1.5733		Compound–downregulates–Gene–upregulates–Disease–associates–Gene–upregulates–Disease
+CdGuDdGaD	4	0.011375	4.1834		Compound–downregulates–Gene–upregulates–Disease–downregulates–Gene–associates–Disease
+CdGuDdGdD	4	0.0044781	0.58039		Compound–downregulates–Gene–upregulates–Disease–downregulates–Gene–downregulates–Disease
+CdGuDdGuD	4	0.013188	1.6548		Compound–downregulates–Gene–upregulates–Disease–downregulates–Gene–upregulates–Disease
+CdGuDlAlD	4	0.0069489	1.2867		Compound–downregulates–Gene–upregulates–Disease–localizes–Anatomy–localizes–Disease
+CdGuDpCpD	4	-0.0016894	0.15619		Compound–downregulates–Gene–upregulates–Disease–palliates–Compound–palliates–Disease
+CdGuDpCtD	4	-0.04377	3.5455		Compound–downregulates–Gene–upregulates–Disease–palliates–Compound–treats–Disease
+CdGuDpSpD	4	0.0070961	1.5621	0	Compound–downregulates–Gene–upregulates–Disease–presents–Symptom–presents–Disease
+CdGuDrDrD	4	0.0069299	1.1029		Compound–downregulates–Gene–upregulates–Disease–resembles–Disease–resembles–Disease
+CdGuDtCpD	4	0.00087886	0.1251		Compound–downregulates–Gene–upregulates–Disease–treats–Compound–palliates–Disease
+CdGuDtCtD	4	-0.015435	3.0357		Compound–downregulates–Gene–upregulates–Disease–treats–Compound–treats–Disease
+CdGuDuGaD	4	0.0073896	2.1482		Compound–downregulates–Gene–upregulates–Disease–upregulates–Gene–associates–Disease
+CdGuDuGdD	4	0.012083	1.9771		Compound–downregulates–Gene–upregulates–Disease–upregulates–Gene–downregulates–Disease
+CdGuDuGuD	4	0.0012873	0.15404		Compound–downregulates–Gene–upregulates–Disease–upregulates–Gene–upregulates–Disease
+CiPCiCbGaD	4	0.090258	4.9836	0	Compound–includes–Pharmacologic Class–includes–Compound–binds–Gene–associates–Disease
+CiPCiCbGdD	4	-0.010073	1.8209		Compound–includes–Pharmacologic Class–includes–Compound–binds–Gene–downregulates–Disease
+CiPCiCbGuD	4	0.027742	5.0441		Compound–includes–Pharmacologic Class–includes–Compound–binds–Gene–upregulates–Disease
+CiPCiCdGaD	4	0.083341	3.4809	-0.063355	Compound–includes–Pharmacologic Class–includes–Compound–downregulates–Gene–associates–Disease
+CiPCiCdGdD	4	0.043409	4.2569		Compound–includes–Pharmacologic Class–includes–Compound–downregulates–Gene–downregulates–Disease
+CiPCiCdGuD	4	0.04369	3.2423	0	Compound–includes–Pharmacologic Class–includes–Compound–downregulates–Gene–upregulates–Disease
+CiPCiCpDrD	4	0.017603	3.4019		Compound–includes–Pharmacologic Class–includes–Compound–palliates–Disease–resembles–Disease
+CiPCiCrCpD	4	-0.0013363	0.22233		Compound–includes–Pharmacologic Class–includes–Compound–resembles–Compound–palliates–Disease
+CiPCiCrCtD	4	0.17233	5.4763	0	Compound–includes–Pharmacologic Class–includes–Compound–resembles–Compound–treats–Disease
+CiPCiCtDrD	4	0.18693	6.3548		Compound–includes–Pharmacologic Class–includes–Compound–treats–Disease–resembles–Disease
+CiPCiCuGaD	4	0.086612	3.5838	-0.031609	Compound–includes–Pharmacologic Class–includes–Compound–upregulates–Gene–associates–Disease
+CiPCiCuGdD	4	0.040183	2.8516		Compound–includes–Pharmacologic Class–includes–Compound–upregulates–Gene–downregulates–Disease
+CiPCiCuGuD	4	0.035784	3.6635		Compound–includes–Pharmacologic Class–includes–Compound–upregulates–Gene–upregulates–Disease
+CpDaG<rGaD	4	0.0012291	0.56015		Compound–palliates–Disease–associates–Gene←regulates←Gene–associates–Disease
+CpDaG<rGdD	4	0.00038214	0.098008		Compound–palliates–Disease–associates–Gene←regulates←Gene–downregulates–Disease
+CpDaG<rGuD	4	-0.0025166	0.59247		Compound–palliates–Disease–associates–Gene←regulates←Gene–upregulates–Disease
+CpDaGaDrD	4	0.0054757	1.981		Compound–palliates–Disease–associates–Gene–associates–Disease–resembles–Disease
+CpDaGbCpD	4	0.013306	3.013		Compound–palliates–Disease–associates–Gene–binds–Compound–palliates–Disease
+CpDaGbCtD	4	0.0018632	0.3774		Compound–palliates–Disease–associates–Gene–binds–Compound–treats–Disease
+CpDaGcGaD	4	0.00033125	0.043332		Compound–palliates–Disease–associates–Gene–covaries–Gene–associates–Disease
+CpDaGcGdD	4	-0.00049385	0.12409		Compound–palliates–Disease–associates–Gene–covaries–Gene–downregulates–Disease
+CpDaGcGuD	4	0.0015931	0.74429		Compound–palliates–Disease–associates–Gene–covaries–Gene–upregulates–Disease
+CpDaGdAlD	4	-0.011664	2.4128		Compound–palliates–Disease–associates–Gene–downregulates–Anatomy–localizes–Disease
+CpDaGdCpD	4	0.0064426	1.8425		Compound–palliates–Disease–associates–Gene–downregulates–Compound–palliates–Disease
+CpDaGdCtD	4	-0.0043852	1.4462		Compound–palliates–Disease–associates–Gene–downregulates–Compound–treats–Disease
+CpDaGdDrD	4	0.00088169	0.085667		Compound–palliates–Disease–associates–Gene–downregulates–Disease–resembles–Disease
+CpDaGeAlD	4	0.0043266	2.1946		Compound–palliates–Disease–associates–Gene–expresses–Anatomy–localizes–Disease
+CpDaGiGaD	4	0.003286	1.4701		Compound–palliates–Disease–associates–Gene–interacts–Gene–associates–Disease
+CpDaGiGdD	4	0.0019782	0.65171		Compound–palliates–Disease–associates–Gene–interacts–Gene–downregulates–Disease
+CpDaGiGuD	4	0.0029732	0.90163		Compound–palliates–Disease–associates–Gene–interacts–Gene–upregulates–Disease
+CpDaGr>GaD	4	0.0015545	0.58549		Compound–palliates–Disease–associates–Gene→regulates→Gene–associates–Disease
+CpDaGr>GdD	4	-0.0015281	0.62151		Compound–palliates–Disease–associates–Gene→regulates→Gene–downregulates–Disease
+CpDaGr>GuD	4	0.0025345	0.83144		Compound–palliates–Disease–associates–Gene→regulates→Gene–upregulates–Disease
+CpDaGuAlD	4	-0.010854	2.3116		Compound–palliates–Disease–associates–Gene–upregulates–Anatomy–localizes–Disease
+CpDaGuCpD	4	0.010544	3.4514		Compound–palliates–Disease–associates–Gene–upregulates–Compound–palliates–Disease
+CpDaGuCtD	4	-0.013051	3.008		Compound–palliates–Disease–associates–Gene–upregulates–Compound–treats–Disease
+CpDaGuDrD	4	0.00073475	0.074812		Compound–palliates–Disease–associates–Gene–upregulates–Disease–resembles–Disease
+CpDdG<rGaD	4	-0.0017022	0.18066		Compound–palliates–Disease–downregulates–Gene←regulates←Gene–associates–Disease
+CpDdG<rGdD	4	-0.0092006	1.4755		Compound–palliates–Disease–downregulates–Gene←regulates←Gene–downregulates–Disease
+CpDdG<rGuD	4	-0.0094087	1.6489		Compound–palliates–Disease–downregulates–Gene←regulates←Gene–upregulates–Disease
+CpDdGaDrD	4	0.0023443	0.2128		Compound–palliates–Disease–downregulates–Gene–associates–Disease–resembles–Disease
+CpDdGbCpD	4	0.01232	2.4707		Compound–palliates–Disease–downregulates–Gene–binds–Compound–palliates–Disease
+CpDdGbCtD	4	-0.00089611	0.097127		Compound–palliates–Disease–downregulates–Gene–binds–Compound–treats–Disease
+CpDdGcGaD	4	-0.0039212	0.37482		Compound–palliates–Disease–downregulates–Gene–covaries–Gene–associates–Disease
+CpDdGcGdD	4	-0.0080064	1.4971		Compound–palliates–Disease–downregulates–Gene–covaries–Gene–downregulates–Disease
+CpDdGcGuD	4	-0.0043843	1.0859		Compound–palliates–Disease–downregulates–Gene–covaries–Gene–upregulates–Disease
+CpDdGdAlD	4	-0.011267	1.5895		Compound–palliates–Disease–downregulates–Gene–downregulates–Anatomy–localizes–Disease
+CpDdGdCpD	4	-0.0024026	0.40525		Compound–palliates–Disease–downregulates–Gene–downregulates–Compound–palliates–Disease
+CpDdGdCtD	4	-0.006522	0.748		Compound–palliates–Disease–downregulates–Gene–downregulates–Compound–treats–Disease
+CpDdGdDrD	4	0.0012837	0.19108		Compound–palliates–Disease–downregulates–Gene–downregulates–Disease–resembles–Disease
+CpDdGeAlD	4	-0.0031065	0.45821		Compound–palliates–Disease–downregulates–Gene–expresses–Anatomy–localizes–Disease
+CpDdGiGaD	4	-0.0050218	0.66528		Compound–palliates–Disease–downregulates–Gene–interacts–Gene–associates–Disease
+CpDdGiGdD	4	-0.0030272	0.54958		Compound–palliates–Disease–downregulates–Gene–interacts–Gene–downregulates–Disease
+CpDdGiGuD	4	-0.0075715	1.3001		Compound–palliates–Disease–downregulates–Gene–interacts–Gene–upregulates–Disease
+CpDdGr>GaD	4	-0.0012743	0.12723		Compound–palliates–Disease–downregulates–Gene→regulates→Gene–associates–Disease
+CpDdGr>GdD	4	-0.0073074	1.4618		Compound–palliates–Disease–downregulates–Gene→regulates→Gene–downregulates–Disease
+CpDdGr>GuD	4	-0.0089759	1.4641		Compound–palliates–Disease–downregulates–Gene→regulates→Gene–upregulates–Disease
+CpDdGuAlD	4	-0.01135	1.5429		Compound–palliates–Disease–downregulates–Gene–upregulates–Anatomy–localizes–Disease
+CpDdGuCpD	4	0.0045433	1.7937		Compound–palliates–Disease–downregulates–Gene–upregulates–Compound–palliates–Disease
+CpDdGuCtD	4	-0.0030906	0.30762		Compound–palliates–Disease–downregulates–Gene–upregulates–Compound–treats–Disease
+CpDdGuDrD	4	-0.0016777	0.26383		Compound–palliates–Disease–downregulates–Gene–upregulates–Disease–resembles–Disease
+CpDlAdGaD	4	0.00099313	0.55461		Compound–palliates–Disease–localizes–Anatomy–downregulates–Gene–associates–Disease
+CpDlAdGdD	4	0.0022756	1.3778		Compound–palliates–Disease–localizes–Anatomy–downregulates–Gene–downregulates–Disease
+CpDlAdGuD	4	0.00055202	0.11145		Compound–palliates–Disease–localizes–Anatomy–downregulates–Gene–upregulates–Disease
+CpDlAeGaD	4	0.0030272	1.7377		Compound–palliates–Disease–localizes–Anatomy–expresses–Gene–associates–Disease
+CpDlAeGdD	4	0.0031336	1.2095		Compound–palliates–Disease–localizes–Anatomy–expresses–Gene–downregulates–Disease
+CpDlAeGuD	4	0.00084044	0.17016		Compound–palliates–Disease–localizes–Anatomy–expresses–Gene–upregulates–Disease
+CpDlAlDrD	4	0.0042081	2.785		Compound–palliates–Disease–localizes–Anatomy–localizes–Disease–resembles–Disease
+CpDlAuGaD	4	0.0017415	1.0006		Compound–palliates–Disease–localizes–Anatomy–upregulates–Gene–associates–Disease
+CpDlAuGdD	4	0.0031523	1.4477		Compound–palliates–Disease–localizes–Anatomy–upregulates–Gene–downregulates–Disease
+CpDlAuGuD	4	0.00029023	0.059264		Compound–palliates–Disease–localizes–Anatomy–upregulates–Gene–upregulates–Disease
+CpDpCbGaD	4	-0.00036513	0.1487		Compound–palliates–Disease–palliates–Compound–binds–Gene–associates–Disease
+CpDpCbGdD	4	-0.014741	4.394		Compound–palliates–Disease–palliates–Compound–binds–Gene–downregulates–Disease
+CpDpCbGuD	4	-0.015979	3.1093		Compound–palliates–Disease–palliates–Compound–binds–Gene–upregulates–Disease
+CpDpCdGaD	4	-0.0086829	2.8381		Compound–palliates–Disease–palliates–Compound–downregulates–Gene–associates–Disease
+CpDpCdGdD	4	-0.0086259	2.4921		Compound–palliates–Disease–palliates–Compound–downregulates–Gene–downregulates–Disease
+CpDpCdGuD	4	-0.0062367	1.4505		Compound–palliates–Disease–palliates–Compound–downregulates–Gene–upregulates–Disease
+CpDpCpDrD	4	0.0070975	0.91087		Compound–palliates–Disease–palliates–Compound–palliates–Disease–resembles–Disease
+CpDpCrCpD	4	-0.00094598	0.32099		Compound–palliates–Disease–palliates–Compound–resembles–Compound–palliates–Disease
+CpDpCrCtD	4	0.028449	3.3106		Compound–palliates–Disease–palliates–Compound–resembles–Compound–treats–Disease
+CpDpCtDrD	4	0.026386	3.4227	-0.010865	Compound–palliates–Disease–palliates–Compound–treats–Disease–resembles–Disease
+CpDpCuGaD	4	-0.0069457	2.3078		Compound–palliates–Disease–palliates–Compound–upregulates–Gene–associates–Disease
+CpDpCuGdD	4	-0.010564	3.7099		Compound–palliates–Disease–palliates–Compound–upregulates–Gene–downregulates–Disease
+CpDpCuGuD	4	-0.01067	2.7201		Compound–palliates–Disease–palliates–Compound–upregulates–Gene–upregulates–Disease
+CpDpSpDrD	4	0.0065298	3.2562		Compound–palliates–Disease–presents–Symptom–presents–Disease–resembles–Disease
+CpDrDaGaD	4	0.0048238	2.115		Compound–palliates–Disease–resembles–Disease–associates–Gene–associates–Disease
+CpDrDaGdD	4	-0.00080421	0.19204		Compound–palliates–Disease–resembles–Disease–associates–Gene–downregulates–Disease
+CpDrDaGuD	4	-0.0027709	0.7832		Compound–palliates–Disease–resembles–Disease–associates–Gene–upregulates–Disease
+CpDrDdGaD	4	-0.0016233	0.33222		Compound–palliates–Disease–resembles–Disease–downregulates–Gene–associates–Disease
+CpDrDdGdD	4	-0.0020513	0.49162		Compound–palliates–Disease–resembles–Disease–downregulates–Gene–downregulates–Disease
+CpDrDdGuD	4	-0.0064465	1.8435		Compound–palliates–Disease–resembles–Disease–downregulates–Gene–upregulates–Disease
+CpDrDlAlD	4	0.0089206	3.7109	0	Compound–palliates–Disease–resembles–Disease–localizes–Anatomy–localizes–Disease
+CpDrDpCpD	4	0.011431	2.7325		Compound–palliates–Disease–resembles–Disease–palliates–Compound–palliates–Disease
+CpDrDpCtD	4	0.0066913	1.7623		Compound–palliates–Disease–resembles–Disease–palliates–Compound–treats–Disease
+CpDrDpSpD	4	0.009152	3.3048	0	Compound–palliates–Disease–resembles–Disease–presents–Symptom–presents–Disease
+CpDrDrDrD	4	0.0093388	3.2637		Compound–palliates–Disease–resembles–Disease–resembles–Disease–resembles–Disease
+CpDrDtCpD	4	0.0024336	1.2236		Compound–palliates–Disease–resembles–Disease–treats–Compound–palliates–Disease
+CpDrDtCtD	4	0.012512	3.1661		Compound–palliates–Disease–resembles–Disease–treats–Compound–treats–Disease
+CpDrDuGaD	4	0.0055558	1.3157		Compound–palliates–Disease–resembles–Disease–upregulates–Gene–associates–Disease
+CpDrDuGdD	4	-0.010855	2.4785		Compound–palliates–Disease–resembles–Disease–upregulates–Gene–downregulates–Disease
+CpDrDuGuD	4	-0.0057684	1.8065		Compound–palliates–Disease–resembles–Disease–upregulates–Gene–upregulates–Disease
+CpDtCbGaD	4	-0.00097087	0.1498		Compound–palliates–Disease–treats–Compound–binds–Gene–associates–Disease
+CpDtCbGdD	4	0.0022628	0.61044		Compound–palliates–Disease–treats–Compound–binds–Gene–downregulates–Disease
+CpDtCbGuD	4	-0.0048901	1.1316		Compound–palliates–Disease–treats–Compound–binds–Gene–upregulates–Disease
+CpDtCdGaD	4	-0.0020391	0.28438		Compound–palliates–Disease–treats–Compound–downregulates–Gene–associates–Disease
+CpDtCdGdD	4	0.000707	0.1132		Compound–palliates–Disease–treats–Compound–downregulates–Gene–downregulates–Disease
+CpDtCdGuD	4	-0.0060748	1.2948		Compound–palliates–Disease–treats–Compound–downregulates–Gene–upregulates–Disease
+CpDtCpDrD	4	0.0079067	2.2289		Compound–palliates–Disease–treats–Compound–palliates–Disease–resembles–Disease
+CpDtCrCpD	4	-0.0035684	0.95296		Compound–palliates–Disease–treats–Compound–resembles–Compound–palliates–Disease
+CpDtCrCtD	4	0.0043711	1.5589		Compound–palliates–Disease–treats–Compound–resembles–Compound–treats–Disease
+CpDtCtDrD	4	0.00591	1.0957		Compound–palliates–Disease–treats–Compound–treats–Disease–resembles–Disease
+CpDtCuGaD	4	0.0023521	0.32547		Compound–palliates–Disease–treats–Compound–upregulates–Gene–associates–Disease
+CpDtCuGdD	4	-0.0052477	1.3135		Compound–palliates–Disease–treats–Compound–upregulates–Gene–downregulates–Disease
+CpDtCuGuD	4	-0.0017344	0.48662		Compound–palliates–Disease–treats–Compound–upregulates–Gene–upregulates–Disease
+CpDuG<rGaD	4	0.00069322	0.067176		Compound–palliates–Disease–upregulates–Gene←regulates←Gene–associates–Disease
+CpDuG<rGdD	4	-0.007829	1.2871		Compound–palliates–Disease–upregulates–Gene←regulates←Gene–downregulates–Disease
+CpDuG<rGuD	4	-0.0096991	1.4992		Compound–palliates–Disease–upregulates–Gene←regulates←Gene–upregulates–Disease
+CpDuGaDrD	4	0.0077997	1.0136		Compound–palliates–Disease–upregulates–Gene–associates–Disease–resembles–Disease
+CpDuGbCpD	4	0.00054487	0.079141		Compound–palliates–Disease–upregulates–Gene–binds–Compound–palliates–Disease
+CpDuGbCtD	4	-0.0027297	0.27405		Compound–palliates–Disease–upregulates–Gene–binds–Compound–treats–Disease
+CpDuGcGaD	4	0.00048143	0.034615		Compound–palliates–Disease–upregulates–Gene–covaries–Gene–associates–Disease
+CpDuGcGdD	4	-0.0022404	0.39671		Compound–palliates–Disease–upregulates–Gene–covaries–Gene–downregulates–Disease
+CpDuGcGuD	4	-0.0045732	0.79819		Compound–palliates–Disease–upregulates–Gene–covaries–Gene–upregulates–Disease
+CpDuGdAlD	4	-0.0095367	1.2772		Compound–palliates–Disease–upregulates–Gene–downregulates–Anatomy–localizes–Disease
+CpDuGdCpD	4	0.0033718	0.78677		Compound–palliates–Disease–upregulates–Gene–downregulates–Compound–palliates–Disease
+CpDuGdCtD	4	-0.0023013	0.22571		Compound–palliates–Disease–upregulates–Gene–downregulates–Compound–treats–Disease
+CpDuGdDrD	4	-8.0921e-05	0.0073846		Compound–palliates–Disease–upregulates–Gene–downregulates–Disease–resembles–Disease
+CpDuGeAlD	4	-0.0016278	0.19175		Compound–palliates–Disease–upregulates–Gene–expresses–Anatomy–localizes–Disease
+CpDuGiGaD	4	0.0020855	0.22128		Compound–palliates–Disease–upregulates–Gene–interacts–Gene–associates–Disease
+CpDuGiGdD	4	-0.0014506	0.21403		Compound–palliates–Disease–upregulates–Gene–interacts–Gene–downregulates–Disease
+CpDuGiGuD	4	-0.0093644	1.7221		Compound–palliates–Disease–upregulates–Gene–interacts–Gene–upregulates–Disease
+CpDuGr>GaD	4	8.1046e-05	0.0069784		Compound–palliates–Disease–upregulates–Gene→regulates→Gene–associates–Disease
+CpDuGr>GdD	4	-0.0065242	1.1367		Compound–palliates–Disease–upregulates–Gene→regulates→Gene–downregulates–Disease
+CpDuGr>GuD	4	-0.0078636	1.1278		Compound–palliates–Disease–upregulates–Gene→regulates→Gene–upregulates–Disease
+CpDuGuAlD	4	-0.011145	1.4379		Compound–palliates–Disease–upregulates–Gene–upregulates–Anatomy–localizes–Disease
+CpDuGuCpD	4	0.0059273	1.5892		Compound–palliates–Disease–upregulates–Gene–upregulates–Compound–palliates–Disease
+CpDuGuCtD	4	-0.0058914	0.61448		Compound–palliates–Disease–upregulates–Gene–upregulates–Compound–treats–Disease
+CpDuGuDrD	4	0.005306	1.0143		Compound–palliates–Disease–upregulates–Gene–upregulates–Disease–resembles–Disease
+CrCbG<rGaD	4	0.033592	3.3356		Compound–resembles–Compound–binds–Gene←regulates←Gene–associates–Disease
+CrCbG<rGdD	4	0.011746	1.1951		Compound–resembles–Compound–binds–Gene←regulates←Gene–downregulates–Disease
+CrCbG<rGuD	4	0.0056537	0.5769		Compound–resembles–Compound–binds–Gene←regulates←Gene–upregulates–Disease
+CrCbGaDrD	4	0.071808	2.9402	0	Compound–resembles–Compound–binds–Gene–associates–Disease–resembles–Disease
+CrCbGbCpD	4	0.016371	2.3028		Compound–resembles–Compound–binds–Gene–binds–Compound–palliates–Disease
+CrCbGbCtD	4	0.14545	5.9329	0	Compound–resembles–Compound–binds–Gene–binds–Compound–treats–Disease
+CrCbGcGaD	4	-0.0033118	0.86659		Compound–resembles–Compound–binds–Gene–covaries–Gene–associates–Disease
+CrCbGcGdD	4	-0.031075	3.6666		Compound–resembles–Compound–binds–Gene–covaries–Gene–downregulates–Disease
+CrCbGcGuD	4	-0.015882	3.13		Compound–resembles–Compound–binds–Gene–covaries–Gene–upregulates–Disease
+CrCbGdAlD	4	0.019329	1.9068		Compound–resembles–Compound–binds–Gene–downregulates–Anatomy–localizes–Disease
+CrCbGdCpD	4	-0.0012384	0.24092		Compound–resembles–Compound–binds–Gene–downregulates–Compound–palliates–Disease
+CrCbGdCtD	4	0.036014	2.8491		Compound–resembles–Compound–binds–Gene–downregulates–Compound–treats–Disease
+CrCbGdDrD	4	-0.0048949	0.26997		Compound–resembles–Compound–binds–Gene–downregulates–Disease–resembles–Disease
+CrCbGeAlD	4	0.042957	3.484	0	Compound–resembles–Compound–binds–Gene–expresses–Anatomy–localizes–Disease
+CrCbGiGaD	4	0.063767	4.5241	0	Compound–resembles–Compound–binds–Gene–interacts–Gene–associates–Disease
+CrCbGiGdD	4	0.0062731	2.6561		Compound–resembles–Compound–binds–Gene–interacts–Gene–downregulates–Disease
+CrCbGiGuD	4	-0.0029983	0.28435		Compound–resembles–Compound–binds–Gene–interacts–Gene–upregulates–Disease
+CrCbGr>GaD	4	0.034665	3.8785		Compound–resembles–Compound–binds–Gene→regulates→Gene–associates–Disease
+CrCbGr>GdD	4	0.010443	2.8997		Compound–resembles–Compound–binds–Gene→regulates→Gene–downregulates–Disease
+CrCbGr>GuD	4	0.0017031	0.16395		Compound–resembles–Compound–binds–Gene→regulates→Gene–upregulates–Disease
+CrCbGuAlD	4	0.040301	3.0724	0	Compound–resembles–Compound–binds–Gene–upregulates–Anatomy–localizes–Disease
+CrCbGuCpD	4	0.0076026	1.9806		Compound–resembles–Compound–binds–Gene–upregulates–Compound–palliates–Disease
+CrCbGuCtD	4	0.016674	2.5658		Compound–resembles–Compound–binds–Gene–upregulates–Compound–treats–Disease
+CrCbGuDrD	4	0.003286	0.16468		Compound–resembles–Compound–binds–Gene–upregulates–Disease–resembles–Disease
+CrCcSEcCpD	4	0.022897	2.4961		Compound–resembles–Compound–causes–Side Effect–causes–Compound–palliates–Disease
+CrCcSEcCtD	4	0.089361	4.4827		Compound–resembles–Compound–causes–Side Effect–causes–Compound–treats–Disease
+CrCdG<rGaD	4	0.037987	2.9545		Compound–resembles–Compound–downregulates–Gene←regulates←Gene–associates–Disease
+CrCdG<rGdD	4	0.020394	2.519		Compound–resembles–Compound–downregulates–Gene←regulates←Gene–downregulates–Disease
+CrCdG<rGuD	4	0.019095	1.4159		Compound–resembles–Compound–downregulates–Gene←regulates←Gene–upregulates–Disease
+CrCdGaDrD	4	0.048679	2.6603	-0.0065657	Compound–resembles–Compound–downregulates–Gene–associates–Disease–resembles–Disease
+CrCdGbCpD	4	0.004468	0.42855		Compound–resembles–Compound–downregulates–Gene–binds–Compound–palliates–Disease
+CrCdGbCtD	4	0.069094	4.0422	-0.0020294	Compound–resembles–Compound–downregulates–Gene–binds–Compound–treats–Disease
+CrCdGcGaD	4	0.042729	2.9422	0	Compound–resembles–Compound–downregulates–Gene–covaries–Gene–associates–Disease
+CrCdGcGdD	4	0.0093111	1.8688		Compound–resembles–Compound–downregulates–Gene–covaries–Gene–downregulates–Disease
+CrCdGcGuD	4	0.017668	2.2439		Compound–resembles–Compound–downregulates–Gene–covaries–Gene–upregulates–Disease
+CrCdGdAlD	4	0.028239	1.6443		Compound–resembles–Compound–downregulates–Gene–downregulates–Anatomy–localizes–Disease
+CrCdGdCpD	4	0.025514	2.2019		Compound–resembles–Compound–downregulates–Gene–downregulates–Compound–palliates–Disease
+CrCdGdCtD	4	0.05356	3.1866		Compound–resembles–Compound–downregulates–Gene–downregulates–Compound–treats–Disease
+CrCdGdDrD	4	0.031507	2.0534		Compound–resembles–Compound–downregulates–Gene–downregulates–Disease–resembles–Disease
+CrCdGeAlD	4	0.04634	3.1866	-0.034331	Compound–resembles–Compound–downregulates–Gene–expresses–Anatomy–localizes–Disease
+CrCdGiGaD	4	0.046196	2.8386	-0.042822	Compound–resembles–Compound–downregulates–Gene–interacts–Gene–associates–Disease
+CrCdGiGdD	4	0.015513	1.5277		Compound–resembles–Compound–downregulates–Gene–interacts–Gene–downregulates–Disease
+CrCdGiGuD	4	0.016305	1.7338		Compound–resembles–Compound–downregulates–Gene–interacts–Gene–upregulates–Disease
+CrCdGr>GaD	4	0.037136	3.041		Compound–resembles–Compound–downregulates–Gene→regulates→Gene–associates–Disease
+CrCdGr>GdD	4	0.012674	2.1969		Compound–resembles–Compound–downregulates–Gene→regulates→Gene–downregulates–Disease
+CrCdGr>GuD	4	0.015189	1.5799		Compound–resembles–Compound–downregulates–Gene→regulates→Gene–upregulates–Disease
+CrCdGuAlD	4	0.038349	2.0617		Compound–resembles–Compound–downregulates–Gene–upregulates–Anatomy–localizes–Disease
+CrCdGuCpD	4	0.0022439	0.23215		Compound–resembles–Compound–downregulates–Gene–upregulates–Compound–palliates–Disease
+CrCdGuCtD	4	0.017455	1.4048		Compound–resembles–Compound–downregulates–Gene–upregulates–Compound–treats–Disease
+CrCdGuDrD	4	0.016052	0.74323		Compound–resembles–Compound–downregulates–Gene–upregulates–Disease–resembles–Disease
+CrCiPCiCpD	4	-0.0085879	1.2351		Compound–resembles–Compound–includes–Pharmacologic Class–includes–Compound–palliates–Disease
+CrCiPCiCtD	4	0.16591	7.0235	0	Compound–resembles–Compound–includes–Pharmacologic Class–includes–Compound–treats–Disease
+CrCpDaGaD	4	-0.030244	2.3482		Compound–resembles–Compound–palliates–Disease–associates–Gene–associates–Disease
+CrCpDaGdD	4	-0.019989	2.1069		Compound–resembles–Compound–palliates–Disease–associates–Gene–downregulates–Disease
+CrCpDaGuD	4	-0.015965	1.8296		Compound–resembles–Compound–palliates–Disease–associates–Gene–upregulates–Disease
+CrCpDdGaD	4	-0.019464	1.7199		Compound–resembles–Compound–palliates–Disease–downregulates–Gene–associates–Disease
+CrCpDdGdD	4	-0.011029	2.0732		Compound–resembles–Compound–palliates–Disease–downregulates–Gene–downregulates–Disease
+CrCpDdGuD	4	-0.016904	1.4711		Compound–resembles–Compound–palliates–Disease–downregulates–Gene–upregulates–Disease
+CrCpDlAlD	4	-0.009059	1.1732		Compound–resembles–Compound–palliates–Disease–localizes–Anatomy–localizes–Disease
+CrCpDpCpD	4	-0.0080638	0.72737		Compound–resembles–Compound–palliates–Disease–palliates–Compound–palliates–Disease
+CrCpDpCtD	4	0.030702	2.1393		Compound–resembles–Compound–palliates–Disease–palliates–Compound–treats–Disease
+CrCpDpSpD	4	-0.014793	1.5619		Compound–resembles–Compound–palliates–Disease–presents–Symptom–presents–Disease
+CrCpDrDrD	4	0.018839	2.3819		Compound–resembles–Compound–palliates–Disease–resembles–Disease–resembles–Disease
+CrCpDtCpD	4	-0.0054661	1.8885		Compound–resembles–Compound–palliates–Disease–treats–Compound–palliates–Disease
+CrCpDtCtD	4	-0.01215	1.3351		Compound–resembles–Compound–palliates–Disease–treats–Compound–treats–Disease
+CrCpDuGaD	4	-0.014665	1.9882		Compound–resembles–Compound–palliates–Disease–upregulates–Gene–associates–Disease
+CrCpDuGdD	4	-0.014002	2.4132		Compound–resembles–Compound–palliates–Disease–upregulates–Gene–downregulates–Disease
+CrCpDuGuD	4	-0.0094196	1.3677		Compound–resembles–Compound–palliates–Disease–upregulates–Gene–upregulates–Disease
+CrCrCbGaD	4	0.040433	4.3243	0	Compound–resembles–Compound–resembles–Compound–binds–Gene–associates–Disease
+CrCrCbGdD	4	-0.045491	2.8432		Compound–resembles–Compound–resembles–Compound–binds–Gene–downregulates–Disease
+CrCrCbGuD	4	-0.021105	2.5336		Compound–resembles–Compound–resembles–Compound–binds–Gene–upregulates–Disease
+CrCrCdGaD	4	0.019404	3.104	-0.020185	Compound–resembles–Compound–resembles–Compound–downregulates–Gene–associates–Disease
+CrCrCdGdD	4	-0.020917	2.5474		Compound–resembles–Compound–resembles–Compound–downregulates–Gene–downregulates–Disease
+CrCrCdGuD	4	-0.0093851	1.4869		Compound–resembles–Compound–resembles–Compound–downregulates–Gene–upregulates–Disease
+CrCrCpDrD	4	-0.0045814	0.15177		Compound–resembles–Compound–resembles–Compound–palliates–Disease–resembles–Disease
+CrCrCrCpD	4	-0.045226	3.7246		Compound–resembles–Compound–resembles–Compound–resembles–Compound–palliates–Disease
+CrCrCrCtD	4	0.12833	4.7926	0	Compound–resembles–Compound–resembles–Compound–resembles–Compound–treats–Disease
+CrCrCtDrD	4	0.13895	4.2651		Compound–resembles–Compound–resembles–Compound–treats–Disease–resembles–Disease
+CrCrCuGaD	4	0.024138	4.0055		Compound–resembles–Compound–resembles–Compound–upregulates–Gene–associates–Disease
+CrCrCuGdD	4	-0.020291	3.327		Compound–resembles–Compound–resembles–Compound–upregulates–Gene–downregulates–Disease
+CrCrCuGuD	4	-0.019016	1.9443		Compound–resembles–Compound–resembles–Compound–upregulates–Gene–upregulates–Disease
+CrCtDaGaD	4	0.067377	4.1943		Compound–resembles–Compound–treats–Disease–associates–Gene–associates–Disease
+CrCtDaGdD	4	-0.0008448	0.12078		Compound–resembles–Compound–treats–Disease–associates–Gene–downregulates–Disease
+CrCtDaGuD	4	-0.0046148	0.80546		Compound–resembles–Compound–treats–Disease–associates–Gene–upregulates–Disease
+CrCtDdGaD	4	0.055471	4.3349		Compound–resembles–Compound–treats–Disease–downregulates–Gene–associates–Disease
+CrCtDdGdD	4	0.044943	3.7846		Compound–resembles–Compound–treats–Disease–downregulates–Gene–downregulates–Disease
+CrCtDdGuD	4	0.0099667	2.3105		Compound–resembles–Compound–treats–Disease–downregulates–Gene–upregulates–Disease
+CrCtDlAlD	4	0.062291	4.8228		Compound–resembles–Compound–treats–Disease–localizes–Anatomy–localizes–Disease
+CrCtDpCpD	4	0.041681	3.4403		Compound–resembles–Compound–treats–Disease–palliates–Compound–palliates–Disease
+CrCtDpCtD	4	0.045892	3.6418		Compound–resembles–Compound–treats–Disease–palliates–Compound–treats–Disease
+CrCtDpSpD	4	0.075887	5.0419		Compound–resembles–Compound–treats–Disease–presents–Symptom–presents–Disease
+CrCtDrDrD	4	0.12823	5.8933		Compound–resembles–Compound–treats–Disease–resembles–Disease–resembles–Disease
+CrCtDtCpD	4	0.026128	3.1069		Compound–resembles–Compound–treats–Disease–treats–Compound–palliates–Disease
+CrCtDtCtD	4	0.14341	6.3955	0	Compound–resembles–Compound–treats–Disease–treats–Compound–treats–Disease
+CrCtDuGaD	4	0.045123	4.0698		Compound–resembles–Compound–treats–Disease–upregulates–Gene–associates–Disease
+CrCtDuGdD	4	0.016147	2.8505		Compound–resembles–Compound–treats–Disease–upregulates–Gene–downregulates–Disease
+CrCtDuGuD	4	0.013829	2.7633		Compound–resembles–Compound–treats–Disease–upregulates–Gene–upregulates–Disease
+CrCuG<rGaD	4	0.038896	2.8449	-0.037266	Compound–resembles–Compound–upregulates–Gene←regulates←Gene–associates–Disease
+CrCuG<rGdD	4	0.0194	2.1096		Compound–resembles–Compound–upregulates–Gene←regulates←Gene–downregulates–Disease
+CrCuG<rGuD	4	0.016253	1.1401		Compound–resembles–Compound–upregulates–Gene←regulates←Gene–upregulates–Disease
+CrCuGaDrD	4	0.039266	2.8465	-0.053129	Compound–resembles–Compound–upregulates–Gene–associates–Disease–resembles–Disease
+CrCuGbCpD	4	0.0033622	0.49839		Compound–resembles–Compound–upregulates–Gene–binds–Compound–palliates–Disease
+CrCuGbCtD	4	0.047359	3.0691		Compound–resembles–Compound–upregulates–Gene–binds–Compound–treats–Disease
+CrCuGcGaD	4	0.045414	3.1202	-0.011602	Compound–resembles–Compound–upregulates–Gene–covaries–Gene–associates–Disease
+CrCuGcGdD	4	0.016217	3.1001		Compound–resembles–Compound–upregulates–Gene–covaries–Gene–downregulates–Disease
+CrCuGcGuD	4	0.0072474	1.9336		Compound–resembles–Compound–upregulates–Gene–covaries–Gene–upregulates–Disease
+CrCuGdAlD	4	0.022331	1.3311		Compound–resembles–Compound–upregulates–Gene–downregulates–Anatomy–localizes–Disease
+CrCuGdCpD	4	0.015724	2.3351		Compound–resembles–Compound–upregulates–Gene–downregulates–Compound–palliates–Disease
+CrCuGdCtD	4	0.011938	1.1447		Compound–resembles–Compound–upregulates–Gene–downregulates–Compound–treats–Disease
+CrCuGdDrD	4	0.02275	1.4373		Compound–resembles–Compound–upregulates–Gene–downregulates–Disease–resembles–Disease
+CrCuGeAlD	4	0.033594	2.7504		Compound–resembles–Compound–upregulates–Gene–expresses–Anatomy–localizes–Disease
+CrCuGiGaD	4	0.047996	2.7659	0	Compound–resembles–Compound–upregulates–Gene–interacts–Gene–associates–Disease
+CrCuGiGdD	4	0.006156	0.69067		Compound–resembles–Compound–upregulates–Gene–interacts–Gene–downregulates–Disease
+CrCuGiGuD	4	0.012256	1.3808		Compound–resembles–Compound–upregulates–Gene–interacts–Gene–upregulates–Disease
+CrCuGr>GaD	4	0.027554	2.684		Compound–resembles–Compound–upregulates–Gene→regulates→Gene–associates–Disease
+CrCuGr>GdD	4	0.011262	1.3674		Compound–resembles–Compound–upregulates–Gene→regulates→Gene–downregulates–Disease
+CrCuGr>GuD	4	0.01722	1.7691		Compound–resembles–Compound–upregulates–Gene→regulates→Gene–upregulates–Disease
+CrCuGuAlD	4	0.028525	1.6827		Compound–resembles–Compound–upregulates–Gene–upregulates–Anatomy–localizes–Disease
+CrCuGuCpD	4	0.036675	2.2646		Compound–resembles–Compound–upregulates–Gene–upregulates–Compound–palliates–Disease
+CrCuGuCtD	4	0.049899	2.6881		Compound–resembles–Compound–upregulates–Gene–upregulates–Compound–treats–Disease
+CrCuGuDrD	4	0.017415	1.2511		Compound–resembles–Compound–upregulates–Gene–upregulates–Disease–resembles–Disease
+CtDaG<rGaD	4	0.011626	1.814		Compound–treats–Disease–associates–Gene←regulates←Gene–associates–Disease
+CtDaG<rGdD	4	0.0086265	1.853		Compound–treats–Disease–associates–Gene←regulates←Gene–downregulates–Disease
+CtDaG<rGuD	4	-0.00064983	0.081414		Compound–treats–Disease–associates–Gene←regulates←Gene–upregulates–Disease
+CtDaGaDrD	4	0.092444	2.6157		Compound–treats–Disease–associates–Gene–associates–Disease–resembles–Disease
+CtDaGbCpD	4	0.0061687	1.0359		Compound–treats–Disease–associates–Gene–binds–Compound–palliates–Disease
+CtDaGbCtD	4	0.041655	3.341		Compound–treats–Disease–associates–Gene–binds–Compound–treats–Disease
+CtDaGcGaD	4	-0.0016757	0.25648		Compound–treats–Disease–associates–Gene–covaries–Gene–associates–Disease
+CtDaGcGdD	4	0.0024439	1.2969		Compound–treats–Disease–associates–Gene–covaries–Gene–downregulates–Disease
+CtDaGcGuD	4	-0.0056858	1.4964		Compound–treats–Disease–associates–Gene–covaries–Gene–upregulates–Disease
+CtDaGdAlD	4	-0.022623	1.5344		Compound–treats–Disease–associates–Gene–downregulates–Anatomy–localizes–Disease
+CtDaGdCpD	4	0.017752	2.5903		Compound–treats–Disease–associates–Gene–downregulates–Compound–palliates–Disease
+CtDaGdCtD	4	0.037687	3.4202		Compound–treats–Disease–associates–Gene–downregulates–Compound–treats–Disease
+CtDaGdDrD	4	0.0079608	0.23259		Compound–treats–Disease–associates–Gene–downregulates–Disease–resembles–Disease
+CtDaGeAlD	4	0.019433	1.5943		Compound–treats–Disease–associates–Gene–expresses–Anatomy–localizes–Disease
+CtDaGiGaD	4	0.054545	4.0863		Compound–treats–Disease–associates–Gene–interacts–Gene–associates–Disease
+CtDaGiGdD	4	0.0015781	0.45358		Compound–treats–Disease–associates–Gene–interacts–Gene–downregulates–Disease
+CtDaGiGuD	4	-0.0040892	0.97066		Compound–treats–Disease–associates–Gene–interacts–Gene–upregulates–Disease
+CtDaGr>GaD	4	0.010096	1.4445		Compound–treats–Disease–associates–Gene→regulates→Gene–associates–Disease
+CtDaGr>GdD	4	0.007576	1.6655		Compound–treats–Disease–associates–Gene→regulates→Gene–downregulates–Disease
+CtDaGr>GuD	4	0.0011862	0.31808		Compound–treats–Disease–associates–Gene→regulates→Gene–upregulates–Disease
+CtDaGuAlD	4	0.011733	0.80626		Compound–treats–Disease–associates–Gene–upregulates–Anatomy–localizes–Disease
+CtDaGuCpD	4	0.017951	1.9467		Compound–treats–Disease–associates–Gene–upregulates–Compound–palliates–Disease
+CtDaGuCtD	4	0.017115	2.3008		Compound–treats–Disease–associates–Gene–upregulates–Compound–treats–Disease
+CtDaGuDrD	4	0.032764	1.0035		Compound–treats–Disease–associates–Gene–upregulates–Disease–resembles–Disease
+CtDdG<rGaD	4	0.031017	3.6507		Compound–treats–Disease–downregulates–Gene←regulates←Gene–associates–Disease
+CtDdG<rGdD	4	0.00039643	0.062567		Compound–treats–Disease–downregulates–Gene←regulates←Gene–downregulates–Disease
+CtDdG<rGuD	4	-0.00027586	0.029611		Compound–treats–Disease–downregulates–Gene←regulates←Gene–upregulates–Disease
+CtDdGaDrD	4	0.015648	1.383		Compound–treats–Disease–downregulates–Gene–associates–Disease–resembles–Disease
+CtDdGbCpD	4	0.026664	4.517		Compound–treats–Disease–downregulates–Gene–binds–Compound–palliates–Disease
+CtDdGbCtD	4	0.03774	4.812		Compound–treats–Disease–downregulates–Gene–binds–Compound–treats–Disease
+CtDdGcGaD	4	0.016211	4.5783		Compound–treats–Disease–downregulates–Gene–covaries–Gene–associates–Disease
+CtDdGcGdD	4	-0.0015557	0.19089		Compound–treats–Disease–downregulates–Gene–covaries–Gene–downregulates–Disease
+CtDdGcGuD	4	0.01401	2.6535		Compound–treats–Disease–downregulates–Gene–covaries–Gene–upregulates–Disease
+CtDdGdAlD	4	-0.0024345	0.22494		Compound–treats–Disease–downregulates–Gene–downregulates–Anatomy–localizes–Disease
+CtDdGdCpD	4	0.018187	2.5884		Compound–treats–Disease–downregulates–Gene–downregulates–Compound–palliates–Disease
+CtDdGdCtD	4	0.04031	3.1193		Compound–treats–Disease–downregulates–Gene–downregulates–Compound–treats–Disease
+CtDdGdDrD	4	0.037008	1.9539		Compound–treats–Disease–downregulates–Gene–downregulates–Disease–resembles–Disease
+CtDdGeAlD	4	0.0046405	0.65926		Compound–treats–Disease–downregulates–Gene–expresses–Anatomy–localizes–Disease
+CtDdGiGaD	4	0.01529	2.0548		Compound–treats–Disease–downregulates–Gene–interacts–Gene–associates–Disease
+CtDdGiGdD	4	-0.00087899	0.17535		Compound–treats–Disease–downregulates–Gene–interacts–Gene–downregulates–Disease
+CtDdGiGuD	4	-0.0076966	1.953		Compound–treats–Disease–downregulates–Gene–interacts–Gene–upregulates–Disease
+CtDdGr>GaD	4	0.013497	2.4068		Compound–treats–Disease–downregulates–Gene→regulates→Gene–associates–Disease
+CtDdGr>GdD	4	-0.0054141	1.4388		Compound–treats–Disease–downregulates–Gene→regulates→Gene–downregulates–Disease
+CtDdGr>GuD	4	-0.0045319	1.0397		Compound–treats–Disease–downregulates–Gene→regulates→Gene–upregulates–Disease
+CtDdGuAlD	4	-0.0033574	0.26486		Compound–treats–Disease–downregulates–Gene–upregulates–Anatomy–localizes–Disease
+CtDdGuCpD	4	0.012855	1.7748		Compound–treats–Disease–downregulates–Gene–upregulates–Compound–palliates–Disease
+CtDdGuCtD	4	0.048357	3.3553		Compound–treats–Disease–downregulates–Gene–upregulates–Compound–treats–Disease
+CtDdGuDrD	4	0.02818	1.3541		Compound–treats–Disease–downregulates–Gene–upregulates–Disease–resembles–Disease
+CtDlAdGaD	4	-0.035515	2.4887		Compound–treats–Disease–localizes–Anatomy–downregulates–Gene–associates–Disease
+CtDlAdGdD	4	-0.0014439	0.19979		Compound–treats–Disease–localizes–Anatomy–downregulates–Gene–downregulates–Disease
+CtDlAdGuD	4	-0.010041	1.5096		Compound–treats–Disease–localizes–Anatomy–downregulates–Gene–upregulates–Disease
+CtDlAeGaD	4	0.019662	2.4161		Compound–treats–Disease–localizes–Anatomy–expresses–Gene–associates–Disease
+CtDlAeGdD	4	-0.0025429	0.83788		Compound–treats–Disease–localizes–Anatomy–expresses–Gene–downregulates–Disease
+CtDlAeGuD	4	-0.0087144	2.1669		Compound–treats–Disease–localizes–Anatomy–expresses–Gene–upregulates–Disease
+CtDlAlDrD	4	0.099658	3.8754		Compound–treats–Disease–localizes–Anatomy–localizes–Disease–resembles–Disease
+CtDlAuGaD	4	0.0034133	0.25533		Compound–treats–Disease–localizes–Anatomy–upregulates–Gene–associates–Disease
+CtDlAuGdD	4	0.00090568	0.12185		Compound–treats–Disease–localizes–Anatomy–upregulates–Gene–downregulates–Disease
+CtDlAuGuD	4	-0.0093226	1.4359		Compound–treats–Disease–localizes–Anatomy–upregulates–Gene–upregulates–Disease
+CtDpCbGaD	4	0.018678	1.3559		Compound–treats–Disease–palliates–Compound–binds–Gene–associates–Disease
+CtDpCbGdD	4	0.0075201	1.2253		Compound–treats–Disease–palliates–Compound–binds–Gene–downregulates–Disease
+CtDpCbGuD	4	-0.0057854	0.75848		Compound–treats–Disease–palliates–Compound–binds–Gene–upregulates–Disease
+CtDpCdGaD	4	0.012117	1.3499		Compound–treats–Disease–palliates–Compound–downregulates–Gene–associates–Disease
+CtDpCdGdD	4	0.01141	1.6734		Compound–treats–Disease–palliates–Compound–downregulates–Gene–downregulates–Disease
+CtDpCdGuD	4	0.011646	2.5648		Compound–treats–Disease–palliates–Compound–downregulates–Gene–upregulates–Disease
+CtDpCpDrD	4	0.071099	2.8107		Compound–treats–Disease–palliates–Compound–palliates–Disease–resembles–Disease
+CtDpCrCpD	4	0.046422	3.8656		Compound–treats–Disease–palliates–Compound–resembles–Compound–palliates–Disease
+CtDpCrCtD	4	-0.0070785	0.71933		Compound–treats–Disease–palliates–Compound–resembles–Compound–treats–Disease
+CtDpCtDrD	4	0.027951	2.9214		Compound–treats–Disease–palliates–Compound–treats–Disease–resembles–Disease
+CtDpCuGaD	4	0.017879	1.4353		Compound–treats–Disease–palliates–Compound–upregulates–Gene–associates–Disease
+CtDpCuGdD	4	-0.0055317	2.0849		Compound–treats–Disease–palliates–Compound–upregulates–Gene–downregulates–Disease
+CtDpCuGuD	4	-0.0072495	1.4984		Compound–treats–Disease–palliates–Compound–upregulates–Gene–upregulates–Disease
+CtDpSpDrD	4	0.098888	3.8349		Compound–treats–Disease–presents–Symptom–presents–Disease–resembles–Disease
+CtDrDaGaD	4	0.083027	4.8771		Compound–treats–Disease–resembles–Disease–associates–Gene–associates–Disease
+CtDrDaGdD	4	-0.0078811	2.1935		Compound–treats–Disease–resembles–Disease–associates–Gene–downregulates–Disease
+CtDrDaGuD	4	0.001982	1.1842		Compound–treats–Disease–resembles–Disease–associates–Gene–upregulates–Disease
+CtDrDdGaD	4	0.065994	4.2272		Compound–treats–Disease–resembles–Disease–downregulates–Gene–associates–Disease
+CtDrDdGdD	4	0.031359	3.4478		Compound–treats–Disease–resembles–Disease–downregulates–Gene–downregulates–Disease
+CtDrDdGuD	4	0.021463	3.6543		Compound–treats–Disease–resembles–Disease–downregulates–Gene–upregulates–Disease
+CtDrDlAlD	4	0.093723	4.7808		Compound–treats–Disease–resembles–Disease–localizes–Anatomy–localizes–Disease
+CtDrDpCpD	4	0.049536	3.7815		Compound–treats–Disease–resembles–Disease–palliates–Compound–palliates–Disease
+CtDrDpCtD	4	0.010869	1.4117		Compound–treats–Disease–resembles–Disease–palliates–Compound–treats–Disease
+CtDrDpSpD	4	0.094857	5.6928		Compound–treats–Disease–resembles–Disease–presents–Symptom–presents–Disease
+CtDrDrDrD	4	0.1762	5.5244		Compound–treats–Disease–resembles–Disease–resembles–Disease–resembles–Disease
+CtDrDtCpD	4	0.030101	2.2102		Compound–treats–Disease–resembles–Disease–treats–Compound–palliates–Disease
+CtDrDtCtD	4	0.14802	6.6423		Compound–treats–Disease–resembles–Disease–treats–Compound–treats–Disease
+CtDrDuGaD	4	0.054887	3.6169		Compound–treats–Disease–resembles–Disease–upregulates–Gene–associates–Disease
+CtDrDuGdD	4	0.021309	4.8599		Compound–treats–Disease–resembles–Disease–upregulates–Gene–downregulates–Disease
+CtDrDuGuD	4	0.010949	2.5691		Compound–treats–Disease–resembles–Disease–upregulates–Gene–upregulates–Disease
+CtDtCbGaD	4	0.057402	3.8023		Compound–treats–Disease–treats–Compound–binds–Gene–associates–Disease
+CtDtCbGdD	4	0.014963	1.7517		Compound–treats–Disease–treats–Compound–binds–Gene–downregulates–Disease
+CtDtCbGuD	4	0.017157	4.0751		Compound–treats–Disease–treats–Compound–binds–Gene–upregulates–Disease
+CtDtCdGaD	4	0.070784	4.6121		Compound–treats–Disease–treats–Compound–downregulates–Gene–associates–Disease
+CtDtCdGdD	4	0.031078	3.7851		Compound–treats–Disease–treats–Compound–downregulates–Gene–downregulates–Disease
+CtDtCdGuD	4	0.010939	2.4927		Compound–treats–Disease–treats–Compound–downregulates–Gene–upregulates–Disease
+CtDtCpDrD	4	0.04459	2.1223		Compound–treats–Disease–treats–Compound–palliates–Disease–resembles–Disease
+CtDtCrCpD	4	0.019937	1.4918		Compound–treats–Disease–treats–Compound–resembles–Compound–palliates–Disease
+CtDtCrCtD	4	0.17186	5.5961		Compound–treats–Disease–treats–Compound–resembles–Compound–treats–Disease
+CtDtCtDrD	4	0.22728	5.2961		Compound–treats–Disease–treats–Compound–treats–Disease–resembles–Disease
+CtDtCuGaD	4	0.068963	4.0418		Compound–treats–Disease–treats–Compound–upregulates–Gene–associates–Disease
+CtDtCuGdD	4	0.027372	3.6574		Compound–treats–Disease–treats–Compound–upregulates–Gene–downregulates–Disease
+CtDtCuGuD	4	0.014392	2.4044		Compound–treats–Disease–treats–Compound–upregulates–Gene–upregulates–Disease
+CtDuG<rGaD	4	0.0067896	1.7705		Compound–treats–Disease–upregulates–Gene←regulates←Gene–associates–Disease
+CtDuG<rGdD	4	-0.0021118	0.32662		Compound–treats–Disease–upregulates–Gene←regulates←Gene–downregulates–Disease
+CtDuG<rGuD	4	-0.0091583	1.1485		Compound–treats–Disease–upregulates–Gene←regulates←Gene–upregulates–Disease
+CtDuGaDrD	4	0.022993	1.5652		Compound–treats–Disease–upregulates–Gene–associates–Disease–resembles–Disease
+CtDuGbCpD	4	-0.016506	2.4009		Compound–treats–Disease–upregulates–Gene–binds–Compound–palliates–Disease
+CtDuGbCtD	4	0.020557	4.6608		Compound–treats–Disease–upregulates–Gene–binds–Compound–treats–Disease
+CtDuGcGaD	4	0.0087689	2.1182		Compound–treats–Disease–upregulates–Gene–covaries–Gene–associates–Disease
+CtDuGcGdD	4	0.012263	1.7712		Compound–treats–Disease–upregulates–Gene–covaries–Gene–downregulates–Disease
+CtDuGcGuD	4	-0.0054245	1.4635		Compound–treats–Disease–upregulates–Gene–covaries–Gene–upregulates–Disease
+CtDuGdAlD	4	-0.018821	1.9803		Compound–treats–Disease–upregulates–Gene–downregulates–Anatomy–localizes–Disease
+CtDuGdCpD	4	-0.0072527	0.88981		Compound–treats–Disease–upregulates–Gene–downregulates–Compound–palliates–Disease
+CtDuGdCtD	4	0.020447	2.5245		Compound–treats–Disease–upregulates–Gene–downregulates–Compound–treats–Disease
+CtDuGdDrD	4	0.010919	0.55407		Compound–treats–Disease–upregulates–Gene–downregulates–Disease–resembles–Disease
+CtDuGeAlD	4	-0.0053101	0.69433		Compound–treats–Disease–upregulates–Gene–expresses–Anatomy–localizes–Disease
+CtDuGiGaD	4	0.0094083	1.5659		Compound–treats–Disease–upregulates–Gene–interacts–Gene–associates–Disease
+CtDuGiGdD	4	-0.0017799	0.44618		Compound–treats–Disease–upregulates–Gene–interacts–Gene–downregulates–Disease
+CtDuGiGuD	4	-0.015119	2.1407		Compound–treats–Disease–upregulates–Gene–interacts–Gene–upregulates–Disease
+CtDuGr>GaD	4	0.0059116	1.0693		Compound–treats–Disease–upregulates–Gene→regulates→Gene–associates–Disease
+CtDuGr>GdD	4	-0.003294	0.71008		Compound–treats–Disease–upregulates–Gene→regulates→Gene–downregulates–Disease
+CtDuGr>GuD	4	-0.0054651	0.8386		Compound–treats–Disease–upregulates–Gene→regulates→Gene–upregulates–Disease
+CtDuGuAlD	4	-0.014197	1.2809		Compound–treats–Disease–upregulates–Gene–upregulates–Anatomy–localizes–Disease
+CtDuGuCpD	4	0.0034344	0.40212		Compound–treats–Disease–upregulates–Gene–upregulates–Compound–palliates–Disease
+CtDuGuCtD	4	0.021983	2.4865		Compound–treats–Disease–upregulates–Gene–upregulates–Compound–treats–Disease
+CtDuGuDrD	4	0.030036	1.3988		Compound–treats–Disease–upregulates–Gene–upregulates–Disease–resembles–Disease
+CuG<rG<rGaD	4	0.0093873	2.6055	0	Compound–upregulates–Gene←regulates←Gene←regulates←Gene–associates–Disease
+CuG<rG<rGdD	4	0.01932	3.3309		Compound–upregulates–Gene←regulates←Gene←regulates←Gene–downregulates–Disease
+CuG<rG<rGuD	4	0.01372	1.341		Compound–upregulates–Gene←regulates←Gene←regulates←Gene–upregulates–Disease
+CuG<rGaDrD	4	0.0071853	0.46535		Compound–upregulates–Gene←regulates←Gene–associates–Disease–resembles–Disease
+CuG<rGbCpD	4	0.012071	1.6773		Compound–upregulates–Gene←regulates←Gene–binds–Compound–palliates–Disease
+CuG<rGbCtD	4	-0.0070977	1.9228		Compound–upregulates–Gene←regulates←Gene–binds–Compound–treats–Disease
+CuG<rGcGaD	4	0.0054079	1.4419		Compound–upregulates–Gene←regulates←Gene–covaries–Gene–associates–Disease
+CuG<rGcGdD	4	0.015476	2.4313		Compound–upregulates–Gene←regulates←Gene–covaries–Gene–downregulates–Disease
+CuG<rGcGuD	4	0.01022	2.4719		Compound–upregulates–Gene←regulates←Gene–covaries–Gene–upregulates–Disease
+CuG<rGdAlD	4	-0.0019437	0.15433		Compound–upregulates–Gene←regulates←Gene–downregulates–Anatomy–localizes–Disease
+CuG<rGdCpD	4	0.011126	0.80824		Compound–upregulates–Gene←regulates←Gene–downregulates–Compound–palliates–Disease
+CuG<rGdCtD	4	-0.0041151	0.53022		Compound–upregulates–Gene←regulates←Gene–downregulates–Compound–treats–Disease
+CuG<rGdDrD	4	0.011256	0.40172		Compound–upregulates–Gene←regulates←Gene–downregulates–Disease–resembles–Disease
+CuG<rGeAlD	4	0.0071903	1.4509		Compound–upregulates–Gene←regulates←Gene–expresses–Anatomy–localizes–Disease
+CuG<rGiGaD	4	0.0095958	2.813	0	Compound–upregulates–Gene←regulates←Gene–interacts–Gene–associates–Disease
+CuG<rGiGdD	4	0.017341	2.9924		Compound–upregulates–Gene←regulates←Gene–interacts–Gene–downregulates–Disease
+CuG<rGiGuD	4	0.014124	4.9544		Compound–upregulates–Gene←regulates←Gene–interacts–Gene–upregulates–Disease
+CuG<rGr>GaD	4	0.0059953	2.5273		Compound–upregulates–Gene←regulates←Gene→regulates→Gene–associates–Disease
+CuG<rGr>GdD	4	0.013313	3.5304		Compound–upregulates–Gene←regulates←Gene→regulates→Gene–downregulates–Disease
+CuG<rGr>GuD	4	0.012058	2.9742		Compound–upregulates–Gene←regulates←Gene→regulates→Gene–upregulates–Disease
+CuG<rGuAlD	4	-0.0017118	0.11781		Compound–upregulates–Gene←regulates←Gene–upregulates–Anatomy–localizes–Disease
+CuG<rGuCpD	4	0.029834	1.5775		Compound–upregulates–Gene←regulates←Gene–upregulates–Compound–palliates–Disease
+CuG<rGuCtD	4	-0.0067079	0.7264		Compound–upregulates–Gene←regulates←Gene–upregulates–Compound–treats–Disease
+CuG<rGuDrD	4	0.013205	0.46109		Compound–upregulates–Gene←regulates←Gene–upregulates–Disease–resembles–Disease
+CuGaDaGaD	4	0.0074593	2.3241		Compound–upregulates–Gene–associates–Disease–associates–Gene–associates–Disease
+CuGaDaGdD	4	0.017395	2.813		Compound–upregulates–Gene–associates–Disease–associates–Gene–downregulates–Disease
+CuGaDaGuD	4	0.014162	2.596		Compound–upregulates–Gene–associates–Disease–associates–Gene–upregulates–Disease
+CuGaDdGaD	4	0.0069111	1.5866		Compound–upregulates–Gene–associates–Disease–downregulates–Gene–associates–Disease
+CuGaDdGdD	4	0.013133	1.921		Compound–upregulates–Gene–associates–Disease–downregulates–Gene–downregulates–Disease
+CuGaDdGuD	4	0.0034202	0.33181		Compound–upregulates–Gene–associates–Disease–downregulates–Gene–upregulates–Disease
+CuGaDlAlD	4	0.0065717	1.5138		Compound–upregulates–Gene–associates–Disease–localizes–Anatomy–localizes–Disease
+CuGaDpCpD	4	0.0018059	0.21006		Compound–upregulates–Gene–associates–Disease–palliates–Compound–palliates–Disease
+CuGaDpCtD	4	-0.032616	3.3861		Compound–upregulates–Gene–associates–Disease–palliates–Compound–treats–Disease
+CuGaDpSpD	4	0.006875	1.7361		Compound–upregulates–Gene–associates–Disease–presents–Symptom–presents–Disease
+CuGaDrDrD	4	0.008844	1.319		Compound–upregulates–Gene–associates–Disease–resembles–Disease–resembles–Disease
+CuGaDtCpD	4	0.0066884	0.64382		Compound–upregulates–Gene–associates–Disease–treats–Compound–palliates–Disease
+CuGaDtCtD	4	0.0016942	0.27118		Compound–upregulates–Gene–associates–Disease–treats–Compound–treats–Disease
+CuGaDuGaD	4	0.012863	3.1666	0	Compound–upregulates–Gene–associates–Disease–upregulates–Gene–associates–Disease
+CuGaDuGdD	4	0.0099374	1.5559		Compound–upregulates–Gene–associates–Disease–upregulates–Gene–downregulates–Disease
+CuGaDuGuD	4	0.0059598	0.96178		Compound–upregulates–Gene–associates–Disease–upregulates–Gene–upregulates–Disease
+CuGbCbGaD	4	0.00076424	0.084574		Compound–upregulates–Gene–binds–Compound–binds–Gene–associates–Disease
+CuGbCbGdD	4	0.015825	1.4971		Compound–upregulates–Gene–binds–Compound–binds–Gene–downregulates–Disease
+CuGbCbGuD	4	0.013938	2.6215		Compound–upregulates–Gene–binds–Compound–binds–Gene–upregulates–Disease
+CuGbCdGaD	4	-0.0067733	0.68133		Compound–upregulates–Gene–binds–Compound–downregulates–Gene–associates–Disease
+CuGbCdGdD	4	0.0089818	3.5557		Compound–upregulates–Gene–binds–Compound–downregulates–Gene–downregulates–Disease
+CuGbCdGuD	4	0.013493	2.0146		Compound–upregulates–Gene–binds–Compound–downregulates–Gene–upregulates–Disease
+CuGbCpDrD	4	0.0045492	0.44052		Compound–upregulates–Gene–binds–Compound–palliates–Disease–resembles–Disease
+CuGbCrCpD	4	0.0042115	0.33556		Compound–upregulates–Gene–binds–Compound–resembles–Compound–palliates–Disease
+CuGbCrCtD	4	0.0049856	0.40239		Compound–upregulates–Gene–binds–Compound–resembles–Compound–treats–Disease
+CuGbCtDrD	4	0.017234	2.1316		Compound–upregulates–Gene–binds–Compound–treats–Disease–resembles–Disease
+CuGbCuGaD	4	-0.0071872	0.80308		Compound–upregulates–Gene–binds–Compound–upregulates–Gene–associates–Disease
+CuGbCuGdD	4	0.0080935	1.4735		Compound–upregulates–Gene–binds–Compound–upregulates–Gene–downregulates–Disease
+CuGbCuGuD	4	0.0019228	0.37566		Compound–upregulates–Gene–binds–Compound–upregulates–Gene–upregulates–Disease
+CuGcG<rGaD	4	0.014692	3.9954	0	Compound–upregulates–Gene–covaries–Gene←regulates←Gene–associates–Disease
+CuGcG<rGdD	4	0.014296	2.9382		Compound–upregulates–Gene–covaries–Gene←regulates←Gene–downregulates–Disease
+CuGcG<rGuD	4	0.0079113	0.93926		Compound–upregulates–Gene–covaries–Gene←regulates←Gene–upregulates–Disease
+CuGcGaDrD	4	0.030899	2.0349		Compound–upregulates–Gene–covaries–Gene–associates–Disease–resembles–Disease
+CuGcGbCpD	4	-0.011493	1.7975		Compound–upregulates–Gene–covaries–Gene–binds–Compound–palliates–Disease
+CuGcGbCtD	4	0.0014926	0.2502		Compound–upregulates–Gene–covaries–Gene–binds–Compound–treats–Disease
+CuGcGcGaD	4	0.0019873	0.35667		Compound–upregulates–Gene–covaries–Gene–covaries–Gene–associates–Disease
+CuGcGcGdD	4	0.010621	2.3511		Compound–upregulates–Gene–covaries–Gene–covaries–Gene–downregulates–Disease
+CuGcGcGuD	4	0.00037593	0.052596		Compound–upregulates–Gene–covaries–Gene–covaries–Gene–upregulates–Disease
+CuGcGdAlD	4	0.00028829	0.021377		Compound–upregulates–Gene–covaries–Gene–downregulates–Anatomy–localizes–Disease
+CuGcGdCpD	4	-0.0094277	1.3679		Compound–upregulates–Gene–covaries–Gene–downregulates–Compound–palliates–Disease
+CuGcGdCtD	4	0.0081562	1.419		Compound–upregulates–Gene–covaries–Gene–downregulates–Compound–treats–Disease
+CuGcGdDrD	4	0.02147	1.3314		Compound–upregulates–Gene–covaries–Gene–downregulates–Disease–resembles–Disease
+CuGcGeAlD	4	0.0083877	1.715		Compound–upregulates–Gene–covaries–Gene–expresses–Anatomy–localizes–Disease
+CuGcGiGaD	4	0.013923	3.902	0	Compound–upregulates–Gene–covaries–Gene–interacts–Gene–associates–Disease
+CuGcGiGdD	4	0.013974	2.5173		Compound–upregulates–Gene–covaries–Gene–interacts–Gene–downregulates–Disease
+CuGcGiGuD	4	0.0079966	1.7178		Compound–upregulates–Gene–covaries–Gene–interacts–Gene–upregulates–Disease
+CuGcGr>GaD	4	0.012124	2.005		Compound–upregulates–Gene–covaries–Gene→regulates→Gene–associates–Disease
+CuGcGr>GdD	4	0.0029579	0.50084		Compound–upregulates–Gene–covaries–Gene→regulates→Gene–downregulates–Disease
+CuGcGr>GuD	4	0.0061786	0.94811		Compound–upregulates–Gene–covaries–Gene→regulates→Gene–upregulates–Disease
+CuGcGuAlD	4	-0.0033982	0.30109		Compound–upregulates–Gene–covaries–Gene–upregulates–Anatomy–localizes–Disease
+CuGcGuCpD	4	0.0014559	0.14498		Compound–upregulates–Gene–covaries–Gene–upregulates–Compound–palliates–Disease
+CuGcGuCtD	4	0.0074954	0.74598		Compound–upregulates–Gene–covaries–Gene–upregulates–Compound–treats–Disease
+CuGcGuDrD	4	0.016961	1.2799		Compound–upregulates–Gene–covaries–Gene–upregulates–Disease–resembles–Disease
+CuGdAdGaD	4	0.0047487	1.4159		Compound–upregulates–Gene–downregulates–Anatomy–downregulates–Gene–associates–Disease
+CuGdAdGdD	4	0.017222	2.8372		Compound–upregulates–Gene–downregulates–Anatomy–downregulates–Gene–downregulates–Disease
+CuGdAdGuD	4	0.011258	2.4069		Compound–upregulates–Gene–downregulates–Anatomy–downregulates–Gene–upregulates–Disease
+CuGdAeGaD	4	0.005668	1.585		Compound–upregulates–Gene–downregulates–Anatomy–expresses–Gene–associates–Disease
+CuGdAeGdD	4	0.017689	2.912		Compound–upregulates–Gene–downregulates–Anatomy–expresses–Gene–downregulates–Disease
+CuGdAeGuD	4	0.010801	2.2779		Compound–upregulates–Gene–downregulates–Anatomy–expresses–Gene–upregulates–Disease
+CuGdAlDrD	4	0.0002001	0.037451		Compound–upregulates–Gene–downregulates–Anatomy–localizes–Disease–resembles–Disease
+CuGdAuGaD	4	0.0050916	1.4916		Compound–upregulates–Gene–downregulates–Anatomy–upregulates–Gene–associates–Disease
+CuGdAuGdD	4	0.017782	2.8673		Compound–upregulates–Gene–downregulates–Anatomy–upregulates–Gene–downregulates–Disease
+CuGdAuGuD	4	0.011197	2.3432		Compound–upregulates–Gene–downregulates–Anatomy–upregulates–Gene–upregulates–Disease
+CuGdCbGaD	4	-0.0080252	1.2211		Compound–upregulates–Gene–downregulates–Compound–binds–Gene–associates–Disease
+CuGdCbGdD	4	0.0043594	0.43753		Compound–upregulates–Gene–downregulates–Compound–binds–Gene–downregulates–Disease
+CuGdCbGuD	4	0.0033659	0.46517		Compound–upregulates–Gene–downregulates–Compound–binds–Gene–upregulates–Disease
+CuGdCdGaD	4	-0.00097843	0.17786		Compound–upregulates–Gene–downregulates–Compound–downregulates–Gene–associates–Disease
+CuGdCdGdD	4	0.0083099	1.4542		Compound–upregulates–Gene–downregulates–Compound–downregulates–Gene–downregulates–Disease
+CuGdCdGuD	4	0.0058322	0.69721		Compound–upregulates–Gene–downregulates–Compound–downregulates–Gene–upregulates–Disease
+CuGdCpDrD	4	0.010515	0.65018		Compound–upregulates–Gene–downregulates–Compound–palliates–Disease–resembles–Disease
+CuGdCrCpD	4	0.011888	1.1882		Compound–upregulates–Gene–downregulates–Compound–resembles–Compound–palliates–Disease
+CuGdCrCtD	4	-0.0049593	1.1451		Compound–upregulates–Gene–downregulates–Compound–resembles–Compound–treats–Disease
+CuGdCtDrD	4	0.0075082	0.96405		Compound–upregulates–Gene–downregulates–Compound–treats–Disease–resembles–Disease
+CuGdCuGaD	4	0.0061868	1.2215		Compound–upregulates–Gene–downregulates–Compound–upregulates–Gene–associates–Disease
+CuGdCuGdD	4	0.0066384	1.5594		Compound–upregulates–Gene–downregulates–Compound–upregulates–Gene–downregulates–Disease
+CuGdCuGuD	4	5.8406e-05	0.0091641		Compound–upregulates–Gene–downregulates–Compound–upregulates–Gene–upregulates–Disease
+CuGdDaGaD	4	0.015173	3.6501		Compound–upregulates–Gene–downregulates–Disease–associates–Gene–associates–Disease
+CuGdDaGdD	4	0.013065	2.4041		Compound–upregulates–Gene–downregulates–Disease–associates–Gene–downregulates–Disease
+CuGdDaGuD	4	0.012377	2.6486		Compound–upregulates–Gene–downregulates–Disease–associates–Gene–upregulates–Disease
+CuGdDdGaD	4	0.010298	2.6076		Compound–upregulates–Gene–downregulates–Disease–downregulates–Gene–associates–Disease
+CuGdDdGdD	4	0.010548	2.3018		Compound–upregulates–Gene–downregulates–Disease–downregulates–Gene–downregulates–Disease
+CuGdDdGuD	4	0.0042298	0.68846		Compound–upregulates–Gene–downregulates–Disease–downregulates–Gene–upregulates–Disease
+CuGdDlAlD	4	0.014273	4.0238		Compound–upregulates–Gene–downregulates–Disease–localizes–Anatomy–localizes–Disease
+CuGdDpCpD	4	0.013153	2.022		Compound–upregulates–Gene–downregulates–Disease–palliates–Compound–palliates–Disease
+CuGdDpCtD	4	-0.030106	2.4137		Compound–upregulates–Gene–downregulates–Disease–palliates–Compound–treats–Disease
+CuGdDpSpD	4	0.012685	2.7461	0	Compound–upregulates–Gene–downregulates–Disease–presents–Symptom–presents–Disease
+CuGdDrDrD	4	0.021838	2.6182		Compound–upregulates–Gene–downregulates–Disease–resembles–Disease–resembles–Disease
+CuGdDtCpD	4	0.0029606	0.30024		Compound–upregulates–Gene–downregulates–Disease–treats–Compound–palliates–Disease
+CuGdDtCtD	4	0.0044492	1.0525		Compound–upregulates–Gene–downregulates–Disease–treats–Compound–treats–Disease
+CuGdDuGaD	4	0.012555	2.9712		Compound–upregulates–Gene–downregulates–Disease–upregulates–Gene–associates–Disease
+CuGdDuGdD	4	0.018272	2.9904		Compound–upregulates–Gene–downregulates–Disease–upregulates–Gene–downregulates–Disease
+CuGdDuGuD	4	0.0075741	1.2939		Compound–upregulates–Gene–downregulates–Disease–upregulates–Gene–upregulates–Disease
+CuGeAdGaD	4	0.0058036	2.0736		Compound–upregulates–Gene–expresses–Anatomy–downregulates–Gene–associates–Disease
+CuGeAdGdD	4	0.018075	3.2172		Compound–upregulates–Gene–expresses–Anatomy–downregulates–Gene–downregulates–Disease
+CuGeAdGuD	4	0.012439	2.8208		Compound–upregulates–Gene–expresses–Anatomy–downregulates–Gene–upregulates–Disease
+CuGeAeGaD	4	0.0059712	1.9388		Compound–upregulates–Gene–expresses–Anatomy–expresses–Gene–associates–Disease
+CuGeAeGdD	4	0.018228	3.2359		Compound–upregulates–Gene–expresses–Anatomy–expresses–Gene–downregulates–Disease
+CuGeAeGuD	4	0.011721	2.7579		Compound–upregulates–Gene–expresses–Anatomy–expresses–Gene–upregulates–Disease
+CuGeAlDrD	4	0.0077503	1.8947		Compound–upregulates–Gene–expresses–Anatomy–localizes–Disease–resembles–Disease
+CuGeAuGaD	4	0.0049626	1.879		Compound–upregulates–Gene–expresses–Anatomy–upregulates–Gene–associates–Disease
+CuGeAuGdD	4	0.018695	3.2291		Compound–upregulates–Gene–expresses–Anatomy–upregulates–Gene–downregulates–Disease
+CuGeAuGuD	4	0.011933	2.7739		Compound–upregulates–Gene–expresses–Anatomy–upregulates–Gene–upregulates–Disease
+CuGiG<rGaD	4	0.0056044	1.2792		Compound–upregulates–Gene–interacts–Gene←regulates←Gene–associates–Disease
+CuGiG<rGdD	4	0.0078848	1.9781		Compound–upregulates–Gene–interacts–Gene←regulates←Gene–downregulates–Disease
+CuGiG<rGuD	4	0.0047024	0.44451		Compound–upregulates–Gene–interacts–Gene←regulates←Gene–upregulates–Disease
+CuGiGaDrD	4	0.013021	1.167		Compound–upregulates–Gene–interacts–Gene–associates–Disease–resembles–Disease
+CuGiGbCpD	4	0.0047903	0.4563		Compound–upregulates–Gene–interacts–Gene–binds–Compound–palliates–Disease
+CuGiGbCtD	4	-0.010048	1.2515		Compound–upregulates–Gene–interacts–Gene–binds–Compound–treats–Disease
+CuGiGcGaD	4	0.0024107	0.62403		Compound–upregulates–Gene–interacts–Gene–covaries–Gene–associates–Disease
+CuGiGcGdD	4	0.0073872	1.1122		Compound–upregulates–Gene–interacts–Gene–covaries–Gene–downregulates–Disease
+CuGiGcGuD	4	0.0077807	1.2056		Compound–upregulates–Gene–interacts–Gene–covaries–Gene–upregulates–Disease
+CuGiGdAlD	4	-0.0050332	0.34874		Compound–upregulates–Gene–interacts–Gene–downregulates–Anatomy–localizes–Disease
+CuGiGdCpD	4	-0.0039646	0.3445		Compound–upregulates–Gene–interacts–Gene–downregulates–Compound–palliates–Disease
+CuGiGdCtD	4	-0.013114	1.5521		Compound–upregulates–Gene–interacts–Gene–downregulates–Compound–treats–Disease
+CuGiGdDrD	4	0.01993	0.82748		Compound–upregulates–Gene–interacts–Gene–downregulates–Disease–resembles–Disease
+CuGiGeAlD	4	0.0039564	0.74814		Compound–upregulates–Gene–interacts–Gene–expresses–Anatomy–localizes–Disease
+CuGiGiGaD	4	0.0040311	0.67559		Compound–upregulates–Gene–interacts–Gene–interacts–Gene–associates–Disease
+CuGiGiGdD	4	0.014774	2.6742		Compound–upregulates–Gene–interacts–Gene–interacts–Gene–downregulates–Disease
+CuGiGiGuD	4	0.010359	4.7757		Compound–upregulates–Gene–interacts–Gene–interacts–Gene–upregulates–Disease
+CuGiGr>GaD	4	0.0022292	0.44475		Compound–upregulates–Gene–interacts–Gene→regulates→Gene–associates–Disease
+CuGiGr>GdD	4	0.0088364	1.8042		Compound–upregulates–Gene–interacts–Gene→regulates→Gene–downregulates–Disease
+CuGiGr>GuD	4	0.003599	0.4937		Compound–upregulates–Gene–interacts–Gene→regulates→Gene–upregulates–Disease
+CuGiGuAlD	4	-0.0061557	0.43966		Compound–upregulates–Gene–interacts–Gene–upregulates–Anatomy–localizes–Disease
+CuGiGuCpD	4	0.016805	2.2366		Compound–upregulates–Gene–interacts–Gene–upregulates–Compound–palliates–Disease
+CuGiGuCtD	4	-0.016651	2.3764		Compound–upregulates–Gene–interacts–Gene–upregulates–Compound–treats–Disease
+CuGiGuDrD	4	0.01398	0.50497		Compound–upregulates–Gene–interacts–Gene–upregulates–Disease–resembles–Disease
+CuGpBPpGaD	4	0.0040401	1.1561		Compound–upregulates–Gene–participates–Biological Process–participates–Gene–associates–Disease
+CuGpBPpGdD	4	0.016428	3.0712		Compound–upregulates–Gene–participates–Biological Process–participates–Gene–downregulates–Disease
+CuGpBPpGuD	4	0.0072815	1.5902		Compound–upregulates–Gene–participates–Biological Process–participates–Gene–upregulates–Disease
+CuGpCCpGaD	4	0.0037912	0.96158		Compound–upregulates–Gene–participates–Cellular Component–participates–Gene–associates–Disease
+CuGpCCpGdD	4	0.016472	3.4981		Compound–upregulates–Gene–participates–Cellular Component–participates–Gene–downregulates–Disease
+CuGpCCpGuD	4	0.0021318	0.65527		Compound–upregulates–Gene–participates–Cellular Component–participates–Gene–upregulates–Disease
+CuGpMFpGaD	4	0.0060718	1.5669		Compound–upregulates–Gene–participates–Molecular Function–participates–Gene–associates–Disease
+CuGpMFpGdD	4	0.013113	2.865		Compound–upregulates–Gene–participates–Molecular Function–participates–Gene–downregulates–Disease
+CuGpMFpGuD	4	0.007419	1.7631		Compound–upregulates–Gene–participates–Molecular Function–participates–Gene–upregulates–Disease
+CuGpPWpGaD	4	0.0071674	1.3357		Compound–upregulates–Gene–participates–Pathway–participates–Gene–associates–Disease
+CuGpPWpGdD	4	0.01717	3.0272		Compound–upregulates–Gene–participates–Pathway–participates–Gene–downregulates–Disease
+CuGpPWpGuD	4	0.0050656	1.7672		Compound–upregulates–Gene–participates–Pathway–participates–Gene–upregulates–Disease
+CuGr>G<rGaD	4	0.007766	1.9395		Compound–upregulates–Gene→regulates→Gene←regulates←Gene–associates–Disease
+CuGr>G<rGdD	4	0.020181	3.239		Compound–upregulates–Gene→regulates→Gene←regulates←Gene–downregulates–Disease
+CuGr>G<rGuD	4	0.013774	1.3203		Compound–upregulates–Gene→regulates→Gene←regulates←Gene–upregulates–Disease
+CuGr>GaDrD	4	0.0081527	0.61055		Compound–upregulates–Gene→regulates→Gene–associates–Disease–resembles–Disease
+CuGr>GbCpD	4	-0.0011079	0.09268		Compound–upregulates–Gene→regulates→Gene–binds–Compound–palliates–Disease
+CuGr>GbCtD	4	0.0097992	2.6662	0	Compound–upregulates–Gene→regulates→Gene–binds–Compound–treats–Disease
+CuGr>GcGaD	4	-0.00077649	0.18202		Compound–upregulates–Gene→regulates→Gene–covaries–Gene–associates–Disease
+CuGr>GcGdD	4	0.011805	2.5374		Compound–upregulates–Gene→regulates→Gene–covaries–Gene–downregulates–Disease
+CuGr>GcGuD	4	0.00069184	0.088896		Compound–upregulates–Gene→regulates→Gene–covaries–Gene–upregulates–Disease
+CuGr>GdAlD	4	-0.0045632	0.40066		Compound–upregulates–Gene→regulates→Gene–downregulates–Anatomy–localizes–Disease
+CuGr>GdCpD	4	0.011389	0.78005		Compound–upregulates–Gene→regulates→Gene–downregulates–Compound–palliates–Disease
+CuGr>GdCtD	4	-0.0047225	0.85266		Compound–upregulates–Gene→regulates→Gene–downregulates–Compound–treats–Disease
+CuGr>GdDrD	4	0.0086899	0.32377		Compound–upregulates–Gene→regulates→Gene–downregulates–Disease–resembles–Disease
+CuGr>GeAlD	4	0.0061994	1.3554		Compound–upregulates–Gene→regulates→Gene–expresses–Anatomy–localizes–Disease
+CuGr>GiGaD	4	0.0079174	1.8354		Compound–upregulates–Gene→regulates→Gene–interacts–Gene–associates–Disease
+CuGr>GiGdD	4	0.016587	2.9916		Compound–upregulates–Gene→regulates→Gene–interacts–Gene–downregulates–Disease
+CuGr>GiGuD	4	0.010935	2.8952		Compound–upregulates–Gene→regulates→Gene–interacts–Gene–upregulates–Disease
+CuGr>Gr>GaD	4	0.0049679	1.2061		Compound–upregulates–Gene→regulates→Gene→regulates→Gene–associates–Disease
+CuGr>Gr>GdD	4	0.014777	2.9396		Compound–upregulates–Gene→regulates→Gene→regulates→Gene–downregulates–Disease
+CuGr>Gr>GuD	4	0.0085461	1.7385		Compound–upregulates–Gene→regulates→Gene→regulates→Gene–upregulates–Disease
+CuGr>GuAlD	4	-0.0022682	0.15676		Compound–upregulates–Gene→regulates→Gene–upregulates–Anatomy–localizes–Disease
+CuGr>GuCpD	4	0.021215	1.1299		Compound–upregulates–Gene→regulates→Gene–upregulates–Compound–palliates–Disease
+CuGr>GuCtD	4	0.00055138	0.061225		Compound–upregulates–Gene→regulates→Gene–upregulates–Compound–treats–Disease
+CuGr>GuDrD	4	0.013645	0.56602		Compound–upregulates–Gene→regulates→Gene–upregulates–Disease–resembles–Disease
+CuGuAdGaD	4	0.0055078	1.596		Compound–upregulates–Gene–upregulates–Anatomy–downregulates–Gene–associates–Disease
+CuGuAdGdD	4	0.018014	3.0625		Compound–upregulates–Gene–upregulates–Anatomy–downregulates–Gene–downregulates–Disease
+CuGuAdGuD	4	0.012138	2.5864		Compound–upregulates–Gene–upregulates–Anatomy–downregulates–Gene–upregulates–Disease
+CuGuAeGaD	4	0.0053593	1.4802		Compound–upregulates–Gene–upregulates–Anatomy–expresses–Gene–associates–Disease
+CuGuAeGdD	4	0.018582	3.1297		Compound–upregulates–Gene–upregulates–Anatomy–expresses–Gene–downregulates–Disease
+CuGuAeGuD	4	0.011565	2.5789		Compound–upregulates–Gene–upregulates–Anatomy–expresses–Gene–upregulates–Disease
+CuGuAlDrD	4	-0.00091433	0.23537		Compound–upregulates–Gene–upregulates–Anatomy–localizes–Disease–resembles–Disease
+CuGuAuGaD	4	0.0058936	1.7387		Compound–upregulates–Gene–upregulates–Anatomy–upregulates–Gene–associates–Disease
+CuGuAuGdD	4	0.018685	3.0585		Compound–upregulates–Gene–upregulates–Anatomy–upregulates–Gene–downregulates–Disease
+CuGuAuGuD	4	0.012194	2.6369		Compound–upregulates–Gene–upregulates–Anatomy–upregulates–Gene–upregulates–Disease
+CuGuCbGaD	4	0.013988	2.5251		Compound–upregulates–Gene–upregulates–Compound–binds–Gene–associates–Disease
+CuGuCbGdD	4	-0.0071177	0.92849		Compound–upregulates–Gene–upregulates–Compound–binds–Gene–downregulates–Disease
+CuGuCbGuD	4	0.0088402	1.2743		Compound–upregulates–Gene–upregulates–Compound–binds–Gene–upregulates–Disease
+CuGuCdGaD	4	0.0079311	1.8174		Compound–upregulates–Gene–upregulates–Compound–downregulates–Gene–associates–Disease
+CuGuCdGdD	4	0.010124	1.9328		Compound–upregulates–Gene–upregulates–Compound–downregulates–Gene–downregulates–Disease
+CuGuCdGuD	4	0.015874	2.0151		Compound–upregulates–Gene–upregulates–Compound–downregulates–Gene–upregulates–Disease
+CuGuCpDrD	4	0.011493	0.44359		Compound–upregulates–Gene–upregulates–Compound–palliates–Disease–resembles–Disease
+CuGuCrCpD	4	0.0097099	1.0327		Compound–upregulates–Gene–upregulates–Compound–resembles–Compound–palliates–Disease
+CuGuCrCtD	4	0.050606	3.7926		Compound–upregulates–Gene–upregulates–Compound–resembles–Compound–treats–Disease
+CuGuCtDrD	4	0.046049	3.4072	0	Compound–upregulates–Gene–upregulates–Compound–treats–Disease–resembles–Disease
+CuGuCuGaD	4	0.014818	3.5371	0	Compound–upregulates–Gene–upregulates–Compound–upregulates–Gene–associates–Disease
+CuGuCuGdD	4	0.016653	3.6966		Compound–upregulates–Gene–upregulates–Compound–upregulates–Gene–downregulates–Disease
+CuGuCuGuD	4	0.0061278	1.8441		Compound–upregulates–Gene–upregulates–Compound–upregulates–Gene–upregulates–Disease
+CuGuDaGaD	4	0.0042455	0.88058		Compound–upregulates–Gene–upregulates–Disease–associates–Gene–associates–Disease
+CuGuDaGdD	4	0.0065268	0.97179		Compound–upregulates–Gene–upregulates–Disease–associates–Gene–downregulates–Disease
+CuGuDaGuD	4	0.0081637	1.2283		Compound–upregulates–Gene–upregulates–Disease–associates–Gene–upregulates–Disease
+CuGuDdGaD	4	0.0063764	1.9799		Compound–upregulates–Gene–upregulates–Disease–downregulates–Gene–associates–Disease
+CuGuDdGdD	4	0.0091299	1.8304		Compound–upregulates–Gene–upregulates–Disease–downregulates–Gene–downregulates–Disease
+CuGuDdGuD	4	0.0021094	0.19432		Compound–upregulates–Gene–upregulates–Disease–downregulates–Gene–upregulates–Disease
+CuGuDlAlD	4	0.0062213	1.2649		Compound–upregulates–Gene–upregulates–Disease–localizes–Anatomy–localizes–Disease
+CuGuDpCpD	4	-0.0032168	0.44417		Compound–upregulates–Gene–upregulates–Disease–palliates–Compound–palliates–Disease
+CuGuDpCtD	4	-0.031753	3.6064		Compound–upregulates–Gene–upregulates–Disease–palliates–Compound–treats–Disease
+CuGuDpSpD	4	0.0033578	0.66944		Compound–upregulates–Gene–upregulates–Disease–presents–Symptom–presents–Disease
+CuGuDrDrD	4	0.0018634	0.13814		Compound–upregulates–Gene–upregulates–Disease–resembles–Disease–resembles–Disease
+CuGuDtCpD	4	0.0013362	0.13275		Compound–upregulates–Gene–upregulates–Disease–treats–Compound–palliates–Disease
+CuGuDtCtD	4	-0.0055813	0.81684		Compound–upregulates–Gene–upregulates–Disease–treats–Compound–treats–Disease
+CuGuDuGaD	4	0.0091826	1.7471	0	Compound–upregulates–Gene–upregulates–Disease–upregulates–Gene–associates–Disease
+CuGuDuGdD	4	0.012495	1.9616		Compound–upregulates–Gene–upregulates–Disease–upregulates–Gene–downregulates–Disease
+CuGuDuGuD	4	0.0030167	0.70865		Compound–upregulates–Gene–upregulates–Disease–upregulates–Gene–upregulates–Disease
