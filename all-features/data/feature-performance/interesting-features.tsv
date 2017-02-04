@@ -1,0 +1,20 @@
+Metapath	Δ AUROC	−log10(p)
+CbGaD	14.5%	6.2
+CbGiGaD	9.0%	4.4
+CbGiGiGaD	7.0%	5.1
+CbGpPWpGaD	7.6%	7.9
+CbGpBPpGaD	4.9%	3.8
+CcSEcCtD	14.0%	6.8
+CtDpSpD	13.9%	6.1
+CbGeAlD	8.4%	5.2
+CtDlAlD	12.4%	6.0
+CuGdD	1.1%	2.6
+CdGuD	1.7%	4.5
+CuGuCtD	4.4%	3.5
+CdGdCtD	3.8%	4.6
+CuGdCtD	-1.6%	2.9
+CdGuCtD	-2.1%	2.4
+CtDuGuD	1.1%	1.4
+CtDdGdD	4.2%	3.9
+CtDdGuD	0.5%	1.0
+CtDuGdD	0.7%	1.3
