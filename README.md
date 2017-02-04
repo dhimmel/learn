@@ -1,5 +1,7 @@
 # Machine learning for Project Rephetio
 
+[![Latest Zenodo DOI](https://zenodo.org/badge/42207400.svg)](https://zenodo.org/badge/latestdoi/42207400)
+
 _Systematic predictions of whether a compound treats a disease using hetnet data integration._
 
 This is the machine learning repository for [Project Rephetio](http://thinklab.com/p/rephetio "Rephetio on Thinklab · Repurposing drugs on a hetnet"). The repository covers:
