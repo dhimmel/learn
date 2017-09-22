@@ -13,7 +13,13 @@ This is the machine learning repository for [Project Rephetio](http://thinklab.c
 + evaluating the [performance of predictions](https://thinklab.com/d/203#2) on several catalogs of medical indications.
 + for each prediction, computing the [contributions](https://thinklab.com/discussion/d/229#2) of specific metapaths and paths.
 
-For a comprehensive description of Project Rephetio, see the manuscript titled [**Systematic integration of biomedical knowledge prioritizes drugs for repurposing**](https://doi.org/10.1101/087619). The predictions from this repository are browsable at [het.io/repurpose](http://het.io/repurpose/ "Project Rephetio Prediction Browser").
+For a comprehensive description of Project Rephetio, see:
+
+> [**Systematic integration of biomedical knowledge prioritizes drugs for repurposing**](https://doi.org/10.7554/eLife.26726)<br>
+Daniel S Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E Baranzini<br>
+_eLife_ (2017-09-22) DOI: `10.7554/eLife.26726`
+
+The predictions from this repository are browsable at [het.io/repurpose](http://het.io/repurpose/ "Project Rephetio Prediction Browser").
 
 ## Execution and directories
 
